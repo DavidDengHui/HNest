@@ -1,0 +1,6 @@
+[submodule "source/cdn/live2d-widget"]
+	path = source/cdn/live2d-widget
+	url = git@gitee.com:dnest/live2d-widget.git
+[submodule "source/cdn/live2d_api"]
+	path = source/cdn/live2d_api
+	url = git@gitee.com:dnest/live2d_api.git
