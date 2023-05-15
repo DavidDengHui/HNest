@@ -1,0 +1,30 @@
+<% if(theme.swiper.on ) { %>
+  <!-- 首页轮播 -->
+  <%- partial('_partial/swiper') %>
+<% } %>
+
+<div id="l_main">
+  <div class="l_content">
+    <!-- 自定义的内容 -->
+    <%- partial('_partial/home_widget') %>
+    <!-- 首页座右铭 -->
+    <%- partial('_partial/motto') %>
+    <!-- 首页公告 -->
+    <%- partial('_partial/notice') %>
+    <!-- 首页文章置顶 -->
+    <%- partial('_partial/topArticle', {page: page}) %>
+
+    <div class="bg-floor" id="home-bg-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"></div>
+    <!-- 每一篇文章卡片 -->
+    <%- partial('_partial/card/post') %>
+    <!-- 翻页 -->
+    <%- partial('_partial/paginator') %>
+  </div>
+
+  <%- partial('_partial/side') %>
+</div>
+<!-- 花瓣和雪花飘落 -->
+<%- partial('_partial/scripts/falling') %>
+
+<!-- 灯笼 -->
+<%- partial('_partial/lantern') %>

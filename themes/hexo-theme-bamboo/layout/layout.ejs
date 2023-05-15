@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <!-- meta/link... -->
+  <%- partial('_partial/head/head') %>
+  
+  <!-- 预加载动画 -->
+  <%- partial('_partial/loaded') %>
+  <body>
+    <!-- 判断是否为暗黑风格 -->
+    <%- partial('_partial/scripts/dark') %>
+
+    <!-- 需要在上面加载的js -->
+    <%- partial('_partial/scripts/head') %>
+
+    <div id="safearea">
+      <main class="main" id="pjax-container">
+        <!-- 头部导航 -->
+        <%- partial('_partial/head/header') %>
+        <!-- 内容区域 -->
+        <%- body %>
+      </main>
+    </div>
+
+    <!-- 页脚 -->
+    <%- partial('_partial/footer/footer') %>
+
+    <!-- 渲染暗黑按钮 -->
+    <% if(theme.dark.on === true) { %>
+      <%- partial('_partial/dark') %>
+    <% } %>
+    <!-- 渲染回到顶部按钮 -->
+    <% if(theme.goTop.on === true ) { %>
+      <%- partial('_partial/goTop') %>
+    <% } %>
+    <!-- 渲染左下角音乐播放器 -->
+    <% if(theme.music.on === true ) { %>
+      <%- partial('_partial/meta/aplayer') %>
+    <% } %>
+
+    <!-- 图片放大 -->
+    <% if(theme.fancybox.on === true ) { %>
+      <script src="<%- url_for(theme.fancybox.js) %>"></script>
+    <% } %>
+
+    <!-- 百度解析 -->
+    <%- partial('_partial/analytics/baidu-analytics') %>
+    <%- partial('_partial/analytics/baidu-push') %>
+    
+    <!-- 背景彩带 -->
+    <% if(theme.ribbon.on === true ) { %>
+      <script type="text/javascript" size="100" alpha='0.4' zIndex="-1" src="<%- url_for('/js/ribbon.min.js') %>"></script>
+    <% } %>
+
+    <script src="<%- url_for('/js/utils/index.js') %>"></script>
+    <script src="<%- url_for('/js/app.js') %>"></script>
+    
+    <%- partial('_partial/scripts/index') %>
+    <!-- pjax -->
+    <%- partial('_partial/pjax/index') %>
+  </body>
+</html>

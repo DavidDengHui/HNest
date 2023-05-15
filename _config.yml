@@ -4,11 +4,11 @@
 
 # Site
 title: 啊晖de老窝
-subtitle: 'DNest'
+subtitle: '这是 David Deng 的个人博客'
 description: 'Blog for David Deng'
 keywords: Static Blog
 author: David Deng
-language: cn
+language: zh-CN
 timezone: ''
 
 # URL
@@ -97,7 +97,28 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-bamboo
+
+# Search
+search:
+  path: search.xml
+  field: post
+
+# hexo-permalink-pinyin
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+
+# hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
