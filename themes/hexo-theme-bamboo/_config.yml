@@ -755,7 +755,7 @@ CDN:
   paceJs: https://img.source.host.covear.top/cdn/pace/pace.min.js
   paceCss: https://img.source.host.covear.top/cdn/pace/themes/pink/pace-theme-flash.css
   weather: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
-  typedJs: https://img.source.host.covear.top/js/typed.js
+  typedJs: https://unpkg.com/typed.js@2.0.11/lib/typed.js
   tocbotJs: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js
   tocbotCss: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css
   jquery: https://unpkg.com/jquery@3.5.1/dist/jquery.min.js
