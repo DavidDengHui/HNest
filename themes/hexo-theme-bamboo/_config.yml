@@ -200,7 +200,7 @@ swiper:
   defaultTile: '啊晖de老窝' # 标题
   defaultDesc: ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老'] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
   defaultLeftBtnText: '阅读文档' # 左边按钮文字, 空字符串则不显示
-  defaultLeftBtnLink: 'https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/' # 左边按钮链接 
+  defaultLeftBtnLink: 'https://hexo-theme-bamboo.netlify.app/post/hexo-theme-bamboo-new/' # 左边按钮链接 
   defaultRightBtnText: '下载主题' # 右边按钮的文字，空字符串则不显示
   defaultRightBtnLink: 'https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip' # 右边的按钮的链接
   defaultDescTyped: true # defaultDesc文字是否开启打字特效  is typed
@@ -424,6 +424,8 @@ valine:
   requiredFields: ['nick', 'mail'] # 设置必填项 ['nick', 'mail'] nick为昵称必填， mail为邮箱必填，建议设置必填，填写qq邮箱，会使用qq头像作为头像
   backgroundImg: 'https://img.zcool.cn/community/01a253594c71cfa8012193a329a77f.gif' # 右下角背景图片
   backgroundColor: 'rgba(255,255,255,0.9)' # 背景颜色
+  enableQQ: true
+  recordIP: true
 
 # twikoo评论
 # https://twikoo.js.org
@@ -508,7 +510,7 @@ danmu:
 
 # 归档页面图片、描述、视频，全屏 or 'http://xxx'
 archive:
-  title: 'archive'
+  title: 'Archive'
   img: 'https://pic1.zhimg.com/80/v2-1414b3a4b205e19060db18a20d08723a_1440w.jpg?source=1940ef5c'
   desc: '愿你如风，被人温柔以待'
   full: true # 设置为true，则图片全屏显示
@@ -520,7 +522,7 @@ archive:
 
 # 标签页面，配置同上
 tag:
-  title: 'tags'
+  title: 'Tags'
   img: 'https://pic2.zhimg.com/80/v2-bf6c555e7c61a57ba4a1fd95a9a32975_1440w.jpg' # 标签页上面的图片
   desc: '愿你如风，被人温柔以待'
   full: true # 标签页上面的图片是否全屏显示
@@ -530,7 +532,7 @@ tag:
 
 # 标签详情页面，配置同上
 tagDetail:
-  title: 'tag'
+  title: 'Tag'
   img: 'https://pic1.zhimg.com/80/v2-604a15cef201cf177943af2d915eb2e7_1440w.jpg?source=1940ef5c'
   desc: '愿你如风，被人温柔以待' # 标签页详情上上面的图片上的文字
   full: true
@@ -539,7 +541,7 @@ tagDetail:
 
 # 分类页面，配置同上
 categories:
-  title: 'categories'
+  title: 'Categories'
   img: 'https://pic2.zhimg.com/80/v2-7c496c95897fb15768593cc5170c8b1a_1440w.jpg?source=1940ef5c'
   desc: '愿你如风，被人温柔以待'
   full: true
@@ -549,7 +551,7 @@ categories:
 
 #分类详情页面，配置同上
 categoryDetail:
-  title: 'category'
+  title: 'Category'
   img: 'https://pic3.zhimg.com/80/v2-98dcd81cb0d1fee52a807c13cedb8338_1440w.jpg?source=1940ef5c'
   desc: '愿你如风，被人温柔以待'
   full: true
@@ -610,20 +612,20 @@ color_scheme:
 site_footer:
   # 通过layout控制页脚元素的显示和顺序
   # busuanzi是访客数那个,假如说你想在 social和 copyright中间加一个自定义内容, 可以这样写 layout: [social, aaa ,copyright, busuanzi, custom], 然后在下面写上aaa: 'markdown格式', aaa这个名称随便取
-  layout: [social, copyright, busuanzi, custom]
+  layout: [social, copyright, custom]
   social:
     - icon: fas fa-rss
       url: /atom.xml
     - icon: fas fa-envelope
       url: mailto:david.no.1@msn.cn
-    - icon: fas fa-github
+    - icon: fab fa-github
       url: https://gitee.com/dnest/dnest
-    - icon: fas fa-qq
+    - icon: fab fa-qq
       url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1187523442
-  copyright: 'Copyright © 2014 - 2023 <a href="https://gitee.com/dnest/dnest">DNest</a> | Powered by <a href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a href="https://github.com/yuang01/theme">Bamboo</a> '
+  copyright: 'Copyright © 2014 - 2023 <a href="https://dnest.gitee.io" target="_blank">啊晖de老窝</a>'
   custom: # 根据需要自行取消注释，label: 'markdown格式'，会在下面继续增加内容
-    # - label: '<br>'
-    # - label: '[Hello World](http://baidu.com)'
+    - label: 'Powered by <a href="https://hexo.io/zh-cn/docs/" target="_blank">Hexo</a> | Theme <a href="https://github.com/yuang01/theme" target="_blank">Bamboo</a>'
+    - label: '<a href="http://beian.miit.gov.cn/" target="_blank">湘ICP备17019987号</a>'
   
 # tag标签 按钮，文本高亮等等..
 tag_plugins:
