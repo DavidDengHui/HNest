@@ -3,14 +3,20 @@ title: 召唤我的朋友们
 date: 2014-01-01 00:10:00
 ---
 
-# 😎瞅瞅
+# 来自 Gitee
+[<i class="fa-brands fa-square-git fa-bounce fa-2xl"></i>](https://gitee.com/dnest/denst/issues)
 
 {% issues sites | api=https://gitee.com/api/v5/repos/dnest/dnest/issues?sort=updated&labels=links | group=version:Friends,Tools,Likes,Mirrors,Movies,Office %}
+
+# 来自 GitHub
+[<i class="fa-brands fa-square-github fa-bounce fa-2xl"></i>](https://github.com/DavidDengHui/DNest/issues)
+
+{% issues sites | api=https://api.github.com/repos/DavidDengHui/DNest/issues?sort=updated&labels=links | group=version:Friends,Tools,Likes,Mirrors,Movies,Office %}
 
 # 一起来扩列吧！
 
 > ## 添加您的链接
-> 您可以通过 页面底部评论留言 或 [创建 Issue <i class="fa-regular fa-pen-to-square fa-fw"></i>](https://gitee.com/dnest/dnest/issues/new) 将您的网站信息添加到描述框内，使用`markdown`代码块` ```json `和` ``` `标志包裹住json信息，格式如下：
+> 您可以通过 页面底部评论留言 或 [创建 Gitee Issue <i class="fa-regular fa-code-branch"></i>](https://gitee.com/dnest/dnest/issues/new) 或 [创建 GitHub Issue <i class="fa-regular fa-code-compare"></i>](https://github.com/DavidDengHui/DNest/issues/new) 将您的网站信息添加到描述框内，使用`markdown`代码块` ```json `和` ``` `标志包裹住json信息，格式如下：
 
 ```json
 ```json
