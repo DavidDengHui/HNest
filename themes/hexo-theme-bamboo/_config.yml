@@ -60,7 +60,7 @@ sidebar:
       jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       fontFammily: Titillium Web,'PingFang SC','Hiragino Sans GB','Microsoft JhengHei','Microsoft YaHei',sans-serif
       background: '#fff'
-      order:  # 卡片排序, 数值越小，越在上面
+      order: 1 # 卡片排序, 数值越小，越在上面
       social:
         - icon: fas fa-rss
           url: /atom.xml
@@ -74,7 +74,7 @@ sidebar:
     side_toc:
       on: true
       background: '#fff'
-      order: -1 # 卡片排序(widget都有)，任意数字，数字小的在上面
+      order: 2 # 卡片排序(widget都有)，任意数字，数字小的在上面
       header:
         icon: fas fa-list
         icon_color: # 标题字体颜色
@@ -87,7 +87,7 @@ sidebar:
     side_category:
       on: true
       background: '#fff'
-      order:  # 卡片排序(widget都有)，任意数字，数字小的在上面
+      order: 3 # 卡片排序(widget都有)，任意数字，数字小的在上面
       header:
         icon: fas fa-folder-open
         icon_color: # 标题字体颜色
@@ -98,7 +98,7 @@ sidebar:
     side_tagcloud:
       on: true
       background: '#fff'
-      order: 
+      order: 4
       header:
         icon: fas fa-tags
         icon_color: 
@@ -116,7 +116,7 @@ sidebar:
       background: '#fff'
       limit: 5
       sort: update # date
-      order: 
+      order: 5
       header:
         icon: fas fa-book
         icon_color: 
@@ -130,7 +130,7 @@ sidebar:
       format: MMMM YYYY # eg: YYYY年MM月     or YYYY
       timeOrder: -1 # Sort of order. 1, asc for ascending; -1, desc for descending 时间排序
       limit: 8 # if set 0 will show all
-      order:  # widget order 卡片排序
+      order: 6 # widget order 卡片排序
       background: '#fff'
       header: 
         icon: fas fa-archive
@@ -140,7 +140,7 @@ sidebar:
     # side_webinfo widget
     side_webinfo:
       background: '#fff'
-      order: 
+      order: 7
       header: 
         icon: fas fa-chart-line
         title: 啊晖de老窝
