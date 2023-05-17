@@ -17,7 +17,7 @@ new Vue({
         // 注释掉上面这个，则不显示小点点
         loop: true, // 循环
         autoplay: {
-          delay: 2500,
+          delay: 10000,
           disableOnInteraction: false,
         }, // 自动播放,注释掉则不自动播放
         on: {
@@ -33,6 +33,7 @@ new Vue({
         // 上面是文字动画效果，注释则取消文字动画，动画效果参见 https://www.swiper.com.cn/usage/animate/index.html
       },
       listData: [{url: '', pic: '', title: '', desc: ''}],
+      listURL: [{title: '', heat: '', link: ''}],
     };
   },
   computed: {
@@ -42,6 +43,7 @@ new Vue({
   },
   created() {
     this.getList();
+    this.getURL();
   },
   methods: {
     // 鼠标移入停止轮播
@@ -54,8 +56,10 @@ new Vue({
     },
      // 请求开源api
      getList() {
-      fetch("https://api.vvhan.com/api/hotlist?type=bili", {
+      // fetch("https://api.vvhan.com/api/hotlist?type=bili", {
       // fetch("https://tenapi.cn/v2/weekly", {
+      // fetch("https://api.bilibili.com/x/web-interface/popular?ps=20&pn=1", {
+      fetch("https://qqlykm.cn/api/hotlist/get?key=XWM0J8FEYVbwggCgV1PuJqLj5s&type=bilibili", {
         method: "GET", // *GET, POST, PUT, DELETE, etc.
       })
       .then((res) => {
@@ -66,6 +70,21 @@ new Vue({
           return el.pic;
         })
         this.listData = arr;
+      })
+      .catch((err) => {
+        console.log("err", err);
+      });
+    },
+     getURL() {
+      // fetch("https://apis.jxcxin.cn/api/bilihot", {
+      fetch("https://v.api.aa1.cn/api/bilibili-rs/", {
+        method: "GET",
+      })
+      .then((res) => {
+        return res.json();
+      })
+      .then((data) => {
+        this.listURL = data.data;
       })
       .catch((err) => {
         console.log("err", err);

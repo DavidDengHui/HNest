@@ -33,9 +33,10 @@ home_widget:
       <div id="mySwiper" @mouseenter="stopAutoPlay()" @mouseleave="startAutoPlay()"> 
         <swiper class="myswiper" ref="myswiper" style="height:350px;" :options="swiperOption">
           <swiper-slide v-for="(item, index) in listData" :key="index"> 
-            <a :href="item.url" class="toPath" target="_blank"> 
+            <a :href="listURL[index].link" class="toPath" target="_blank"> 
               <img class="no-lazy" :src="item.pic" style="width:100%;height:100%;object-fit: cover;"> 
               <div class="mySwiper-text"> 
+                <h1 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"><span style="border-radius: 500px; border-color:#FC5505; border-style: outset;"> {{listURL[index].heat}} </span>&nbsp;<i class="fa-brands fa-hotjar fa-beat fa-lg" style="color: #c82828;"></i></h1> 
                 <h2 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">{{item.title}}</h2> 
                 <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">{{item.desc}}</p> 
               </div> 
