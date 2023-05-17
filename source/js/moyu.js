@@ -47,7 +47,8 @@ new Vue({
     },
     methods: {
       getMoyuDay() {
-        fetch("https://api.vvhan.com/api/moyu?type=json", {
+        // fetch("https://api.vvhan.com/api/moyu?type=json", {
+        fetch("https://api.emoao.com/api/moyu?type=json", {
           method: "GET", // *GET, POST, PUT, DELETE, etc.
         })
           .then((res) => {
