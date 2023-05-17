@@ -6,12 +6,12 @@ date: 2014-01-01 00:10:00
 # 来自 Gitee
 [<i class="fa-brands fa-square-git fa-bounce fa-2xl"></i>](https://gitee.com/dnest/denst/issues)
 
-{% issues sites | api=https://gitee.com/api/v5/repos/dnest/dnest/issues?sort=updated&labels=links | group=version:Friends,Tools,Likes,Mirrors,Movies,Office %}
+{% issues sites | api=https://gitee.com/api/v5/repos/dnest/dnest/issues?state=closed&labels=links&sort=updated&direction=asc | group=version:Friends,Tools,Likes,Mirrors,Movies,Office %}
 
 # 来自 GitHub
 [<i class="fa-brands fa-square-github fa-bounce fa-2xl"></i>](https://github.com/DavidDengHui/DNest/issues)
 
-{% issues sites | api=https://api.github.com/repos/DavidDengHui/DNest/issues?sort=updated&labels=links | group=version:Friends,Tools,Likes,Mirrors,Movies,Office %}
+{% issues sites | api=https://api.github.com/repos/DavidDengHui/DNest/issues?state=closed&labels=links&sort=updated&direction=asc | group=version:Friends,Tools,Likes,Mirrors,Movies,Office %}
 
 # 一起来扩列吧！
 
