@@ -48,8 +48,8 @@ home_widget:
       <script defer src="/mySwiper/index.js"></script> 
       <link href="/mySwiper/index.css" rel="stylesheet"> 
     '
-  - class_name: move_swiper
-    id_name: move_swiper
+  - class_name: movie_swiper
+    id_name: movie_swiper
     order: -1
     name: 豆瓣热映
     icon: fa-solid fa-film fa-beat
@@ -61,17 +61,16 @@ home_widget:
         <vue-seamless-scroll :data="listData" :class-option="classOption" class="warp" >
           <ul class="ul-item" :style="{width: bliWidth}">
             <!-- 在这里改, 手动修改a连接的href值和img的src值, 如果你会进阶，你可以使用v-for, 或者数据使用动态数据-->
-
             <li class="li-item" v-for="(item, index) in listData" :key="index"> 
               <a :href="item.info.url" target="_blank"> 
                 <img class="no-lazy" :src="item.info.imgurl"> 
                 <div class="douban-content"> 
+                  <p class="title">《{{item.title}}》</p> 
                   <p class="title">评分:{{item.info.pingfen}}</p> 
                   <p class="desc">{{item.info.pingjia}}</p> 
                 </div> 
               </a> 
             </li>
-
             <!-- 在这里结束 -->
           </ul>
         </vue-seamless-scroll>

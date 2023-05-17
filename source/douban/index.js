@@ -32,6 +32,6 @@ new Vue({
       .catch((err) => {
         console.log("err", err);
       });
-    },
+    }
   },
 });
