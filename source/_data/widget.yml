@@ -51,7 +51,7 @@ home_widget:
   - class_name: movie_swiper
     id_name: movie_swiper
     order: -1
-    name: 豆瓣热映
+    name: 近日の热映
     icon: fa-solid fa-film fa-beat
     icon_color: '#27a'
     url: https://movie.douban.com/chart
@@ -66,7 +66,7 @@ home_widget:
                 <img class="no-lazy" :src="item.info.imgurl"> 
                 <div class="douban-content"> 
                   <p class="title">《{{item.title}}》</p> 
-                  <p class="title">评分:{{item.info.pingfen}}</p> 
+                  <p class="score">评分: <span class="title">{{item.info.pingfen}}</span></p> 
                   <p class="desc">{{item.info.pingjia}}</p> 
                 </div> 
               </a> 
@@ -118,16 +118,29 @@ widget_library_sticky:
     name: 今日の历史
     icon: fa-solid fa-calendar-days fa-flip
     icon_color: '#d63130'
-    url: http://baidu.com
+    url: https://www.baidu.com
     background: '#dbcebb'
     html: '
-      <img class="lazy" src="https://api.vvhan.com/api/moyu" style="width:100%">
+      <div id="NowDay">
+        <p style="color: #d63130; font-size: large; font-weight: bold; text-align: center;">{{ date | formatDate }}</p>
+      </div>
+      <div id="MoyuDay">
+        <img class="lazy" :src="moyu.url" style="width:100%">
+      </div>
       <div id="myHistorySwiper" @mouseenter="stopAutoPlay()" @mouseleave="startAutoPlay()">
         <swiper class="myhistoryswiper" ref="myhistoryswiper" style="height:80px;" :options="swiperOption">
           <swiper-slide v-for="(item, index) in content" :key="index">
-            {{item}}
+            <a style="color: #d63130;" :href="item.url" target="_blank">
+            <center>
+              <p style="font-size: x-large; font-weight: bold;">
+                <i class="fa-solid fa-quote-left fa-bounce"></i>&nbsp;{{item.year}}&nbsp;<i class="fa-solid fa-quote-right fa-bounce"></i>
+              <p>
+            </center>
+            <p style="text-indent: 2em;">{{item.title}}</p>
+            </a>
           </swiper-slide>
         </swiper>
       </div>
-      <script defer src="/historyToday/index.js"></script>
+      <script defer src="/js/moyu.js"></script>
+      <script defer src="/js/historyToday.js"></script>
     '

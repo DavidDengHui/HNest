@@ -44,8 +44,11 @@
 }
 #douban .warp ul.ul-item .douban-content .title {
   font-size: 16px;
+  font-weight: bold;
 }
-
+#douban .warp ul.ul-item .douban-content .score {
+  font-size: 14px;
+}
 #douban .warp ul.ul-item .douban-content .desc {
   font-size: 12px;
 }
