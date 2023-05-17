@@ -299,7 +299,7 @@ snow:
 # 首页花瓣飘落效果--春天
 sakura:
   on: true
-  onlyPc: false # 设为true，只有pc端显示花瓣特效
+  onlyPc: true # 设为true，只有pc端显示花瓣特效
 
 # 首页文章图片是否一左一右交错显示
 homePostImgsPosition:
