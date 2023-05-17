@@ -12,7 +12,7 @@ new Vue({
       this.getWeiboList();
     },
     methods: {
-      // 请求开源api, 获取历史上的今天数据
+      // 请求开源api,
       getWeiboList() {
         fetch("https://tenapi.cn/resou/", {
           method: "GET", // *GET, POST, PUT, DELETE, etc.

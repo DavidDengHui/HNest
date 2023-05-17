@@ -52,9 +52,9 @@ new Vue({
     startAutoPlay() {
       this.swiperOption.autoplay && this.swiper.autoplay.start();
     },
-     // 请求开源api, 获取历史上的今天数据
+     // 请求开源api
      getList() {
-      fetch("https://api.vvhan.com/api/hotlist?type=zhihuHot", {
+      fetch("https://api.vvhan.com/api/hotlist?type=bili", {
         method: "GET", // *GET, POST, PUT, DELETE, etc.
       })
       .then((res) => {

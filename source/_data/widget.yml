@@ -21,13 +21,13 @@ home_widget:
       <div id="github_container"></div>
       <img src="https://ghchart.rshah.org/2d2d2d/DavidDengHui" alt="Github chart of DavidDengHui" style="width:100%"/>
     '
-  - class_name: img_swiper
-    id_name: img_swiper
+  - class_name: myswiper
+    id_name: myswiper
     order: -1
-    name: 知乎热榜
-    icon: fa-brands fa-zhihu fa-shake
+    name: (゜-゜)つロ 干杯~
+    icon: fa-brands fa-bilibili fa-shake fa-xl
     icon_color: '#056DE8'
-    url: https://www.zhihu.com/
+    url: https://www.bilibili.com/
     background: '#fff'
     html: '
       <div id="mySwiper" @mouseenter="stopAutoPlay()" @mouseleave="startAutoPlay()"> 
@@ -48,8 +48,8 @@ home_widget:
       <script defer src="/mySwiper/index.js"></script> 
       <link href="/mySwiper/index.css" rel="stylesheet"> 
     '
-  - class_name: info_swiper
-    id_name: info_swiper
+  - class_name: move_swiper
+    id_name: move_swiper
     order: -1
     name: 豆瓣热映
     icon: fa-solid fa-film fa-beat
@@ -57,7 +57,7 @@ home_widget:
     url: https://movie.douban.com/chart
     background: '#fff'
     html: '
-      <div id="myBli">
+      <div id="douban">
         <vue-seamless-scroll :data="listData" :class-option="classOption" class="warp" >
           <ul class="ul-item" :style="{width: bliWidth}">
             <!-- 在这里改, 手动修改a连接的href值和img的src值, 如果你会进阶，你可以使用v-for, 或者数据使用动态数据-->
@@ -65,7 +65,7 @@ home_widget:
             <li class="li-item" v-for="(item, index) in listData" :key="index"> 
               <a :href="item.info.url" target="_blank"> 
                 <img class="no-lazy" :src="item.info.imgurl"> 
-                <div class="bli-content"> 
+                <div class="douban-content"> 
                   <p class="title">评分:{{item.info.pingfen}}</p> 
                   <p class="desc">{{item.info.pingjia}}</p> 
                 </div> 
@@ -77,18 +77,18 @@ home_widget:
         </vue-seamless-scroll>
       </div>
 
-      <script defer src="/bli/index.js"></script>
-      <link href="/bli/index.css" rel="stylesheet">
+      <script defer src="/douban/index.js"></script>
+      <link href="/douban/index.css" rel="stylesheet">
     '
 # 侧边栏
 widget_library_sticky:
   - class_name: testWidget
     id_name: testWidget
     order: -1
-    name: 微博热搜
-    icon: fab fa-weibo
+    name: 实时の热点
+    icon: fa-brands fa-weibo fa-shake
     icon_color: '#d63130'
-    url: https://weibo.com
+    url: https://weibo.com/newlogin?tabtype=search
     background: '#fff'
     html: '
       <div id="myWeibo">
@@ -116,12 +116,13 @@ widget_library_sticky:
   - class_name: historyToday
     id_name: historyToday
     order: -1
-    name: 历史上的今天
-    icon: fas fa-calendar-week
+    name: 今日の历史
+    icon: fa-solid fa-calendar-days fa-flip
     icon_color: '#d63130'
     url: http://baidu.com
-    background: '#fff'
+    background: '#dbcebb'
     html: '
+      <img class="lazy" src="https://api.vvhan.com/api/moyu" style="width:100%">
       <div id="myHistorySwiper" @mouseenter="stopAutoPlay()" @mouseleave="startAutoPlay()">
         <swiper class="myhistoryswiper" ref="myhistoryswiper" style="height:80px;" :options="swiperOption">
           <swiper-slide v-for="(item, index) in content" :key="index">

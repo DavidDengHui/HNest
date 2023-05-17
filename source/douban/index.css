@@ -1,18 +1,18 @@
-#myBli .warp {
+#douban .warp {
   width: 100%;
   height: 120px;
   margin: 0 auto;
   overflow: hidden;
 }
-#myBli .warp ul {
+#douban .warp ul {
   list-style: none;
   padding: 0;
   margin: 0 auto;
 }
-#myBli .warp ul.ul-item {
+#douban .warp ul.ul-item {
   display: flex;
 }
-#myBli .warp ul.ul-item .li-item {
+#douban .warp ul.ul-item .li-item {
   width: 120px;
   display: block;
   height: 120px;
@@ -24,16 +24,16 @@
   font-size: 30px;
 }
 
-#myBli .warp ul.ul-item img {
+#douban .warp ul.ul-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-#myBli .warp ul.ul-item .li-item{
+#douban .warp ul.ul-item .li-item{
   position: relative;
 }
-#myBli .warp ul.ul-item .bli-content {
+#douban .warp ul.ul-item .douban-content {
   position: absolute;
   left: 5px;
   top: 5px;
@@ -42,13 +42,13 @@
   line-height: 18px;
   text-align: left;
 }
-#myBli .warp ul.ul-item .bli-content .title {
+#douban .warp ul.ul-item .douban-content .title {
   font-size: 16px;
 }
 
-#myBli .warp ul.ul-item .bli-content .desc {
+#douban .warp ul.ul-item .douban-content .desc {
   font-size: 12px;
 }
-#myBli .warp ul.ul-item img {
+#douban .warp ul.ul-item img {
   filter: brightness(0.6);
 }
