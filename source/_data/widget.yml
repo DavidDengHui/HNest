@@ -4,7 +4,7 @@ home_widget:
     id_name: welcome
     order: -1
     name: 欢迎光临
-    icon: fa-solid fa-door-open fa-shake
+    icon: fa-solid fa-door-open fa-shake fa-xl
     icon_color: red
     url: /#
     background: '#fff'
@@ -13,7 +13,7 @@ home_widget:
     id_name: my_github_chart
     order: -1
     name: GitHub 日历
-    icon: fa-brands fa-github fa-beat-fade
+    icon: fa-brands fa-github fa-beat-fade fa-xl
     icon_color: black
     url: https://github.com/DavidDengHui
     background: '#fff'
@@ -52,7 +52,7 @@ home_widget:
     id_name: movie_swiper
     order: -1
     name: 近日の热映
-    icon: fa-solid fa-film fa-beat
+    icon: fa-solid fa-film fa-beat fa-xl
     icon_color: '#27a'
     url: https://movie.douban.com/chart
     background: '#fff'
@@ -85,7 +85,7 @@ widget_library_sticky:
     id_name: testWidget
     order: -1
     name: 实时の热点
-    icon: fa-brands fa-weibo fa-shake
+    icon: fa-brands fa-weibo fa-shake fa-xl
     icon_color: '#d63130'
     url: https://weibo.com/newlogin?tabtype=search
     background: '#fff'
@@ -116,7 +116,7 @@ widget_library_sticky:
     id_name: historyToday
     order: -1
     name: 今日の历史
-    icon: fa-solid fa-calendar-days fa-flip
+    icon: fa-solid fa-calendar-days fa-flip fa-xl
     icon_color: '#d63130'
     url: https://www.baidu.com
     background: '#ddcdb2'
