@@ -45,8 +45,8 @@ home_widget:
           <div class="swiper-pagination" slot="pagination"></div>
         </swiper> 
       </div>
-      <script defer src="/mySwiper/index.js"></script> 
-      <link href="/mySwiper/index.css" rel="stylesheet"> 
+      <script defer src="/js/mySwiper.js"></script> 
+      <link href="/css/mySwiper.css" rel="stylesheet"> 
     '
   - class_name: movie_swiper
     id_name: movie_swiper
@@ -76,8 +76,8 @@ home_widget:
         </vue-seamless-scroll>
       </div>
 
-      <script defer src="/douban/index.js"></script>
-      <link href="/douban/index.css" rel="stylesheet">
+      <script defer src="/js/douban.js"></script>
+      <link href="/css/douban.css" rel="stylesheet">
     '
 # 侧边栏
 widget_library_sticky:
@@ -109,8 +109,8 @@ widget_library_sticky:
         </vue-seamless-scroll>
       </div>
 
-      <script defer src="/weibo/index.js"></script>
-      <link href="/weibo/index.css" rel="stylesheet">
+      <script defer src="/js/weibo.js"></script>
+      <link href="/css/weibo.css" rel="stylesheet">
     '
   - class_name: historyToday
     id_name: historyToday
@@ -119,13 +119,13 @@ widget_library_sticky:
     icon: fa-solid fa-calendar-days fa-flip
     icon_color: '#d63130'
     url: https://www.baidu.com
-    background: '#dbcebb'
+    background: '#ddcdb2'
     html: '
       <div id="NowDay">
-        <p style="color: #d63130; font-size: large; font-weight: bold; text-align: center;">{{ date | formatDate }}</p>
+        <p style="color: #275b4f; font-size: large; font-weight: bold; text-align: center;">{{ date | formatDate }}</p>
       </div>
       <div id="MoyuDay">
-        <img class="lazy" :src="moyu.url" style="width:100%">
+        <img class="no-lazy" :src="moyu.url" style="width:100%">
       </div>
       <div id="myHistorySwiper" @mouseenter="stopAutoPlay()" @mouseleave="startAutoPlay()">
         <swiper class="myhistoryswiper" ref="myhistoryswiper" style="height:80px;" :options="swiperOption">
@@ -136,7 +136,7 @@ widget_library_sticky:
                 <i class="fa-solid fa-quote-left fa-bounce"></i>&nbsp;{{item.year}}&nbsp;<i class="fa-solid fa-quote-right fa-bounce"></i>
               <p>
             </center>
-            <p style="text-indent: 2em;">{{item.title}}</p>
+            <p style="text-indent: ;">{{item.title}}</p>
             </a>
           </swiper-slide>
         </swiper>
