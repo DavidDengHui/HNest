@@ -80,6 +80,35 @@ home_widget:
       <script defer src="/js/douban.js"></script>
       <link href="/css/douban.css" rel="stylesheet">
     '
+  - class_name: study_today
+    id_name: study_today
+    order: -1
+    name: 伱是今日の懂王！
+    icon: fa-brands fa-readme fa-fade fa-xl
+    icon_color: '#000'
+    url: https://news.baidu.com/
+    background: url('https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png')
+    html: '
+      <div id="studyToday">
+      <!-- 如果不要滚动，则去掉 vue-seamless-scroll标签就行了，这个插件使用cdn向左向右滚动好像有问题 -->
+        <vue-seamless-scroll
+          :data="content"
+          :class-option="classOption"
+          class="warp"
+        >
+          <div class="study-container" v-for="(item, index) in content" :key="index">
+            <div class="left">
+              <div class="order"># </div>
+              <div class="name"><a target="_blank">{{item}}</a></div>
+            </div>
+          </div>
+        </vue-seamless-scroll>
+      </div>
+
+      <script defer src="/js/studyToday.js"></script>
+      <link href="/css/studyToday.css" rel="stylesheet">
+    '
+
 # 侧边栏
 widget_library_sticky:
   - class_name: testWidget

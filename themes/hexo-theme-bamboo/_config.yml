@@ -367,7 +367,7 @@ motto:
 
 # 首页公告
 notice:
-  on: true
+  on: false
   seamless: false # 为true时，则无缝不停止滚动，false是会停一下的滚动
   title: '公告'
   background: 'url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png")' # url("xxx") or red or #000 or rgba() ..
