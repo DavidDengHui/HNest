@@ -675,8 +675,8 @@ cursor:
   pointer: '/img/cursor/2/Link_Select.cur' # https://zhutix.com/wp-content/themes/b2/x2.cur
   default: '/img/cursor/2/Arrow.cur' # https://zhutix.com/wp-content/themes/b2/x1.cur
   text: '/img/cursor/2/Text.cur'
-  zoom-in: '/img/cursor/2/Diagonal_Resize_1.cur'
-  zoom-out: '/img/cursor/2/Diagonal_Resize_2.cur'
+  zoom-in: '/img/cursor/2/Move.cur'
+  zoom-out: '/img/cursor/2/Handwriting.cur'
 
 # 图片懒加载
 # https://www.npmjs.com/package/vanilla-lazyload
