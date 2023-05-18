@@ -4,32 +4,23 @@ date: 2014-01-01 00:10:00
 ---
 
 # 来自 Gitee
-[<i class="fa-brands fa-square-git fa-bounce fa-2xl"></i>](https://gitee.com/dnest/denst/issues)
+[<i class="fa-brands fa-square-git fa-bounce fa-2xl"></i>](https://gitee.com/dnest/dnest/issues/I76KXJ)
 
-{% issues sites | api=https://gitee.com/api/v5/repos/dnest/dnest/issues?state=closed&labels=links&sort=updated&direction=asc | group=version:Friends,Tools,Likes,Mirrors,Movies,Office %}
+<!-- {% issues sites | api=https://gitee.com/api/v5/repos/dnest/dnest/issues?state=closed&labels=links&sort=updated&direction=asc | group=version:Friends,Tools,Likes,Mirrors,Movies,Office %} -->
+{% issues sites | api=https://gitee.com/api/v5/repos/dnest/dnest/issues/I76KXJ/comments?order=asc | group=version:Friends,Tools,Likes,Mirrors,Movies,Office %}
 
 # 来自 GitHub
-[<i class="fa-brands fa-square-github fa-bounce fa-2xl"></i>](https://github.com/DavidDengHui/DNest/issues)
+[<i class="fa-brands fa-square-github fa-bounce fa-2xl"></i>](https://github.com/DavidDengHui/DNest/issues/1)
 
-{% issues sites | api=https://api.github.com/repos/DavidDengHui/DNest/issues?state=closed&labels=links&sort=updated&direction=asc | group=version:Friends,Tools,Likes,Mirrors,Movies,Office %}
+<!-- {% issues sites | api=https://api.github.com/repos/DavidDengHui/DNest/issues?state=closed&labels=links&sort=updated&direction=asc | group=version:Friends,Tools,Likes,Mirrors,Movies,Office %} -->
+{% issues sites | api=https://api.github.com/repos/DavidDengHui/DNest/issues/1/comments?order=asc | group=version:Friends,Tools,Likes,Mirrors,Movies,Office %}
 
 # 一起来扩列吧！
 
 > ## 添加您的链接
-> 您可以通过 页面底部评论留言 或 [创建 Gitee Issue <i class="fa-regular fa-code-branch"></i>](https://gitee.com/dnest/dnest/issues/new) 或 [创建 GitHub Issue <i class="fa-regular fa-code-compare"></i>](https://github.com/DavidDengHui/DNest/issues/new) 将您的网站信息添加到描述框内，使用`markdown`代码块` ```json `和` ``` `标志包裹住json信息，格式如下：
+> 您可以通过 页面底部评论留言 或 [评论 Gitee Issue](https://gitee.com/dnest/dnest/issues/I76KXJ) 或 [评论 GitHub Issue](https://github.com/DavidDengHui/DNest/issues/1) 将您的网站信息添加到描述框内，使用`markdown`代码块 {% kbd ```json %} 和 {% kbd ``` %} 标志包裹住json信息，格式如下：
 
-```json
-```json
-{
-    "title": "标题/名字",
-    "url": "网址",
-    "avatar": "头像",
-    "screenshot": "截图",
-    "description": "描述",
-    "version": "Friends"
-}
-//```
-```
+<figure class="highlight json"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><div class="codeBox" style="position:relative;width:100%;"><button class="btn-copy" data-clipboard-snippet="" style="position:absolute;top:0;right:0;z-index:1;" control-id="ControlID-1"><i class="fas fa-copy"></i><span>复制</span></button><pre><span class="line">```json</span><br><span class="line"><span class="punctuation">{</span></span><br><span class="line">    <span class="attr">"title"</span><span class="punctuation">:</span> <span class="string">"标题/名字"</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">"url"</span><span class="punctuation">:</span> <span class="string">"网址"</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">"avatar"</span><span class="punctuation">:</span> <span class="string">"头像"</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">"screenshot"</span><span class="punctuation">:</span> <span class="string">"截图"</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">"description"</span><span class="punctuation">:</span> <span class="string">"描述"</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">"version"</span><span class="punctuation">:</span> <span class="string">"Friends"</span></span><br><span class="line"><span class="punctuation">}</span></span><br><span class="line"><span class="comment">```</span></span><br></pre></div></td></tr></tbody></table></figure>
 
 > <i class="fa-solid fa fa-3x fa-quote-left fa-pull-left"></i> **直接复制代码记得取消最后一行的注释哦~**
 

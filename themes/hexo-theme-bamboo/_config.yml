@@ -19,7 +19,7 @@ menu:
     icon: fas fa-user
   Friends:
     url: /friends
-    icon: fas fa-link
+    icon: fas fa-up-right-from-square
 #   更多: # 这是二级菜单的写法
 #    children:
 #     - name: 图库
