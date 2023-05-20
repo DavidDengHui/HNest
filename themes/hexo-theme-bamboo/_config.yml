@@ -750,9 +750,9 @@ CDN:
   livere: https://cdn-city.livere.com/js/embed.dist.js
   gitmentCss: https://cdn.bootcss.com/gitment/0.0.3/default.css # https://unpkg.com/gitment@0.0.3/style/default.css
   gitmentJs: https://cdn.bootcss.com/gitment/0.0.3/gitment.browser.js # https://unpkg.com/gitment@0.0.3/dist/gitment.browser.js
-  gitalkCss: https://cdn.bootcss.com/gitalk/1.7.2/gitalk.css # https://unpkg.com/gitalk@1.7.2/dist/gitalk.css
-  gitalkJs: https://cdn.bootcss.com/gitalk/1.7.2/gitalk.min.js # https://unpkg.com/gitalk@1.7.2/dist/gitalk.min.js
-  busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js # 不蒜子
+  gitalkCss: https://cdn.bootcdn.net/ajax/libs/gitalk/1.8.0/gitalk.css #https://cdn.bootcss.com/gitalk/1.7.2/gitalk.css # https://unpkg.com/gitalk@1.7.2/dist/gitalk.css
+  gitalkJs: https://cdn.bootcdn.net/ajax/libs/gitalk/1.8.0/gitalk.min.js # https://cdn.bootcss.com/gitalk/1.7.2/gitalk.min.js # https://unpkg.com/gitalk@1.7.2/dist/gitalk.min.js
+  busuanzi: https:////busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js # 不蒜子
   ayuCss: https://fastly.jsdelivr.net/npm/v-plugs-ayu/lib/ayu.css # https://unpkg.com/v-plugs-ayu@0.4.4/lib/ayu.css
   ayuJs: https://fastly.jsdelivr.net/npm/v-plugs-ayu/lib/ayu.umd.min.js # https://unpkg.com/v-plugs-ayu@0.4.4/lib/ayu.umd.min.js
   copyRight: https://creativecommons.org/licenses/by-nc-nd/4.0/
@@ -761,8 +761,7 @@ CDN:
   paceCss: https://cdn.bootcss.com/pace/1.2.4/themes/pink/pace-theme-flash.css # https://img.source.host.covear.top/cdn/pace/themes/pink/pace-theme-flash.css
   weather: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
   typedJs: https://cdn.bootcss.com/typed.js/2.0.11/typed.js # https://unpkg.com/typed.js@2.0.11/lib/typed.js
-  tocbotJs: https://cdn.bootcss.com/tocbot/4.21.0/tocbot.min.js # https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js
-  tocbotCss: https://cdn.bootcss.com/tocbot/4.21.0/tocbot.css # https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css
-  jquery: https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js # https://unpkg.com/jquery@3.5.1/dist/jquery.min.js 
-    # https://www.bootcdn.cn/jquery/3.5.1/ https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
+  tocbotJs: https://cdn.bootcdn.net/ajax/libs/tocbot/4.21.0/tocbot.min.js # https://cdn.bootcss.com/tocbot/4.21.0/tocbot.min.js # https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js
+  tocbotCss: https://cdn.bootcdn.net/ajax/libs/tocbot/4.21.0/tocbot.css # https://cdn.bootcss.com/tocbot/4.21.0/tocbot.css # https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css
+  jquery: https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js # https://unpkg.com/jquery@3.5.1/dist/jquery.min.js # https://www.bootcdn.cn/jquery/3.5.1/ https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
   vue: https://cdn.bootcss.com/vue/2.6.11/vue.min.js # https://unpkg.com/vue@2.6.11/dist/vue.min.js

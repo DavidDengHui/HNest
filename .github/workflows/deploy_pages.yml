@@ -68,7 +68,7 @@ jobs:
         env:
           url: ${{ steps.deployment.outputs.page_url }}
         # run: hexo g
-        run: hexo generate --config github.yml
+        run: hexo generate --config dnest.covear.top.yml
       - name: 上传静态页面
         uses: actions/upload-pages-artifact@v1
         with:
