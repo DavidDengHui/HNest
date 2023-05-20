@@ -1,0 +1,57 @@
+#douban .warp {
+  width: 100%;
+  height: 120px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#douban .warp ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+#douban .warp ul.ul-item {
+  display: flex;
+}
+#douban .warp ul.ul-item .li-item {
+  width: 120px;
+  display: block;
+  height: 120px;
+  margin-right: 10px;
+  line-height: 120px;
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+
+#douban .warp ul.ul-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#douban .warp ul.ul-item .li-item{
+  position: relative;
+}
+#douban .warp ul.ul-item .douban-content {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  color: #fff;
+  z-index: 999999;
+  line-height: 18px;
+  text-align: left;
+}
+#douban .warp ul.ul-item .douban-content .title {
+  font-size: 16px;
+  font-weight: bold;
+}
+#douban .warp ul.ul-item .douban-content .score {
+  font-size: 14px;
+}
+#douban .warp ul.ul-item .douban-content .desc {
+  font-size: 12px;
+}
+#douban .warp ul.ul-item img {
+  filter: brightness(0.6);
+}
