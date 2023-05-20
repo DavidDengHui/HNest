@@ -73,7 +73,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
-# 部署 GitHub Pages
+  # 部署 GitHub Pages
   Deploy-GitHub:
     environment:
       name: github-pages
@@ -84,3 +84,26 @@ jobs:
       - name: 部署 GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+  # 编译 Pages 至 gh-pages
+  Build-Vercel:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 安装 Node.js v18.16.0
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+      - name: 安装 Hexo CLI
+        run: npm install -g hexo-cli
+      - name: Actions 环境构建
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - name: 编译 Hexo 项目使用域名 dnest.eu.org
+        env:
+          url: ${{ steps.deployment.outputs.page_url }}
+        run: hexo generate --config dnest.eu.org.yml
+      - name: 上传静态页面至分支 gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
