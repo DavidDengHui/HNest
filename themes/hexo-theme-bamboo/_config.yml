@@ -41,10 +41,10 @@ Github:
   url: https://gitee.com/dnest/dnest
 
 # 网站logo
-logo: https://img.source.host.covear.top/logo.png # 为空则不显示
+logo: /img/logo/favicon.svg # 为空则不显示
 
 # 网站 favicon
-favicon: /favicon.ico # or .png .jpg .svg .gif .jpeg .ico
+favicon: /img/logo/favicon.svg # or .png .jpg .svg .gif .jpeg .ico
 
 # sidebar侧边栏
 sidebar:
