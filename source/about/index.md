@@ -5,7 +5,7 @@ bgImg: https://picx.zhimg.com/80/v2-85c31120acff76826ab53ea8934ef4bb_1440w.webp
 ---
 
 # 个人介绍
-博主: David Deng | 性别: 男 | 邮箱: david.no.1@msn.cn
+博主: David H. Deng | 性别: 男 | 邮箱: david.no.1@msn.cn
 
 ## 我的书籍
 {% sitegroup %}

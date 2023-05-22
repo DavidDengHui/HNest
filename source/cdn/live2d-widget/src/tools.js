@@ -58,7 +58,7 @@ const tools = {
     "info": {
         icon: fa_info_circle,
         callback: () => {
-            open("https://gitee.com/dnest/live2d-widget");
+            open("https://gitee.com/hnest/live2d-widget");
         }
     },
     "quit": {

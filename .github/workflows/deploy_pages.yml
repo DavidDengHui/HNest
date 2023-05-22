@@ -65,25 +65,32 @@ jobs:
       - name: 安装 Node.js 依赖项
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: 编译 Hexo 项目
+        run: hexo generate --config yml/hnest.github.io.yml
+      - name: 上传静态文件至 HNest/hnest.github.io
         env:
-          url: ${{ steps.deployment.outputs.page_url }}
-        # run: hexo g
-        run: hexo generate --config dnest.covear.top.yml
-      - name: 上传静态页面
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: ./public
-  # 部署 GitHub Pages
-  Deploy-GitHub:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: Build-GitHub
-    steps:
-      - name: 部署 GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+          path_name: './public'
+          user_name: 'github-actions[bot]'
+          user_email: '41898282+github-actions[bot]@users.noreply.github.com'
+        run: |
+          cd ${{ env.path_name }}
+          git config --global user.name "${{ env.user_name }}"
+          git config --global user.email "${{ env.user_email }}"
+          git init
+          git commit -a -m "${{ github.event.head_commit.message }}"
+          git remote add origin https://${{ github.actor }}:${{ secrets.TOKEN }}@github.com/HNest/hnest.github.io
+          git checkout -b main
+          git push -f origin main
+  # # 部署 GitHub Pages
+  # Deploy-GitHub:
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   runs-on: ubuntu-latest
+  #   needs: Build-GitHub
+  #   steps:
+  #     - name: 部署 GitHub Pages
+  #       id: deployment
+  #       uses: actions/deploy-pages@v2
   # 编译 Pages 至 gh-pages
   Build-Vercel:
     runs-on: ubuntu-latest
@@ -98,10 +105,8 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: recursive
-      - name: 编译 Hexo 项目使用域名 dnest.eu.org
-        env:
-          url: ${{ steps.deployment.outputs.page_url }}
-        run: hexo generate --config dnest.eu.org.yml
+      - name: 编译 Hexo 项目使用域名 hnest.eu.org
+        run: hexo generate --config yml/hnest.eu.org.yml
       - name: 上传静态页面至分支 gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:

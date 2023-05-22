@@ -1,3 +1,3 @@
 npm install
 npm install -g hexo-cli
-hexo generate --config my.covear.top.yml
+hexo generate --config yml/my.covear.top.yml

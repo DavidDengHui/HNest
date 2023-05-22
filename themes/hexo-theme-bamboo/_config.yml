@@ -38,7 +38,7 @@ menu:
 # github地址, 头部导航右上角的github链接
 Github: 
   on: false
-  url: https://gitee.com/dnest/dnest
+  url: https://gitee.com/hnest/hnest
 
 # 网站logo
 logo: https://img.source.host.covear.top/2023-05-21-favicon.svg # 为空则不显示
@@ -55,8 +55,8 @@ sidebar:
       avatar: https://img.source.host.covear.top/avatar.jpg
       shape: rectangle # circle, rectangle
       url: /about/
-      title: 啊晖de老窝
-      subtitle: 这是 David Deng 的个人博客
+      title: "啊晖de老窝"
+      subtitle: "I am David H. Deng~"
       jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       fontFammily: Titillium Web,'PingFang SC','Hiragino Sans GB','Microsoft JhengHei','Microsoft YaHei',sans-serif
       background: '#fff'
@@ -67,7 +67,7 @@ sidebar:
         - icon: fas fa-envelope
           url: mailto:david.no.1@msn.cn
         - icon: fab fa-github
-          url: https://gitee.com/dnest/dnest
+          url: https://gitee.com/hnest/hnest
         - icon: fab fa-qq
           url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1187523442
     # ---------------------------------------
@@ -622,10 +622,10 @@ site_footer:
     - icon: fas fa-envelope
       url: mailto:david.no.1@msn.cn
     - icon: fab fa-github
-      url: https://gitee.com/dnest/dnest
+      url: https://gitee.com/hnest/hnest
     - icon: fab fa-qq
       url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1187523442
-  copyright: 'Copyright © 2014 - 2023 <a href="https://dnest.gitee.io" target="_blank">啊晖de老窝</a>'
+  copyright: 'Copyright © 2014 - 2023 <a href="https://hnest.eu.org" target="_blank">啊晖de老窝</a>'
   custom: # 根据需要自行取消注释，label: 'markdown格式'，会在下面继续增加内容
     - label: 'Powered by <a href="https://hexo.io/zh-cn/docs/" target="_blank">Hexo</a> | Theme <a href="https://github.com/yuang01/theme" target="_blank">Bamboo</a><br>'
     - label: '本网站由'

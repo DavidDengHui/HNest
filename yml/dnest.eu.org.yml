@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 啊晖de老窝
-subtitle: '这是 David Deng 的个人博客'
-description: 'Blog for David Deng'
-keywords: Static Blog
-author: David Deng
+title: '啊晖de老窝'
+subtitle: "I am David H. Deng~"
+description: "David H. Deng's Blog"
+keywords: Static Blog,Blog,Hexo,Pages,Gitee,GitHub,
+author: 'David H. Deng'
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://my.covear.top
+url: https://dnest.eu.org
 permalink: posts/:title/
 permalink_defaults:
 pretty_urls:
@@ -124,5 +124,5 @@ feed:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://gitee.com/dnest/dnest
+  repository: https://gitee.com/hnest/hnest
   branch: master

@@ -23,7 +23,7 @@ function string(opts = {}) {
         renderChunk(code, chunk, outputOptions = {}) {
             return `/*!
  * Live2D Widget
- * https://gitee.com/dnest/live2d-widget
+ * https://gitee.com/hnest/live2d-widget
  */
 ` + code;
         }
