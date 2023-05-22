@@ -8,7 +8,7 @@ https://hnest.eu.org
 # 一起来扩列吧！
 
 > ## 添加您的链接
-> 您可以通过 [创建 Issue <i class="fa-regular fa-pen-to-square fa-fw"></i>](https://gitee.com/hnest/hnest/issues/new) 将您的网站信息添加到描述框内，使用`markdown`代码块` ```json `和` ``` `标志包裹住json信息，格式如下：
+> 您可以通过 页面底部评论留言 或 [评论 Gitee Issue](https://gitee.com/hnest/hnest/issues/I76KXJ) 或 [评论 GitHub Issue](https://github.com/DavidDengHui/HNest/issues/1) 将您的网站信息添加到描述框内，使用`markdown`代码块 {% kbd ```json %} 和 {% kbd ``` %} 标志包裹住json信息，格式如下：
 
 ```json
 ```json
