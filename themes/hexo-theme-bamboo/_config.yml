@@ -199,7 +199,7 @@ swiper:
   # 当没有文章设置swiper: true时候，轮播图会显示以下default默认内容，可自行切换对应内容
   defaultImg: 'https://pic1.zhimg.com/v2-af3ccef61cf58b1a70765747cc1bbeac_b.jpg' # 图片，没有则随机选取
   defaultVideo: '' # video，min-width:992px show
-  defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
+  defaultVideoLoadingImg: '/img/loading.min.svg' # 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
   defaultTile: '啊晖de老窝' # 标题
   defaultDesc: ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老'] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
   defaultLeftBtnText: '阅读文档' # 左边按钮文字, 空字符串则不显示
@@ -697,7 +697,7 @@ lazyload:
   enable: true
   js: https://img.source.host.covear.top/js/lazyload.min.js
   onlypost: false
-  loadingImg: https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp
+  loadingImg: '/img/loading.min.svg' # https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp
   blurIn: true # 模糊加载效果 （loadingImg为空时有效）
 
 
