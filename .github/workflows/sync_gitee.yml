@@ -30,10 +30,6 @@ jobs:
   Sync-Gitee:
     runs-on: ubuntu-latest
     steps:
-#       - name: 环境构建
-#         uses: actions/checkout@v3
-#         with:
-#           submodules: recursive
       - name: 镜像同步 Gitee 仓库
         env:
           gitee_name: 'hnest'
