@@ -41,7 +41,7 @@ Github:
   url: https://gitee.com/hnest/hnest
 
 # 网站logo
-logo: https://img.source.host.covear.top/2023-05-21-favicon.svg # 为空则不显示
+logo: https://img2.source.host.covear.top/2023-05-21-favicon.svg # 为空则不显示
 
 # 网站 favicon
 favicon: /favicon.ico # or .png .jpg .svg .gif .jpeg .ico
@@ -52,7 +52,7 @@ sidebar:
   widget_library:
     side_blogger:
       on: true
-      avatar: https://img.source.host.covear.top/avatar.jpg
+      avatar: https://img2.source.host.covear.top/avatar.jpg
       shape: rectangle # circle, rectangle
       url: /about/
       title: "啊晖de老窝"
@@ -230,8 +230,8 @@ goTop:
 # 图片点击放大功能, http://fancyapps.com/fancybox/
 fancybox: 
   on: true
-  css: https://img.source.host.covear.top/css/fancybox.css
-  js:  https://img.source.host.covear.top/js/fancybox.umd.js
+  css: https://img2.source.host.covear.top/css/fancybox.css
+  js:  https://img2.source.host.covear.top/js/fancybox.umd.js
 
 # 统计网站访问数量
 busuanzi:
@@ -245,9 +245,9 @@ donate:
   on: true
 donate_message: 你的赏识是我前进的动力
 # 支付宝打赏图片相对路径
-Alipay: 'https://img.source.host.covear.top/alipay.jpg'
+Alipay: 'https://img2.source.host.covear.top/alipay.jpg'
 # 微信打赏图片相对路径
-WeChatpay: 'https://img.source.host.covear.top/wechatpay.jpg'
+WeChatpay: 'https://img2.source.host.covear.top/wechatpay.jpg'
 
 # 分享功能
 sharejs: 
@@ -315,7 +315,7 @@ lantern:
 # https://scrollrevealjs.org/api/reveal.html 滚动动画, 旧版本用的是aos.js(已经弃用aos.js)
 scrollreveal:
   on: false
-  js: https://img.source.host.covear.top/js/scrollreveal.min.js
+  js: https://img2.source.host.covear.top/js/scrollreveal.min.js
   distance: 120px
   duration: 400 # ms
   interval: 30 # ms
@@ -630,15 +630,15 @@ site_footer:
     - label: 'Powered by <a href="https://hexo.io/zh-cn/docs/" target="_blank">Hexo</a> | Theme <a href="https://github.com/yuang01/theme" target="_blank">Bamboo</a><br>'
     - label: '本网站由'
     - label: '
-              <a href="https://gitee.com/" title="Gitee Pages" target="_blank"><img src="https://img.source.host.covear.top/2023-05-21-gitee_logo.svg" style="height: 2rem;"></a>
+              <a href="https://gitee.com/" title="Gitee Pages" target="_blank"><img src="https://img2.source.host.covear.top/2023-05-21-gitee_logo.svg" style="height: 2rem;"></a>
               <span style="margin-right: 1rem;"></span>
-              <a href="https://github.com/" title="GitHub Pages" target="_blank"><img src="https://img.source.host.covear.top/2023-05-21-github_logo.svg" style="height: 2rem;"></a>
+              <a href="https://github.com/" title="GitHub Pages" target="_blank"><img src="https://img2.source.host.covear.top/2023-05-21-github_logo.svg" style="height: 2rem;"></a>
               <span style="margin-right: 1rem;"></span>
-              <a href="https://vercel.com/" title="Vercel" target="_blank"><img src="https://img.source.host.covear.top/2023-05-21-vercel_logo.svg" style="height: 2rem;"></a>
+              <a href="https://vercel.com/" title="Vercel" target="_blank"><img src="https://img2.source.host.covear.top/2023-05-21-vercel_logo.svg" style="height: 2rem;"></a>
               <span style="margin-right: 1rem;"></span>
-              <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" title="又拍云" target="_blank"><img src="https://img.source.host.covear.top/2023-05-21-upyun_logo.svg" style="height: 2.4rem;"></a>    
+              <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" title="又拍云" target="_blank"><img src="https://img2.source.host.covear.top/2023-05-21-upyun_logo.svg" style="height: 2.4rem;"></a>    
               <span style="margin-right: 1rem;"></span>
-              <a href="https://www.qiniu.com/" title="七牛云" target="_blank"><img src="https://img.source.host.covear.top/2023-05-21-qiniu_logo.svg" style="height: 2rem;"></a>
+              <a href="https://www.qiniu.com/" title="七牛云" target="_blank"><img src="https://img2.source.host.covear.top/2023-05-21-qiniu_logo.svg" style="height: 2rem;"></a>
             '
     - label: '提供CDN加速/云储存服务<br><br/><a href="http://beian.miit.gov.cn/" target="_blank">湘ICP备17019987号</a><br><br>'
 
@@ -661,8 +661,8 @@ tag_plugins:
   getFileImg: 'https://img.51miz.com/Element/00/37/79/59/10df0417_E377959_b7bb9dfa.png'
   swiper:
     autoplay: true # 自动播放
-    css: https://img.source.host.covear.top/css/swiper-bundle.min.css
-    js: https://img.source.host.covear.top/js/swiper-bundle.min.js
+    css: https://img2.source.host.covear.top/css/swiper-bundle.min.css
+    js: https://img2.source.host.covear.top/js/swiper-bundle.min.js
 # mermaid
 # see https://github.com/mermaid-js/mermaid
 mermaid:
@@ -670,7 +670,7 @@ mermaid:
   # built-in themes: default/forest/dark/neutral
   theme: default
   # cdn: https://fastly.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
-  cdn: https://img.source.host.covear.top/js/mermaid.min.js
+  cdn: https://img2.source.host.covear.top/js/mermaid.min.js
 
 # pjax
 pjax:
@@ -695,7 +695,7 @@ cursor:
 # https://www.npmjs.com/package/vanilla-lazyload
 lazyload:
   enable: true
-  js: https://img.source.host.covear.top/js/lazyload.min.js
+  js: https://img2.source.host.covear.top/js/lazyload.min.js
   onlypost: false
   loadingImg: '/img/loading.min.svg' # https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp
   blurIn: true # 模糊加载效果 （loadingImg为空时有效）
@@ -770,8 +770,8 @@ CDN:
   ayuJs: https://fastly.jsdelivr.net/npm/v-plugs-ayu/lib/ayu.umd.min.js # https://unpkg.com/v-plugs-ayu@0.4.4/lib/ayu.umd.min.js
   copyRight: https://creativecommons.org/licenses/by-nc-nd/4.0/
   live2d: /cdn/live2d-widget/autoload.js # https://fastly.jsdelivr.net/gh/yuang01/live2d-widget@latest/autoload.js 这个cdn目前国内不太稳定，可能导致左下角人物加载不出来
-  paceJs: https://cdn.bootcss.com/pace/1.2.4/pace.min.js # https://img.source.host.covear.top/cdn/pace/pace.min.js
-  paceCss: https://cdn.bootcss.com/pace/1.2.4/themes/pink/pace-theme-flash.css # https://img.source.host.covear.top/cdn/pace/themes/pink/pace-theme-flash.css
+  paceJs: https://cdn.bootcss.com/pace/1.2.4/pace.min.js # https://img2.source.host.covear.top/cdn/pace/pace.min.js
+  paceCss: https://cdn.bootcss.com/pace/1.2.4/themes/pink/pace-theme-flash.css # https://img2.source.host.covear.top/cdn/pace/themes/pink/pace-theme-flash.css
   weather: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
   typedJs: https://cdn.bootcss.com/typed.js/2.0.11/typed.js # https://unpkg.com/typed.js@2.0.11/lib/typed.js
   tocbotJs: https://cdn.bootcdn.net/ajax/libs/tocbot/4.21.0/tocbot.min.js # https://cdn.bootcss.com/tocbot/4.21.0/tocbot.min.js # https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js
