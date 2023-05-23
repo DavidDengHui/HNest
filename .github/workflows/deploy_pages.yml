@@ -35,7 +35,7 @@ jobs:
         with:
           gitee-username: david.no.1@msn.cn
           gitee-password: ${{ secrets.GITEE_PASSWORD }}
-          gitee-repo: dnest/dnest
+          gitee-repo: hnest/hnest
           branch: master
   # 编译 GitHub Pages
   Build-GitHub:
@@ -76,10 +76,11 @@ jobs:
           git config --global user.name "${{ env.user_name }}"
           git config --global user.email "${{ env.user_email }}"
           git init
-          git commit -a -m "${{ github.event.head_commit.message }}"
+          git add .
+          git commit -m "${{ github.event.head_commit.message }}"
           git remote add origin https://${{ github.actor }}:${{ secrets.TOKEN }}@github.com/HNest/hnest.github.io
           git checkout -b main
-          git push -f origin main
+          git push origin main -f
   # # 部署 GitHub Pages
   # Deploy-GitHub:
   #   environment:

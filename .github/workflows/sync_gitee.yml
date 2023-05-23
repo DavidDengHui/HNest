@@ -45,9 +45,10 @@ jobs:
           cd ./${{ env.repo_name }}
           git config --global user.name "${{ env.user_name }}"
           git config --global user.email "${{ env.user_email }}"
+          git remote -v
           git remote rm origin
           git remote add origin https://${{ github.actor }}:${{ secrets.TOKEN }}@github.com/DavidDengHui/HNest
           git remote set-url origin https://${{ github.actor }}:${{ secrets.TOKEN }}@github.com/DavidDengHui/HNest
           git remote -v
           git status
-          git push -f
+          git push origin master -f
