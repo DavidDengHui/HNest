@@ -1,0 +1,53 @@
+name: Sync Gitee Repo
+
+on:
+  # 使用 GitHub API 触发
+  repository_dispatch:
+    types: [sync_gitee]
+
+  # 允许从“操作”选项卡手动运行此工作流
+  workflow_dispatch:
+
+# 设置 GITHUB_TOKEN 的权限以允许部署到 GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 只允许一次并发部署，跳过在进行中的运行和最近排队的运行之间排队的运行。
+# 但是，不要取消正在进行的运行，因为我们希望完成这些生产部署。
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# 默认使用 bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # 编译 GitHub Pages
+  Sync-Gitee:
+    runs-on: ubuntu-latest
+    steps:
+#       - name: 环境构建
+#         uses: actions/checkout@v3
+#         with:
+#           submodules: recursive
+      - name: 镜像同步 Gitee 仓库
+        env:
+          gitee_name: 'hnest'
+          repo_name: 'hnest'
+          user_name: 'DavidDengHui'
+          user_email: 'david.no.1@msn.cn'
+        run: |
+          git clone https://gitee.com/${{ env.gitee_name }}/${{ env.repo_name }}.git
+          cd ./${{ env.repo_name }}
+          git config --global user.name "${{ env.user_name }}"
+          git config --global user.email "${{ env.user_email }}"
+          git remote rm origin
+          git remote add origin https://${{ github.actor }}:${{ secrets.TOKEN }}@github.com/DavidDengHui/HNest
+          git remote set-url origin https://${{ github.actor }}:${{ secrets.TOKEN }}@github.com/DavidDengHui/HNest
+          git remote -v
+          git status
+          git push -f
