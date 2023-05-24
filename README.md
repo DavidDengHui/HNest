@@ -3,7 +3,9 @@
 # 介绍
 这是我的个人博客，使用HEXO静态框架。
 
-https://hnest.eu.org
+https://hnest.eu.org 
+
+CN节点： <https://hnest.gitee.io>
 
 # 一起来扩列吧！
 
