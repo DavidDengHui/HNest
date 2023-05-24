@@ -9,18 +9,19 @@ https://hnest.eu.org
 
 ## 添加您的链接
 
-### 您可以通过 页面底部评论留言 或 [评论 Gitee Issue](https://gitee.com/hnest/hnest/issues/I76KXJ) 或 [评论 GitHub Issue](https://github.com/DavidDengHui/HNest/issues/1) 将您的网站信息添加到描述框内，使用`markdown`代码块 {% kbd ```json %} 和 {% kbd ``` %} 标志包裹住json信息，格式如下：
+### 您可以通过 页面底部评论留言 或 [评论 Gitee Issue](https://gitee.com/hnest/hnest/issues/I76KXJ) 或 [评论 GitHub Issue](https://github.com/DavidDengHui/HNest/issues/1) 将您的网站信息添加到描述框内，使用`markdown`代码块` ```json `和` ``` `标志包裹住json信息，格式如下：
 
-> ```json
-> {
->     "title": "标题/名字",
->     "url": "网址",
->     "avatar": "头像",
->     "screenshot": "截图",
->     "description": "描述",
->     "version": "Friends"
-> }
-> ```
+
+```json
+{
+    "title": "标题/名字",
+    "url": "网址",
+    "avatar": "头像",
+    "screenshot": "截图",
+    "description": "描述",
+    "version": "Friends"
+}
+```
 
 
 # 友情提示
