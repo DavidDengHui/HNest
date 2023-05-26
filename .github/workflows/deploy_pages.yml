@@ -1,4 +1,4 @@
-name: Deploy Static Pages
+name: Pages
 
 on:
   # master 分至推送时触发
