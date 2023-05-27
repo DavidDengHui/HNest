@@ -89,9 +89,9 @@ home_widget:
     icon: fa-brands fa-twitter fa-shake fa-xl
     icon_color: '#1da1f2'
     url: https://news.baidu.com/
-    background: url('https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png')
+    background: '#fff'
     html: '
-      <div id="studyToday">
+      <div id="studyToday" class="study-today">
       <!-- 如果不要滚动，则去掉 vue-seamless-scroll标签就行了，这个插件使用cdn向左向右滚动好像有问题 -->
         <vue-seamless-scroll
           :data="content"

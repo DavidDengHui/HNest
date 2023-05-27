@@ -53,11 +53,11 @@ sidebar:
     side_blogger:
       on: true
       avatar: https://img2.covear.top/avatar.jpg
-      shape: rectangle # circle, rectangle
+      shape: circle # circle, rectangle
       url: /about/
       title: "啊晖de老窝"
-      subtitle: "I am David H. Deng~"
-      jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+      subtitle: "😜I am David H. Deng~👋"
+      jinrishici: "千磨万击还坚劲，任尔东西南北风" # Poetry Today. You can set a string, and it will be displayed when loading fails.
       fontFammily: Titillium Web,'PingFang SC','Hiragino Sans GB','Microsoft JhengHei','Microsoft YaHei',sans-serif
       background: "#fff"
       order: 1 # 卡片排序, 数值越小，越在上面
@@ -362,7 +362,7 @@ copyright:
 
 # 首页座右铭
 motto:
-  on: true
+  on: false
   order: 3
   title: "座右铭"
   content: "沉淀后我愿意做个温暖的人，有自己的喜好，有自己的原则，有自己的信仰，不急功近利，不浮夸轻薄。宠辱不惊，淡定安逸，心静如水，不忘初心，方得始终。——凌茜"
