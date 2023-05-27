@@ -1,4 +1,4 @@
-name: Sync Gitee Repo
+name: 同步码云仓库
 
 on:
   # 使用 GitHub API 触发

@@ -1,4 +1,4 @@
-name: Pages
+name: 部署静态页面
 
 on:
   # master 分至推送时触发
@@ -45,16 +45,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "18"
-      - name: 校验 Node.js 版本
-        run: |
-          echo "node Version: " && \
-          node --version && echo " " && \
-          echo "npm Version: " && \
-          npm --version
       - name: 安装 Hexo CLI
         run: npm install -g hexo-cli
-      - name: 校验 Hexo CLI 版本
-        run: hexo --version
       - name: 环境构建
         uses: actions/checkout@v3
         with:
@@ -62,10 +54,8 @@ jobs:
       - name: 构建 GitHub Pages
         id: pages
         uses: actions/configure-pages@v3
-      - name: 安装 Node.js 依赖项
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: 编译 Hexo 项目使用 hnest.github.io
-        run: hexo generate --config yml/hnest.github.io.yml
+        run: hexo clean && hexo generate --config yml/hnest.github.io.yml
       - name: 上传静态文件至 HNest/hnest.github.io
         env:
           path_name: './public'
@@ -89,16 +79,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "18"
-      - name: 校验 Node.js 版本
-        run: |
-          echo "node Version: " && \
-          node --version && echo " " && \
-          echo "npm Version: " && \
-          npm --version
       - name: 安装 Hexo CLI
         run: npm install -g hexo-cli
-      - name: 校验 Hexo CLI 版本
-        run: hexo --version
       - name: 环境构建
         uses: actions/checkout@v3
         with:
@@ -106,12 +88,10 @@ jobs:
       - name: 构建 GitHub Pages
         id: pages
         uses: actions/configure-pages@v3
-      - name: 安装 Node.js 依赖项
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: 编译 Hexo 项目使用 hnest.eu.org
         env:
           url: ${{ steps.deployment.outputs.page_url }}
-        run: hexo generate --config yml/hnest.eu.org.yml
+        run: hexo clean && hexo generate --config yml/hnest.eu.org.yml
       - name: 上传静态页面
         uses: actions/upload-pages-artifact@v1
         with:
