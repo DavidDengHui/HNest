@@ -1,4 +1,4 @@
-name: 部署静态页面
+name: 静态页面
 
 on:
   # master 分至推送时触发

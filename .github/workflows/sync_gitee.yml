@@ -1,4 +1,4 @@
-name: 同步码云仓库
+name: 同步码云
 
 on:
   # 使用 GitHub API 触发

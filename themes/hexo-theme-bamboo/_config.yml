@@ -625,22 +625,27 @@ site_footer:
       url: https://gitee.com/hnest/hnest
     - icon: fab fa-qq
       url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1187523442
-  copyright: 'Copyright © 2014 - 2023 <a href="https://hnest.eu.org" target="_blank">啊晖de老窝</a>'
+  copyright: 'Copyright © 2014 - <script type="text/javascript">document.write((new Date()).getFullYear());</script> <a href="https://hnest.eu.org" target="_blank">啊晖de老窝</a>'
   custom: # 根据需要自行取消注释，label: 'markdown格式'，会在下面继续增加内容
-    - label: 'Powered by <a href="https://hexo.io/zh-cn/docs/" target="_blank">Hexo</a> | Theme <a href="https://github.com/yuang01/theme" target="_blank">Bamboo</a><br>'
-    - label: '本网站由'
+    # - label: 'Powered by <a href="https://hexo.io/zh-cn/docs/" target="_blank">Hexo</a> | Theme <a href="https://github.com/yuang01/theme" target="_blank">Bamboo</a><br>'
+    - label: '<br>本网站由'
     - label: '
-              <a href="https://gitee.com/" title="Gitee Pages" target="_blank"><img src="https://img2.covear.top/2023-05-21-gitee_logo.svg" style="height: 2rem;"></a>
+              <!--a href="https://gitee.com/" title="Gitee Pages" target="_blank"><img src="https://img2.covear.top/2023-05-21-gitee_logo.svg" style="height: 2rem;"></a>
               <span style="margin-right: 1rem;"></span>
               <a href="https://github.com/" title="GitHub Pages" target="_blank"><img src="https://img2.covear.top/2023-05-21-github_logo.svg" style="height: 2rem;"></a>
-              <span style="margin-right: 1rem;"></span>
-              <a href="https://vercel.com/" title="Vercel" target="_blank"><img src="https://img2.covear.top/2023-05-21-vercel_logo.svg" style="height: 2rem;"></a>
-              <span style="margin-right: 1rem;"></span>
+              <span style="margin-right: 1rem;"></span-->
               <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" title="又拍云" target="_blank"><img src="https://img2.covear.top/2023-05-21-upyun_logo.svg" style="height: 2.0rem;"></a>    
               <span style="margin-right: 1rem;"></span>
               <a href="https://www.qiniu.com/" title="七牛云" target="_blank"><img src="https://img2.covear.top/2023-05-21-qiniu_logo.svg" style="height: 2rem;"></a>
             '
-    - label: '提供CDN加速/云储存服务<br><br/><a href="http://beian.miit.gov.cn/" target="_blank">湘ICP备17019987号</a><br><br>'
+    - label: '提供CDN加速/云储存服务<br><br>'
+    - label: '
+              [![Gitee Commits](https://gitee.badge.hnest.eu.org/svg/commits/hnest/hnest)](https://gitee.com/hnest/hnest/pages)<br>
+              [![GitHub Pages Status](https://github.ahome.eu.org/DavidDengHui/HNest/actions/workflows/deploy_pages.yml/badge.svg)](https://github.com/DavidDengHui/HNest/actions)<br>
+              [![Vercel Status](https://vercel.badge.hnest.eu.org/api/daviddenghui/hnest)](https://vercel.com/daviddenghui/hnest/deployments)<br>
+              [![Netlify Status](https://api.netlify.com/api/v1/badges/13dc7751-4d7d-424e-8d04-e6e5263b093f/deploy-status)](https://app.netlify.com/sites/hnest/deploys)<br>
+            '
+    - label: '<br/><a href="http://beian.miit.gov.cn/" target="_blank">湘ICP备17019987号</a><br><br>'
 
 
 # tag标签 按钮，文本高亮等等..
