@@ -421,7 +421,7 @@ valine:
   appid: "RvGF0IH41tlDwRLJKa1TuwGs-gzGzoHsz"
   appkey: "ezBgrVppWhX9VfNe4dfOyO1v"
   avatar: "retro" # 匿名者头像选项 https://valine.js.org/avatar.html
-  placeholder: "客官，说点什么吧" # 评论内容输入框的 placeholder
+  placeholder: "客官，说点什么吧~" # 评论内容输入框的 placeholder
   master: "0e175053e9faac02e451b300a4655270" # 博主标签识别，博主邮箱md5 可以去md5加密网站，例如 https://md5jiami.51240.com/ ，将自己的邮箱输入， 得到 32位小写 的字符串
   friends: [] # 小伙伴的 邮箱md5， 是个数组
   requiredFields: ["nick", "mail"] # 设置必填项 ['nick', 'mail'] nick为昵称必填， mail为邮箱必填，建议设置必填，填写qq邮箱，会使用qq头像作为头像
@@ -454,8 +454,8 @@ gitment:
 # 畅言评论
 changyan:
   on: false
-  appId:
-  conf:
+  appId: "cywHhoxa8"
+  conf: "d4e504725d360d6e4b876ad0d76e9698"
 
 # gitalk评论
 gitalk:
@@ -468,7 +468,7 @@ gitalk:
 
 # utterance 评论  官网：https://utteranc.es/, 建议用这个评论
 utterance:
-  on: true
+  on: false
   # 仓库名字，格式：你的用户 ID/ 仓库名称，如：yuang01/yuang01.github.io
   repo:
   # 主题
@@ -514,7 +514,7 @@ waline:
 
 # 弹幕 只对valine评论有效
 danmu:
-  on: false
+  on: true
   loop: true # 设为true，则弹幕完了之后，继续查询评论接口，将该篇文章的评论再显示在弹幕里
   delay: 5000 # 每条弹幕之间出现的间隔时间
   speed: 40 # 弹幕运行的速度, 越小越快
