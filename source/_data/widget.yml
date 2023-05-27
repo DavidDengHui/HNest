@@ -23,7 +23,7 @@ home_widget:
     '
   - class_name: myswiper
     id_name: myswiper
-    order: -1
+    order: 100
     name: (゜-゜)つロ 干杯~
     icon: fa-brands fa-bilibili fa-shake fa-xl
     icon_color: '#056DE8'
@@ -53,7 +53,7 @@ home_widget:
     '
   - class_name: movie_swiper
     id_name: movie_swiper
-    order: -1
+    order: 101
     name: 近日の热映
     icon: fa-solid fa-film fa-beat fa-xl
     icon_color: '#27a'
@@ -84,7 +84,7 @@ home_widget:
     '
   - class_name: study_today
     id_name: study_today
-    order: -1
+    order: 102
     name: 伱是今日の懂王！
     icon: fa-brands fa-twitter fa-shake fa-xl
     icon_color: '#1da1f2'
@@ -115,7 +115,7 @@ home_widget:
 widget_library_sticky:
   - class_name: testWidget
     id_name: testWidget
-    order: -1
+    order: 9
     name: 实时の热点
     icon: fa-brands fa-weibo fa-shake fa-xl
     icon_color: '#d63130'
@@ -146,7 +146,7 @@ widget_library_sticky:
     '
   - class_name: historyToday
     id_name: historyToday
-    order: -1
+    order: 8
     name: 今日の历史
     icon: fa-solid fa-calendar-days fa-flip fa-xl
     icon_color: '#d63130'
