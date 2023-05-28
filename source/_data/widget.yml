@@ -8,7 +8,14 @@ home_widget:
     icon_color: red
     url: /#
     background: '#fff'
-    html: '<img src="https://api.dzzui.com/api/ip" style="width:100%">'
+    html: '
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet" />
+    <script src="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <a data-fancybox="gallery" data-src="https://api.dzzui.com/api/ip">
+      <img src="https://api.dzzui.com/api/ip" style="width:100%">
+    </a>
+    '
   - class_name: my_github_chart
     id_name: my_github_chart
     order: -1
@@ -18,8 +25,11 @@ home_widget:
     url: https://github.com/DavidDengHui
     background: '#fff'
     html: '
-      <div id="github_container"></div>
-      <img src="https://ghchart.rshah.org/2d2d2d/DavidDengHui" alt="Github chart of DavidDengHui" style="width:100%"/>
+      <div id="github_container">
+        <a data-fancybox="gallery" data-src="https://ghchart.rshah.org/2d2d2d/DavidDengHui">
+          <img src="https://ghchart.rshah.org/2d2d2d/DavidDengHui" alt="Github chart of DavidDengHui" style="width:100%"/>
+        </a>
+      </div>
     '
   - class_name: myswiper
     id_name: myswiper
@@ -27,14 +37,14 @@ home_widget:
     name: (゜-゜)つロ 干杯~
     icon: fa-brands fa-bilibili fa-shake fa-xl
     icon_color: '#056DE8'
-    url: https://www.bilibili.com/
+    url: https://www.bilibili.com/v/popular/rank/all
     background: '#fff'
     html: '
       <div id="mySwiper" @mouseenter="stopAutoPlay()" @mouseleave="startAutoPlay()"> 
         <swiper class="myswiper" ref="myswiper" style="height:350px;" :options="swiperOption">
           <swiper-slide v-for="(item, index) in listBili" :key="index"> 
-            <a :href="item.short_link_v2" :title="item.tname + `区 @` + item[`owner`].name + `（` + item.pub_location + `）`" class="toPath" target="_blank"> 
-              <img class="no-lazy" :src="item.pic" style="width:100%;height:100%;object-fit: cover;"> 
+            <a :href="item.short_link_v2" :title="item.tname + `区 @` + item[`owner`].name + `（` + item.pub_location + `）`" class="toPath" target="_blank"  data-fancybox data-type="iframe" data-preload="false"> 
+              <span data-fancybox="gallery" :data-src="item.pic"><img class="no-lazy" :src="item.pic" style="width:100%;height:100%;object-fit: cover;"></span>
               <div class="mySwiper-text"> 
                 <h1 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
                   <strong style="color: #FF0000CC; font-size: 1.5em; font-style: italic; text-shadow: 2px 2px 4px black;">TOP{{index+1}}</strong>&nbsp;<i class="fa-brands fa-hotjar fa-beat fa-lg" style="color: #c82828;"></i>&nbsp;<span style="border-radius: 500px; border-color: #ff000088; border-style: outset; background: #FF000088;"> &nbsp;{{(item["stat"].view / 10000).toFixed(1)}}w&nbsp;</span>
@@ -63,19 +73,19 @@ home_widget:
     html: '
       <div id="douban">
         <vue-seamless-scroll :data="listData" :class-option="classOption" class="warp" >
-          <ul class="ul-item" :style="{width: bliWidth}">
-            <!-- 在这里改, 手动修改a连接的href值和img的src值, 如果你会进阶，你可以使用v-for, 或者数据使用动态数据-->
+          <ul class="ul-item" :style="{width: conWidth}">
             <li class="li-item" v-for="(item, index) in listData" :key="index"> 
-              <a :href="item.info.url" target="_blank"> 
+              <a data-fancybox="gallery" :data-src="item.info.imgurl">
                 <img class="no-lazy" :src="item.info.imgurl"> 
-                <div class="douban-content"> 
+              </a>
+              <div class="douban-content"> 
+                <span :href="item.info.url" target="_blank" data-fancybox data-type="iframe" data-preload="false"> 
                   <p class="title">《{{item.title}}》</p> 
                   <p class="score">评分: <span class="title">{{item.info.pingfen}}</span></p> 
                   <p class="desc">{{item.info.pingjia}}</p> 
-                </div> 
-              </a> 
+                </span> 
+              </div> 
             </li>
-            <!-- 在这里结束 -->
           </ul>
         </vue-seamless-scroll>
       </div>
@@ -102,7 +112,7 @@ home_widget:
           <div class="study-container" v-for="(item, index) in content" :key="index">
             <div class="left">
               <div class="order"># </div>
-              <div class="name"><a :href="`https://bing.covear.top/search?q=` + item" target="_blank" title="让 New Bing 告诉你更多！">{{item}}</a></div>
+              <div class="name"><a :href="`https://bing.covear.top/search?q=` + item" target="_blank" title="让 New Bing 告诉你更多！" data-fancybox data-type="iframe" data-preload="false">{{item}}</a></div>
             </div>
           </div>
         </vue-seamless-scroll>
@@ -135,7 +145,7 @@ widget_library_sticky:
           <div class="weibo-container" v-for="(item, index) in content" :key="index">
             <div class="left">
               <div class="order" :class="{ red: index<=2 }">{{index + 1}}</div>
-              <div class="name"><a :href="item.url" target="_blank" :title="item.name">{{item.name}}</a></div>
+              <div class="name"><a :href="item.url" target="_blank" :title="item.name" data-fancybox data-type="iframe" data-preload="false">{{item.name}}</a></div>
             </div>
             <div class="hot">{{item.hot}}</div>
           </div>
@@ -158,12 +168,14 @@ widget_library_sticky:
         <p style="color: #d63130;font-size: large; font-weight: bold; text-align: center;">{{ date | formatDate }}</p>
       </div>
       <div id="MoyuDay">
-        <img class="no-lazy" :src="moyu.url" style="width:100%">
+        <a data-fancybox="gallery" :data-src="moyu.url">
+          <img class="no-lazy" :src="moyu.url" style="width:100%">
+        </a>
       </div>
       <div id="myHistorySwiper" @mouseenter="stopAutoPlay()" @mouseleave="startAutoPlay()">
         <swiper class="myhistoryswiper" ref="myhistoryswiper" style="height:80px;" :options="swiperOption">
           <swiper-slide v-for="(item, index) in content" :key="index">
-            <a style="color: #d63130;" :href="item.url" target="_blank">
+            <a style="color: #d63130;" :href="item.url" target="_blank" data-fancybox data-type="iframe" data-preload="false">
             <center>
               <p style="font-size: x-large; font-weight: bold;">
                 <i class="fa-solid fa-quote-left fa-bounce"></i>&nbsp;{{item.year}}&nbsp;<i class="fa-solid fa-quote-right fa-bounce"></i>

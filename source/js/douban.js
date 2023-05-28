@@ -10,7 +10,7 @@ new Vue({
         limitMoveNum: 2,
         direction: 3,
       },
-      bliWidth: '720px'
+      conWidth: '720px'
     };
   },
   created() {
@@ -27,7 +27,7 @@ new Vue({
       })
       .then((data) => {
         this.listData = data.data;
-        this.bliWidth = Number(data.data.length) * 120 + 'px';
+        this.conWidth = Number(data.data.length) * 120 + 'px';
       })
       .catch((err) => {
         console.log("err", err);

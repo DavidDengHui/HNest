@@ -53,7 +53,7 @@ sidebar:
     side_blogger:
       on: true
       avatar: https://img2.covear.top/avatar.jpg
-      shape: circle # circle, rectangle
+      shape: rectangle # circle, rectangle
       url: /about/
       title: "啊晖de老窝"
       subtitle: "😜I am David H. Deng~👋"
