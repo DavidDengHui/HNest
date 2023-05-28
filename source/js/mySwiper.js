@@ -34,7 +34,7 @@ new Vue({
       },
       listData: [{url: '', pic: '', title: '', desc: ''}],
       listURL: [{title: '', heat: '', link: ''}],
-      listBili: [{url: '', pic: '', title: '', desc: '', dynamic: '', short_link_v2: ''}],
+      listBili: [{url: '', pic: '', tname: '', title: '', desc: '', dynamic: '', short_link_v2: ''}],
     };
   },
   computed: {
@@ -93,7 +93,7 @@ new Vue({
       });
     },
     getBili() {
-      fetch("https://tcc.covear.top/api.php?token=get_bili&hook_name=get_bili&ps=50&pn=1", {
+      fetch("https://tcc.covear.top/api.php?token=get_bili&hook_name=get_bili&type=rank", {
         method: "GET",
       })
       .then((res) => {

@@ -37,10 +37,11 @@ home_widget:
               <img class="no-lazy" :src="item.pic" style="width:100%;height:100%;object-fit: cover;"> 
               <div class="mySwiper-text"> 
                 <h1 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
-                  <strong style="color: #FF0000CC; font-size: 1.5em; font-style: italic; text-shadow: 2px 2px 4px black;">TOP{{index+1}}</strong>&nbsp;<i class="fa-brands fa-hotjar fa-beat fa-lg" style="color: #c82828;"></i>&nbsp;<span style="border-radius: 500px; border-color: #ff000088; border-style: outset; background: #FF000088;"> &nbsp;<span v-if="item[`rcmd_reason`].content">「{{item["rcmd_reason"].content}}」· </span>{{(item["stat"].view / 10000).toFixed(1)}}w&nbsp;</span>
+                  <strong style="color: #FF0000CC; font-size: 1.5em; font-style: italic; text-shadow: 2px 2px 4px black;">TOP{{index+1}}</strong>&nbsp;<i class="fa-brands fa-hotjar fa-beat fa-lg" style="color: #c82828;"></i>&nbsp;<span style="border-radius: 500px; border-color: #ff000088; border-style: outset; background: #FF000088;"> &nbsp;{{(item["stat"].view / 10000).toFixed(1)}}w&nbsp;</span>
                 </h1> 
                 <h2 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" :title="item.title">{{item.title}}</h2> 
-                <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" :title="item.desc">{{item.desc}}<span v-if="item.dynamic"><br><br>（ps: {{item.dynamic}}）</span></p> 
+                <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" :title="item.desc">{{item.desc}}</p> 
+                <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" :title="`（ps: ` + item.dynamic + `）`" v-if="item.dynamic">（ps: {{item.dynamic}}）</p> 
               </div> 
             </a> 
           </swiper-slide>
