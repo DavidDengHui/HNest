@@ -34,6 +34,7 @@ new Vue({
       },
       listData: [{url: '', pic: '', title: '', desc: ''}],
       listURL: [{title: '', heat: '', link: ''}],
+      listBili: [{url: '', pic: '', title: '', desc: '', dynamic: '', short_link_v2: ''}],
     };
   },
   computed: {
@@ -42,8 +43,9 @@ new Vue({
     },
   },
   created() {
-    this.getList();
-    this.getURL();
+    // this.getList();
+    // this.getURL();
+    this.getBili();
   },
   methods: {
     // 鼠标移入停止轮播
@@ -90,5 +92,23 @@ new Vue({
         console.log("err", err);
       });
     },
+    getBili() {
+      fetch("https://tcc.covear.top/api.php?token=get_bili&hook_name=get_bili&ps=50&pn=1", {
+        method: "GET",
+      })
+      .then((res) => {
+        return res.json();
+      })
+      .then((data) => {
+        let arr = data.data.list.filter(el => {
+          return el.pic;
+        });
+        this.listBili = data.data.list;
+        // console.log(this.listBili);
+      })
+      .catch((err) => {
+        console.log("err", err);
+      });
+    }
   },
 });
