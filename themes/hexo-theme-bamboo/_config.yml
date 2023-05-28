@@ -647,16 +647,16 @@ site_footer:
         <span style="margin-right: 1rem;"></span>
         <a href="https://www.qiniu.com/" title="七牛云" target="_blank"><img src="https://img2.covear.top/2023-05-21-qiniu_logo.svg" style="height: 2rem;"></a>
         <span style="margin-right: 1rem;"></span-->
-        <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" title="又拍云" target="_blank"><img src="https://img2.covear.top/2023-05-21-upyun_logo.svg" style="height: 2.0rem;"></a>
+        <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" title="加入又拍云联盟！" target="_blank"><img src="https://img2.covear.top/2023-05-21-upyun_logo.svg" style="height: 2.0rem;"></a>
         '
     - label: "提供CDN加速/云储存服务<br><br>"
-    - label: "
-        [![Gitee Commits](https://gitee.badge.hnest.eu.org/svg/commits/hnest/hnest)](https://gitee.com/hnest/hnest/pages)<br>
-        [![GitHub Pages Status](https://github.ahome.eu.org/DavidDengHui/HNest/actions/workflows/deploy_pages.yml/badge.svg)](https://github.com/DavidDengHui/HNest/actions)<br>
-        [![Vercel Status](https://vercel.badge.hnest.eu.org/api/daviddenghui/hnest)](https://vercel.com/daviddenghui/hnest/deployments)<br>
-        [![Netlify Status](https://api.netlify.com/api/v1/badges/13dc7751-4d7d-424e-8d04-e6e5263b093f/deploy-status)](https://app.netlify.com/sites/hnest/deploys)<br>
-        "
-    - label: '<br/><a href="http://beian.miit.gov.cn/" target="_blank">湘ICP备17019987号</a><br><br>'
+    - label: '
+        [![Gitee Commits](https://gitee.badge.hnest.eu.org/svg/commits/hnest/hnest)](https://gitee.com/hnest/hnest/commits/master "Gitee Commits")<br>
+        [![GitHub Pages Status](https://github.ahome.eu.org/DavidDengHui/HNest/actions/workflows/deploy_pages.yml/badge.svg)](https://github.ahome.eu.org/DavidDengHui/HNest/commits/master "GitHub Commits")<br>
+        [![Vercel Status](https://vercel.badge.hnest.eu.org/api/daviddenghui/hnest)](https://vercel.com/daviddenghui/hnest/deployments "Vercel Status")<br>
+        [![Netlify Status](https://api.netlify.com/api/v1/badges/13dc7751-4d7d-424e-8d04-e6e5263b093f/deploy-status)](https://app.netlify.com/sites/hnest/deploys "Netlify Status")<br>
+      '
+    - label: '<br/><a href="http://beian.miit.gov.cn/" target="_blank" title="啊晖de老窝">湘ICP备17019987号</a><br><br>'
 
 # tag标签 按钮，文本高亮等等..
 tag_plugins:
