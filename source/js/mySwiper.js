@@ -93,17 +93,17 @@ new Vue({
       });
     },
     getBili() {
-      fetch("https://tcc.covear.top/api.php?token=get_bili&hook_name=get_bili&type=rank", {
+      fetch("https://api.hnest.eu.org/doit?token=get_info&hook_name=bilibili&type=rank", {
         method: "GET",
       })
       .then((res) => {
         return res.json();
       })
       .then((data) => {
-        let arr = data.data.list.filter(el => {
+        let arr = data.callback.data.list.filter(el => {
           return el.pic;
         });
-        this.listBili = data.data.list;
+        this.listBili = data.callback.data.list;
         // console.log(this.listBili);
       })
       .catch((err) => {
