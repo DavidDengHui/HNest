@@ -1,7 +1,7 @@
 ---
 title: Windows 最佳拍档 Fedora Remix for WSL2
 date: 2023-05-29 20:56:44
-tags: ['Windows 11', 'WSL2', 'Fedora', 'Red Hat', '教程', '白嫖']
+tags: ['Windows', 'WSL2', 'Fedora', 'Red Hat', '教程', '白嫖']
 ---
 > **Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从微软商城安装，是专为 WSL 设计的受欢迎系统 Fedora Linux 的一个 “remix”，带来了 Fedora Linux 发行版特定的工具、DNF 包管理器、对 WSL 的 Fedora Linux 发行包仓库的访问、对 COPR，EPEL 和 RPM Fusion 仓库上可用其他软件包的轻松访问。**
 

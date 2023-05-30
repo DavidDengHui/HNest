@@ -130,7 +130,7 @@ widget_library_sticky:
     name: 实时の热点
     icon: fa-brands fa-weibo fa-shake fa-xl
     icon_color: '#d63130'
-    url: https://weibo.com/newlogin?tabtype=search
+    url: https://weibo.com/hot/search
     background: '#fff'
     html: '
       <div id="myWeibo">
@@ -145,9 +145,9 @@ widget_library_sticky:
           <div class="weibo-container" v-for="(item, index) in content" :key="index">
             <div class="left">
               <div class="order" :class="{ red: index<=2 }">{{index + 1}}</div>
-              <div class="name"><a :href="item.url" target="_blank" :title="item.name" data-fancybox data-type="iframe" data-preload="false">{{item.name}}</a></div>
+              <div class="name"><span :href="`https://s.weibo.com/weibo?q=%23`+item.word+`%23`" target="_blank" :title="item.word" data-fancybox data-type="iframe" data-preload="false">{{item.word}}</span></div>
             </div>
-            <div class="hot">{{item.hot}}</div>
+            <div class="hot">{{item.num}}</div>
           </div>
         </vue-seamless-scroll>
       </div>
