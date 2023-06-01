@@ -37,6 +37,8 @@ jobs:
           user_name: 'DavidDengHui'
           user_email: 'david.no.1@msn.cn'
         run: |
+          ls
+          exit
           git clone https://gitee.com/${{ env.gitee_name }}/${{ env.repo_name }}.git
           cd ./${{ env.repo_name }}
           git config --global user.name "${{ env.user_name }}"
