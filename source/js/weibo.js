@@ -22,7 +22,7 @@ new Vue({
             return res.json();
           })
           .then((data) => {
-            this.content = data.callback.data.realtime;
+            this.content = data.data.realtime;
           })
           .catch((err) => {
             console.log("err", err);
