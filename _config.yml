@@ -120,6 +120,19 @@ feed:
   content_limit_delim: ' '
   order_by: -date
 
+# hexo-renderer-marked
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+  modifyAnchors: ''
+  anchorAlias: false
+  autolink: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
