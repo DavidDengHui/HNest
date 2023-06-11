@@ -1,0 +1,36 @@
+name: 测试触发
+
+on:
+  # 使用 GitHub API 触发
+  repository_dispatch:
+    types: [github]
+
+  # 允许从“操作”选项卡手动运行此工作流
+  workflow_dispatch:
+
+# 设置 GITHUB_TOKEN 的权限以允许部署到 GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 只允许一次并发部署，跳过在进行中的运行和最近排队的运行之间排队的运行。
+# 但是，不要取消正在进行的运行，因为我们希望完成这些生产部署。
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# 默认使用 bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # 编译 GitHub Pages
+  Sync-Gitee:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 触发运行
+        run: |
+          pwd
+          ls
