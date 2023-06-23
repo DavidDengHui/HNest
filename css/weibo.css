@@ -32,3 +32,9 @@
 .weibo-container .red {
     color: red;
 }
+.weibo-container .name a {
+    color: #2d2d2d;
+}
+.darkModel .weibo-container .name a {
+    color: #c9d1d9;
+}

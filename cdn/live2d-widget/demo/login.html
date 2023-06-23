@@ -1407,7 +1407,7 @@ window.addEventListener("load", () => {
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Fri Jun 23 2023 17:34:28 GMT+0000 (Coordinated Universal Time)</div>
+            <div id="last-update" style="display: none;">Fri Jun 23 2023 18:09:05 GMT+0000 (Coordinated Universal Time)</div>
             <div id="last-update-show">2023-06-23 日</div>
           
         </div>
@@ -1477,7 +1477,7 @@ window.addEventListener("load", () => {
       <div class="content">
          <div id="myWeibo">
 <!-- 如果不要滚动，则去掉 vue-seamless-scroll标签就行了，这个插件使用cdn向左向右滚动好像有问题 -->
-<vue-seamless-scroll :data="content" :class-option="classOption" class="warp" > <div class="weibo-container" v-for="(item, index) in content" :key="index"> <div class="left"> <div class="order" :class="{ red: index<=2 }">{{index + 1}}</div> <div class="name"><span :href="`https://s.weibo.com/weibo?q=%23`+item.word+`%23`" target="_blank" :title="item.word" data-fancybox data-type="iframe" data-preload="false">{{item.word}}</span></div> </div> <div class="hot">{{item.num}}</div> </div> </vue-seamless-scroll> </div>
+<vue-seamless-scroll :data="content" :class-option="classOption" class="warp" > <div class="weibo-container" v-for="(item, index) in content" :key="index"> <div class="left"> <div class="order" :class="{ red: index<=2 }">{{index + 1}}</div> <div class="name"><a :href="`https://s.weibo.com/weibo?q=%23`+item.word+`%23`" target="_blank" :title="item.word" data-fancybox data-type="iframe" data-preload="false">{{item.word}}</a></div> </div> <div class="hot">{{item.num}}</div> </div> </vue-seamless-scroll> </div>
 <script defer src="/js/weibo.js"></script> <link href="/css/weibo.css" rel="stylesheet"> 
       </div>
   </div>

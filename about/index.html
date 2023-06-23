@@ -586,7 +586,7 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <h1 id="个人介绍"><a href="#个人介绍" class="headerlink" title="个人介绍"></a>个人介绍</h1><p>博主: David H. Deng | 性别: 男 | 邮箱: <a href="mailto:&#100;&#97;&#x76;&#x69;&#100;&#46;&#x6e;&#x6f;&#x2e;&#49;&#64;&#109;&#x73;&#x6e;&#x2e;&#x63;&#x6e;">&#100;&#97;&#x76;&#x69;&#100;&#46;&#x6e;&#x6f;&#x2e;&#49;&#64;&#109;&#x73;&#x6e;&#x2e;&#x63;&#x6e;</a></p>
+        <h1 id="个人介绍"><a href="#个人介绍" class="headerlink" title="个人介绍"></a>个人介绍</h1><p>博主: David H. Deng | 性别: 男 | 邮箱: <a href="mailto:&#100;&#x61;&#x76;&#x69;&#100;&#x2e;&#x6e;&#111;&#46;&#49;&#64;&#109;&#x73;&#x6e;&#x2e;&#x63;&#110;">&#100;&#x61;&#x76;&#x69;&#100;&#x2e;&#x6e;&#111;&#46;&#49;&#64;&#109;&#x73;&#x6e;&#x2e;&#x63;&#110;</a></p>
 <h2 id="我的书籍"><a href="#我的书籍" class="headerlink" title="我的书籍"></a>我的书籍</h2><div class="site-card-group"><a class="site-card" target="_blank" rel="noopener" href="http://www.baidu.com"><div class="img"><img class="lazy lazyload placeholder" src="https://pic4.zhimg.com/v2-7fcb0d73e1d90788ccf136e22ba7b1bd_r.jpg" class="lazyload placeholder" data-srcset="https://pic4.zhimg.com/v2-7fcb0d73e1d90788ccf136e22ba7b1bd_r.jpg" srcset="/img/loading.min.svg"/></div><div class="info"><img class="lazy lazyload placeholder" src="https://pic4.zhimg.com/80/v2-45eb5749949e7f90a5c788f9bc5721ef_1440w.jpg" class="lazyload placeholder" data-srcset="https://pic4.zhimg.com/80/v2-45eb5749949e7f90a5c788f9bc5721ef_1440w.jpg" srcset="/img/loading.min.svg"/><span class="title">木兮</span><span class="desc">这是描述</span></div></a>
 <a class="site-card" target="_blank" rel="noopener" href="https://yuang01.gitee.io/"><div class="img"><img class="lazy lazyload placeholder" src="https://pic4.zhimg.com/80/v2-f549722dac8f777693c090a92498de0f_1440w.jpg" class="lazyload placeholder" data-srcset="https://pic4.zhimg.com/80/v2-f549722dac8f777693c090a92498de0f_1440w.jpg" srcset="/img/loading.min.svg"/></div><div class="info"><img class="lazy lazyload placeholder" src="https://pic3.zhimg.com/80/v2-8bb491487280587026cd576b224ca91e_1440w.jpg" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-8bb491487280587026cd576b224ca91e_1440w.jpg" srcset="/img/loading.min.svg"/><span class="title">yuang01</span><span class="desc">这是描述哦</span></div></a>
 <a class="site-card" target="_blank" rel="noopener" href="http://www.baidu.com"><div class="img"><img class="lazy lazyload placeholder" src="https://pic4.zhimg.com/v2-7fcb0d73e1d90788ccf136e22ba7b1bd_r.jpg" class="lazyload placeholder" data-srcset="https://pic4.zhimg.com/v2-7fcb0d73e1d90788ccf136e22ba7b1bd_r.jpg" srcset="/img/loading.min.svg"/></div><div class="info"><img class="lazy lazyload placeholder" src="https://pic4.zhimg.com/80/v2-45eb5749949e7f90a5c788f9bc5721ef_1440w.jpg" class="lazyload placeholder" data-srcset="https://pic4.zhimg.com/80/v2-45eb5749949e7f90a5c788f9bc5721ef_1440w.jpg" srcset="/img/loading.min.svg"/><span class="title">木兮</span><span class="desc">这是描述</span></div></a>
@@ -1175,7 +1175,7 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Fri Jun 23 2023 17:34:28 GMT+0000 (Coordinated Universal Time)</div>
+            <div id="last-update" style="display: none;">Fri Jun 23 2023 18:09:05 GMT+0000 (Coordinated Universal Time)</div>
             <div id="last-update-show">2023-06-23 日</div>
           
         </div>
@@ -1245,7 +1245,7 @@
       <div class="content">
          <div id="myWeibo">
 <!-- 如果不要滚动，则去掉 vue-seamless-scroll标签就行了，这个插件使用cdn向左向右滚动好像有问题 -->
-<vue-seamless-scroll :data="content" :class-option="classOption" class="warp" > <div class="weibo-container" v-for="(item, index) in content" :key="index"> <div class="left"> <div class="order" :class="{ red: index<=2 }">{{index + 1}}</div> <div class="name"><span :href="`https://s.weibo.com/weibo?q=%23`+item.word+`%23`" target="_blank" :title="item.word" data-fancybox data-type="iframe" data-preload="false">{{item.word}}</span></div> </div> <div class="hot">{{item.num}}</div> </div> </vue-seamless-scroll> </div>
+<vue-seamless-scroll :data="content" :class-option="classOption" class="warp" > <div class="weibo-container" v-for="(item, index) in content" :key="index"> <div class="left"> <div class="order" :class="{ red: index<=2 }">{{index + 1}}</div> <div class="name"><a :href="`https://s.weibo.com/weibo?q=%23`+item.word+`%23`" target="_blank" :title="item.word" data-fancybox data-type="iframe" data-preload="false">{{item.word}}</a></div> </div> <div class="hot">{{item.num}}</div> </div> </vue-seamless-scroll> </div>
 <script defer src="/js/weibo.js"></script> <link href="/css/weibo.css" rel="stylesheet"> 
       </div>
   </div>

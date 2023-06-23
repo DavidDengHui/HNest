@@ -4468,26 +4468,6 @@ pre:hover::-webkit-scrollbar-thumb:hover,
 .darkModel .motto h3 {
   color: #c9d1d9;
 }
-.darkModel .study-today {
-  transition: background 0.3s;
-  background: #2d3032;
-}
-.darkModel .study-today .study-container {
-  color: #8b949e;
-}
-.darkModel .study-today .study-container .name a {
-  color: #c9d1d9;
-}
-.darkModel .myWeibo {
-  transition: background 0.3s;
-  background: #2d3032;
-}
-.darkModel .myWeibo .weibo-container {
-  color: #8b949e;
-}
-.darkModel .myWeibo .weibo-container .name a {
-  color: #c9d1d9;
-}
 .darkModel .index-notice {
   transition: background 0.3s;
   background: #2d3032;
