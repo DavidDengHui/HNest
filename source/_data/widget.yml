@@ -145,7 +145,7 @@ widget_library_sticky:
           <div class="weibo-container" v-for="(item, index) in content" :key="index">
             <div class="left">
               <div class="order" :class="{ red: index<=2 }">{{index + 1}}</div>
-              <div class="name"><span :href="`https://s.weibo.com/weibo?q=%23`+item.word+`%23`" target="_blank" :title="item.word" data-fancybox data-type="iframe" data-preload="false">{{item.word}}</span></div>
+              <div class="name"><a :href="`https://s.weibo.com/weibo?q=%23`+item.word+`%23`" target="_blank" :title="item.word" data-fancybox data-type="iframe" data-preload="false">{{item.word}}</a></div>
             </div>
             <div class="hot">{{item.num}}</div>
           </div>
