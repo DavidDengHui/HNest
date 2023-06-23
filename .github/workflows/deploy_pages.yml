@@ -68,7 +68,7 @@ jobs:
           git init
           git add .
           git commit -m "${{ github.event.head_commit.message }}"
-          git remote add origin https://${{ github.actor }}:${{ secrets.TOKEN }}@github.com/HNest/hnest.github.io
+          git remote add origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/HNest/hnest.github.io
           git checkout -b main
           git push origin main -f
   # 编译 GitHub Pages
