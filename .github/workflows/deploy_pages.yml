@@ -59,8 +59,8 @@ jobs:
       - name: 上传静态文件至 HNest/hnest.github.io
         env:
           path_name: './public'
-          user_name: 'DavidDengHui'
-          user_email: 'david.no.1@msn.cn'
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
         run: |
           cd ${{ env.path_name }}
           git config --global user.name "${{ env.user_name }}"
@@ -68,7 +68,7 @@ jobs:
           git init
           git add .
           git commit -m "${{ github.event.head_commit.message }}"
-          git remote add origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/HNest/hnest.github.io
+          git remote add origin https://${{ github.actor }}:${{ secrets.TOKEN }}@github.com/HNest/hnest.github.io
           git checkout -b main
           git push origin main -f
   # 编译 GitHub Pages
