@@ -721,7 +721,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   text-align: right;
 }
 #l_side .side_webinfo {
-  order: 7;
+  order: 10;
   background: #fff;
 }
 #l_side .side_webinfo .webinfo-item {
@@ -4466,6 +4466,26 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   color: #8b949e;
 }
 .darkModel .motto h3 {
+  color: #c9d1d9;
+}
+.darkModel .study-today {
+  transition: background 0.3s;
+  background: #2d3032;
+}
+.darkModel .study-today .study-container {
+  color: #8b949e;
+}
+.darkModel .study-today .study-container .name a {
+  color: #c9d1d9;
+}
+.darkModel .myWeibo {
+  transition: background 0.3s;
+  background: #2d3032;
+}
+.darkModel .myWeibo .weibo-container {
+  color: #8b949e;
+}
+.darkModel .myWeibo .weibo-container .name a {
   color: #c9d1d9;
 }
 .darkModel .index-notice {

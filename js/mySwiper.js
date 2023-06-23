@@ -34,6 +34,7 @@ new Vue({
       },
       listData: [{url: '', pic: '', title: '', desc: ''}],
       listURL: [{title: '', heat: '', link: ''}],
+      listBili: [{url: '', pic: '', tname: '', title: '', desc: '', dynamic: '', short_link_v2: ''}],
     };
   },
   computed: {
@@ -42,8 +43,9 @@ new Vue({
     },
   },
   created() {
-    this.getList();
-    this.getURL();
+    // this.getList();
+    // this.getURL();
+    this.getBili();
   },
   methods: {
     // 鼠标移入停止轮播
@@ -90,5 +92,23 @@ new Vue({
         console.log("err", err);
       });
     },
+    getBili() {
+      fetch("https://api.hnest.eu.org/doit?token=get_info&hook_name=bilibili&type=rank", {
+        method: "GET",
+      })
+      .then((res) => {
+        return res.json();
+      })
+      .then((data) => {
+        let arr = data.callback.data.list.filter(el => {
+          return el.pic;
+        });
+        this.listBili = data.callback.data.list;
+        // console.log(this.listBili);
+      })
+      .catch((err) => {
+        console.log("err", err);
+      });
+    }
   },
 });

@@ -16,7 +16,7 @@
 
   <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
-  <link href="/cdn/fontawesome/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <link href="/js/swiper/swiper@5.4.1.min.css" rel="stylesheet">
   
   
@@ -44,7 +44,7 @@
 
   
   
-    <link href="https://img2.covear.top/css/fancybox.css" rel="stylesheet">
+    <link href="https://fastly.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" rel="stylesheet">
   
   
     
@@ -58,8 +58,8 @@
             }
         }
     </style>
-    <script defer src="https://cdn.bootcss.com/pace/1.2.4/pace.min.js"></script>
-    <link href="https://cdn.bootcss.com/pace/1.2.4/themes/pink/pace-theme-flash.css" rel="stylesheet">
+    <script defer src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/themes/black/pace-theme-flash.min.css" rel="stylesheet">
 
     
         <script src="/js/valine/index.js"></script>
@@ -67,11 +67,11 @@
     
     <!-- 依赖于jquery和vue -->
     
-        <script src="https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     
 
     
-        <script src="https://cdn.bootcss.com/vue/2.6.11/vue.min.js"></script>
+        <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.7.9/vue.min.js"></script>
     
 
     <!-- import link -->
@@ -201,7 +201,7 @@
 <script src="/js/vue-seamless-scroll/index.js"></script>
 
 <!-- 打字机效果js -->
-<script src="https://cdn.bootcss.com/typed.js/2.0.11/typed.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 
 
     <div id="safearea">
@@ -876,69 +876,72 @@
   
     
       <section class="widget side_blogger">
-  <div class='content'>
-    
+  <div class="content">
+     
+    <a
+      class="avatar flat-box rectangle"
+      href="/about/"
+    >
+      <img src="https://img2.covear.top/avatar.jpg" class="lazyload placeholder" data-srcset="https://img2.covear.top/avatar.jpg" srcset="/img/loading.min.svg" />
+    </a>
       
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img src='https://img2.covear.top/avatar.jpg'/>
-        </a>
+    <div class="text">
       
-    
-    
-      <div class='text'>
+      <h2>啊晖de老窝</h2>
+        <p>😜I am David H. Deng~👋</p>
+ 
+      
+      <p>
+        『<span id="jinrishici-sentence"
+          >千磨万击还坚劲，任尔东西南北风</span
+        >』
+      </p>
+      <script
+        src="https://sdk.jinrishici.com/v2/browser/jinrishici.js"
+        charset="utf-8"
+      ></script>
+      
+    </div>
+     
+    <div class="social-wrapper">
+       
+      <a
+        href="/atom.xml"
+        class="social fas fa-rss flat-btn"
+        target="_blank"
+        rel="external nofollow noopener noreferrer"
+      >
         
-          <h2>啊晖de老窝</h2>
+      </a>
         
+      <a
+        href="mailto:david.no.1@msn.cn"
+        class="social fas fa-envelope flat-btn"
+        target="_blank"
+        rel="external nofollow noopener noreferrer"
+      >
         
-          <p>I am David H. Deng~</p>
-
+      </a>
         
+      <a
+        href="https://gitee.com/hnest/hnest"
+        class="social fab fa-github flat-btn"
+        target="_blank"
+        rel="external nofollow noopener noreferrer"
+      >
         
-          <p><span id="jinrishici-sentence">啊晖de老窝</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+      </a>
         
-      </div>
-    
-    
-      <div class="social-wrapper">
+      <a
+        href="tencent://AddContact/?fromId=50&amp;fromSubId=1&amp;subcmd=all&amp;uin=1187523442"
+        class="social fab fa-qq flat-btn"
+        target="_blank"
+        rel="external nofollow noopener noreferrer"
+      >
         
-          
-            <a href="/atom.xml"
-              class="social fas fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:david.no.1@msn.cn"
-              class="social fas fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://gitee.com/hnest/hnest"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="tencent://AddContact/?fromId=50&amp;fromSubId=1&amp;subcmd=all&amp;uin=1187523442"
-              class="social fab fa-qq flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
+      </a>
+       
+    </div>
     
   </div>
 </section>
@@ -958,6 +961,20 @@
       
       
         
+<section class="widget side_tagcloud">
+    
+  <header>
+    
+      <a style="color: " href='/tags/'><i class="fas fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+    <a href="/tags/Catalina/" style="font-size: 14px; color: #999">Catalina</a> <a href="/tags/Fedora/" style="font-size: 14px; color: #999">Fedora</a> <a href="/tags/Red-Hat/" style="font-size: 14px; color: #999">Red Hat</a> <a href="/tags/VMWare/" style="font-size: 14px; color: #999">VMWare</a> <a href="/tags/WSL2/" style="font-size: 14px; color: #999">WSL2</a> <a href="/tags/Windows/" style="font-size: 19px; color: #777">Windows</a> <a href="/tags/macOS/" style="font-size: 14px; color: #999">macOS</a> <a href="/tags/%E5%81%B7%E6%B8%A1/" style="font-size: 14px; color: #999">偷渡</a> <a href="/tags/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/" style="font-size: 14px; color: #999">办公软件</a> <a href="/tags/%E5%BE%AE%E4%BF%A1/" style="font-size: 14px; color: #999">微信</a> <a href="/tags/%E6%89%B9%E5%A4%84%E7%90%86/" style="font-size: 14px; color: #999">批处理</a> <a href="/tags/%E6%8E%92%E7%89%88/" style="font-size: 14px; color: #999">排版</a> <a href="/tags/%E6%8E%A8%E6%96%87/" style="font-size: 14px; color: #999">推文</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 24px; color: #555">教程</a> <a href="/tags/%E6%96%B0%E5%AA%92%E4%BD%93/" style="font-size: 14px; color: #999">新媒体</a> <a href="/tags/%E6%AD%A4%E7%94%B5%E8%84%91/" style="font-size: 14px; color: #999">此电脑</a> <a href="/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/" style="font-size: 14px; color: #999">注册表</a> <a href="/tags/%E7%99%BD%E5%AB%96/" style="font-size: 14px; color: #999">白嫖</a> <a href="/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/" style="font-size: 14px; color: #999">虚拟机</a> <a href="/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/" style="font-size: 14px; color: #999">黑苹果</a>
+    </div>
+</section>
+
   
       
       
@@ -990,7 +1007,7 @@
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">05-24</span>
+                  <span class="post-date">06-23</span>
                 
               </div>
               <a class="post-title" href="/posts/hello-world/">Hello World</a>
@@ -1003,18 +1020,18 @@
             
 
             <div class="post-img-box">
-              <a href="/posts/test2/" class="post-img " style="background-size: cover; 
+              <a href="/posts/gao-da-shang-de-wei-xin-wen-zhang/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://picx.zhimg.com/80/v2-85c31120acff76826ab53ea8934ef4bb_1440w.webp" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-85c31120acff76826ab53ea8934ef4bb_1440w.webp" srcset="/img/loading.min.svg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="/img/loading.min.svg" alt="">
               </a>
             </div>
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">05-15</span>
+                  <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/test2/">test2</a>
+              <a class="post-title" href="/posts/gao-da-shang-de-wei-xin-wen-zhang/">高大上的微信文章</a>
             </div>
           </div>
         
@@ -1024,18 +1041,18 @@
             
 
             <div class="post-img-box">
-              <a href="/posts/test/" class="post-img " style="background-size: cover; 
+              <a href="/posts/pc-xu-ni-ji-kuai-su-ti-yan-macos-catalina-10-15/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-e5c15010b8ba4608a1974403a02a2da0_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-e5c15010b8ba4608a1974403a02a2da0_1440w.webp" srcset="/img/loading.min.svg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" srcset="/img/loading.min.svg" alt="">
               </a>
             </div>
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">05-15</span>
+                  <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/test/">test</a>
+              <a class="post-title" href="/posts/pc-xu-ni-ji-kuai-su-ti-yan-macos-catalina-10-15/">PC虚拟机快速体验macOS Catalina(10.15)</a>
             </div>
           </div>
         
@@ -1045,7 +1062,28 @@
             
 
             <div class="post-img-box">
-              <a href="/posts/first/" class="post-img " style="background-size: cover; 
+              <a href="/posts/wsl2/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" srcset="/img/loading.min.svg" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">05-29</span>
+                
+              </div>
+              <a class="post-title" href="/posts/wsl2/">Windows 最佳拍档 Fedora Remix for WSL2</a>
+            </div>
+          </div>
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/posts/hui-fu-ci-dian-nao-zhong-de-ge-ren-wen-jian-jia-xian-shi/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1053,10 +1091,10 @@
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">05-15</span>
+                  <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/first/">first</a>
+              <a class="post-title" href="/posts/hui-fu-ci-dian-nao-zhong-de-ge-ren-wen-jian-jia-xian-shi/">恢复“此电脑”中的个人文件夹显示</a>
             </div>
           </div>
         
@@ -1067,7 +1105,7 @@
       
   <section class="widget side_archives">
     
-    <header><a style="color: red" href='/archives/'><i class="fas fa-archive fa-fw" aria-hidden="true"></i><span class='name'>归档</span></a></header><div class="content"><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><span class="card-archive-list-count">4</span></a></li></ul></div>
+    <header><a style="color: red" href='/archives/'><i class="fas fa-archive fa-fw" aria-hidden="true"></i><span class='name'>归档</span></a></header><div class="content"><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><span class="card-archive-list-count">4</span></a></li></ul></div>
   </section>
 
       <section class="widget side_webinfo">
@@ -1084,7 +1122,7 @@
       
         <div class="webinfo-item">
           <div>文章数目：</div>
-          <div>4 篇</div>
+          <div>5 篇</div>
         </div>
       
 
@@ -1103,6 +1141,11 @@
       
 
 
+      
+        <div class="webinfo-item">
+          <div>本站总字数：</div>
+          <div>5.7k 字</div>
+        </div>
       
 
       
@@ -1127,8 +1170,8 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Wed May 24 2023 21:42:21 GMT+0000 (Coordinated Universal Time)</div>
-            <div id="last-update-show">2023-05-24 日</div>
+            <div id="last-update" style="display: none;">Fri Jun 23 2023 14:05:41 GMT+0000 (Coordinated Universal Time)</div>
+            <div id="last-update-show">2023-06-23 日</div>
           
         </div>
         
@@ -1178,7 +1221,7 @@
           try {
             document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
           } catch (error) {
-            document.getElementById('last-update-show').innerHTML = '2023-05-24 日';
+            document.getElementById('last-update-show').innerHTML = '2023-06-23 日';
           }
         </script>
         
@@ -1188,28 +1231,28 @@
 </section>
       
   
-    <div class="widget testWidget" id="testWidget" style="order: -1;background: #fff">
+    <div class="widget testWidget" id="testWidget" style="order: 9;background: #fff">
       <header>
         
-          <a style="color: #d63130" target="_blank" rel="noopener" href='https://weibo.com/newlogin?tabtype=search'><i class="fa-brands fa-weibo fa-shake fa-xl fa-fw" aria-hidden="true"></i><span class='name'>实时の热点</span></a>
+          <a style="color: #d63130" target="_blank" rel="noopener" href='https://weibo.com/hot/search'><i class="fa-brands fa-weibo fa-shake fa-xl fa-fw" aria-hidden="true"></i><span class='name'>实时の热点</span></a>
         
       </header>
       <div class="content">
          <div id="myWeibo">
 <!-- 如果不要滚动，则去掉 vue-seamless-scroll标签就行了，这个插件使用cdn向左向右滚动好像有问题 -->
-<vue-seamless-scroll :data="content" :class-option="classOption" class="warp" > <div class="weibo-container" v-for="(item, index) in content" :key="index"> <div class="left"> <div class="order" :class="{ red: index<=2 }">{{index + 1}}</div> <div class="name"><a :href="item.url" target="_blank" :title="item.name">{{item.name}}</a></div> </div> <div class="hot">{{item.hot}}</div> </div> </vue-seamless-scroll> </div>
+<vue-seamless-scroll :data="content" :class-option="classOption" class="warp" > <div class="weibo-container" v-for="(item, index) in content" :key="index"> <div class="left"> <div class="order" :class="{ red: index<=2 }">{{index + 1}}</div> <div class="name"><span :href="`https://s.weibo.com/weibo?q=%23`+item.word+`%23`" target="_blank" :title="item.word" data-fancybox data-type="iframe" data-preload="false">{{item.word}}</span></div> </div> <div class="hot">{{item.num}}</div> </div> </vue-seamless-scroll> </div>
 <script defer src="/js/weibo.js"></script> <link href="/css/weibo.css" rel="stylesheet"> 
       </div>
   </div>
   
-    <div class="widget historyToday" id="historyToday" style="order: -1;background: #ddcdb2">
+    <div class="widget historyToday" id="historyToday" style="order: 8;background: #ddcdb2">
       <header>
         
           <a style="color: #d63130" target="_blank" rel="noopener" href='https://www.baidu.com'><i class="fa-solid fa-calendar-days fa-flip fa-xl fa-fw" aria-hidden="true"></i><span class='name'>今日の历史</span></a>
         
       </header>
       <div class="content">
-         <div id="NowDay"> <p style="color: #d63130;font-size: large; font-weight: bold; text-align: center;">{{ date | formatDate }}</p> </div> <div id="MoyuDay"> <img class="no-lazy" :src="moyu.imgurl" style="width:100%"> </div> <div id="myHistorySwiper" @mouseenter="stopAutoPlay()" @mouseleave="startAutoPlay()"> <swiper class="myhistoryswiper" ref="myhistoryswiper" style="height:80px;" :options="swiperOption"> <swiper-slide v-for="(item, index) in content" :key="index"> <a style="color: #d63130;" :href="item.url" target="_blank"> <center> <p style="font-size: x-large; font-weight: bold;"> <i class="fa-solid fa-quote-left fa-bounce"></i>&nbsp;{{item.year}}&nbsp;<i class="fa-solid fa-quote-right fa-bounce"></i> <p> </center> <p style="text-indent: ;">{{item.title}}</p> </a> </swiper-slide> </swiper> </div> <script defer src="/js/moyu.js"></script> <script defer src="/js/historyToday.js"></script> 
+         <div id="NowDay"> <p style="color: #d63130;font-size: large; font-weight: bold; text-align: center;">{{ date | formatDate }}</p> </div> <div id="MoyuDay"> <a data-fancybox="gallery" :data-src="moyu.url"> <img class="no-lazy" :src="moyu.url" style="width:100%"> </a> </div> <div id="myHistorySwiper" @mouseenter="stopAutoPlay()" @mouseleave="startAutoPlay()"> <swiper class="myhistoryswiper" ref="myhistoryswiper" style="height:80px;" :options="swiperOption"> <swiper-slide v-for="(item, index) in content" :key="index"> <a style="color: #d63130;" :href="item.url" target="_blank" data-fancybox data-type="iframe" data-preload="false"> <center> <p style="font-size: x-large; font-weight: bold;"> <i class="fa-solid fa-quote-left fa-bounce"></i>&nbsp;{{item.year}}&nbsp;<i class="fa-solid fa-quote-right fa-bounce"></i> <p> </center> <p style="text-indent: ;">{{item.title}}</p> </a> </swiper-slide> </swiper> </div> <script defer src="/js/moyu.js"></script> <script defer src="/js/historyToday.js"></script> 
       </div>
   </div>
   
@@ -1350,7 +1393,7 @@
     if (document.getElementsByClassName('mermaid').length) {
       if (window.mermaidJsLoad) mermaid.init()
       else {
-        loadScript('https://img2.covear.top/js/mermaid.min.js').then(() => {
+        loadScript('https://fastly.jsdelivr.net/npm/mermaid@10.2.0/dist/mermaid.min.js').then(() => {
           window.mermaidJsLoad = true
           mermaid.initialize({
             theme: 'default',
@@ -1581,7 +1624,7 @@
       
         
           <div class="footer-copyright">
-            <p>Copyright © 2014 - 2023 <a href="https://hnest.eu.org" target="_blank">啊晖de老窝</a></p>
+            <p>Copyright © 2014 - <script type="text/javascript">document.write((new Date()).getFullYear());</script> <a href="https://hnest.eu.org" target="_blank">啊晖de老窝</a></p>
 
           </div>
         
@@ -1589,16 +1632,18 @@
         
           <div class="footer-custom">
             
-              <div><p>Powered by <a href="https://hexo.io/zh-cn/docs/" target="_blank">Hexo</a> | Theme <a href="https://github.com/yuang01/theme" target="_blank">Bamboo</a><br></p>
+              <div><p><br>本网站由</p>
 </div>
             
-              <div><p>本网站由</p>
+              <div> <!--a href="https://gitee.com/" title="Gitee Pages" target="_blank"><img src="https://img2.covear.top/2023-05-21-gitee_logo.svg" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-21-gitee_logo.svg" srcset="/img/loading.min.svg" style="height: 2rem;"></a> <span style="margin-right: 1rem;"></span> <a href="https://github.com/" title="GitHub Pages" target="_blank"><img src="https://img2.covear.top/2023-05-21-github_logo.svg" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-21-github_logo.svg" srcset="/img/loading.min.svg" style="height: 2rem;"></a> <span style="margin-right: 1rem;"></span> <a href="https://www.qiniu.com/" title="七牛云" target="_blank"><img src="https://img2.covear.top/2023-05-21-qiniu_logo.svg" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-21-qiniu_logo.svg" srcset="/img/loading.min.svg" style="height: 2rem;"></a> <span style="margin-right: 1rem;"></span--> <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" title="加入又拍云联盟！" target="_blank"><img src="https://img2.covear.top/2023-05-21-upyun_logo.svg" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-21-upyun_logo.svg" srcset="/img/loading.min.svg" style="height: 2.0rem;"></a> </div>
+            
+              <div><p>提供CDN加速&#x2F;云储存服务<br><br></p>
 </div>
             
-              <div><p> <a href="https://gitee.com/" title="Gitee Pages" target="_blank"><img src="https://img2.covear.top/2023-05-21-gitee_logo.svg" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-21-gitee_logo.svg" srcset="/img/loading.min.svg" style="height: 2rem;"></a> <span style="margin-right: 1rem;"></span> <a href="https://github.com/" title="GitHub Pages" target="_blank"><img src="https://img2.covear.top/2023-05-21-github_logo.svg" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-21-github_logo.svg" srcset="/img/loading.min.svg" style="height: 2rem;"></a> <span style="margin-right: 1rem;"></span> <a href="https://vercel.com/" title="Vercel" target="_blank"><img src="https://img2.covear.top/2023-05-21-vercel_logo.svg" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-21-vercel_logo.svg" srcset="/img/loading.min.svg" style="height: 2rem;"></a> <span style="margin-right: 1rem;"></span> <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" title="又拍云" target="_blank"><img src="https://img2.covear.top/2023-05-21-upyun_logo.svg" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-21-upyun_logo.svg" srcset="/img/loading.min.svg" style="height: 2.0rem;"></a>     <span style="margin-right: 1rem;"></span> <a href="https://www.qiniu.com/" title="七牛云" target="_blank"><img src="https://img2.covear.top/2023-05-21-qiniu_logo.svg" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-21-qiniu_logo.svg" srcset="/img/loading.min.svg" style="height: 2rem;"></a> </p>
+              <div><p> <a target="_blank" rel="noopener" href="https://gitee.com/hnest/hnest/commits/master" title="Gitee Commits"><img src="https://gitee.badge.hnest.eu.org/svg/commits/hnest/hnest" class="lazyload placeholder" data-srcset="https://gitee.badge.hnest.eu.org/svg/commits/hnest/hnest" srcset="/img/loading.min.svg" alt="Gitee Commits"></a><br> <a target="_blank" rel="noopener" href="https://github.ahome.eu.org/DavidDengHui/HNest/commits/master" title="GitHub Commits"><img src="https://github.ahome.eu.org/DavidDengHui/HNest/actions/workflows/deploy_pages.yml/badge.svg" class="lazyload placeholder" data-srcset="https://github.ahome.eu.org/DavidDengHui/HNest/actions/workflows/deploy_pages.yml/badge.svg" srcset="/img/loading.min.svg" alt="GitHub Pages Status"></a><br> <a target="_blank" rel="noopener" href="https://vercel.com/daviddenghui/hnest/deployments" title="Vercel Status"><img src="https://vercel.badge.hnest.eu.org/api/daviddenghui/hnest" class="lazyload placeholder" data-srcset="https://vercel.badge.hnest.eu.org/api/daviddenghui/hnest" srcset="/img/loading.min.svg" alt="Vercel Status"></a><br> <a target="_blank" rel="noopener" href="https://app.netlify.com/sites/hnest/deploys" title="Netlify Status"><img src="https://api.netlify.com/api/v1/badges/13dc7751-4d7d-424e-8d04-e6e5263b093f/deploy-status" class="lazyload placeholder" data-srcset="https://api.netlify.com/api/v1/badges/13dc7751-4d7d-424e-8d04-e6e5263b093f/deploy-status" srcset="/img/loading.min.svg" alt="Netlify Status"></a><br> </p>
 </div>
             
-              <div><p>提供CDN加速&#x2F;云储存服务<br><br/><a href="http://beian.miit.gov.cn/" target="_blank">湘ICP备17019987号</a><br><br></p>
+              <div><p><br/><a href="http://beian.miit.gov.cn/" target="_blank" title="啊晖de老窝">湘ICP备17019987号</a><br><br></p>
 </div>
             
           </div>
@@ -1670,7 +1715,7 @@
 
     <!-- 图片放大 -->
     
-      <script src="https://img2.covear.top/js/fancybox.umd.js"></script>
+      <script src="https://fastly.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     
 
     <!-- 百度解析 -->
@@ -1694,8 +1739,6 @@
 
     
     <!-- 背景彩带 -->
-    
-      <script type="text/javascript" size="100" alpha='0.4' zIndex="-1" src="/js/ribbon.min.js"></script>
     
 
     <script src="/js/utils/index.js"></script>
@@ -2032,7 +2075,7 @@
   
 
 <!-- 图片懒加载 -->
-<script defer src="https://img2.covear.top/js/lazyload.min.js"></script>
+<script defer src="https://cdn.bootcdn.net/ajax/libs/vanilla-lazyload/17.8.3/lazyload.min.js"></script>
 <script>
   // https://www.npmjs.com/package/vanilla-lazyload
   // Set the options globally
@@ -2087,7 +2130,7 @@
         verify: false,
         app_id: "RvGF0IH41tlDwRLJKa1TuwGs-gzGzoHsz",
         app_key: "ezBgrVppWhX9VfNe4dfOyO1v",
-        placeholder: "客官，说点什么吧",
+        placeholder: "客官，说点什么吧~",
         avatar: "retro",
         master: "0e175053e9faac02e451b300a4655270",   //博主邮箱md5
         tagMeta: ["博主","小伙伴","访客"],     //标识字段名
@@ -2208,14 +2251,15 @@
 
   
     <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 999; pointer-events: none;" ></canvas>
-    <script src="/cdn/anime/lib/anime.min.js"></script>
+    <!-- <script src="/cdn/anime/lib/anime.min.js"></script> -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="/js/cursor/explosion.min.js"></script>
   
 
 
 
 
-  <script async src="https:////busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" data-pjax></script>
+  <script async src="/cdn/busuanzi/busuanzi.pure.mini.js" data-pjax></script>
 
 
 <!-- 轮播图标签 -->
@@ -2223,8 +2267,8 @@
   var bambooSwiperTag = {};
   function load_swiper() {
     if (!document.querySelectorAll(".post-swiper-container")[0]) return;
-    loadCSS("https://img2.covear.top/css/swiper-bundle.min.css")
-    loadScript("https://img2.covear.top/js/swiper-bundle.min.js").then(() => {
+    loadCSS("https://cdn.bootcdn.net/ajax/libs/Swiper/9.2.4/swiper-bundle.min.css")
+    loadScript("https://cdn.bootcdn.net/ajax/libs/Swiper/9.2.4/swiper-bundle.min.js").then(() => {
       pjax_swiper();
     });
   }

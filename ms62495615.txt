@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "hnest.eu.org",
+  "Id": "26dd71fa-cf45-47c3-af87-a40cd65cf80e"
+}

@@ -6,7 +6,7 @@
   <link href="https://hnest.eu.org/atom.xml" rel="self"/>
   
   <link href="https://hnest.eu.org/"/>
-  <updated>2023-05-24T21:42:10.282Z</updated>
+  <updated>2023-06-23T14:05:38.593Z</updated>
   <id>https://hnest.eu.org/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Hello World</title>
     <link href="https://hnest.eu.org/posts/hello-world/"/>
     <id>https://hnest.eu.org/posts/hello-world/</id>
-    <published>2023-05-24T21:42:10.282Z</published>
-    <updated>2023-05-24T21:42:10.282Z</updated>
+    <published>2023-06-23T14:05:38.593Z</published>
+    <updated>2023-06-23T14:05:38.593Z</updated>
     
     
       
@@ -38,65 +38,139 @@
   </entry>
   
   <entry>
-    <title>test2</title>
-    <link href="https://hnest.eu.org/posts/test2/"/>
-    <id>https://hnest.eu.org/posts/test2/</id>
-    <published>2023-05-15T05:02:51.000Z</published>
-    <updated>2023-05-24T21:42:10.282Z</updated>
+    <title>高大上的微信文章</title>
+    <link href="https://hnest.eu.org/posts/gao-da-shang-de-wei-xin-wen-zhang/"/>
+    <id>https://hnest.eu.org/posts/gao-da-shang-de-wei-xin-wen-zhang/</id>
+    <published>2023-05-29T21:24:40.000Z</published>
+    <updated>2023-06-23T14:05:38.593Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Hello&quot;&gt;&lt;a href=&quot;#Hello&quot; class=&quot;headerlink&quot; title=&quot;Hello!&quot;&gt;&lt;/a&gt;Hello!&lt;/h1&gt;&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+    <summary type="html">&lt;p&gt;说实话，简单的 word 文字排版 插入图片模式很多人都不会好吗。套上了花里胡哨的模板、样式，一样阅读体验很差。就先从文字排版说起。&lt;/p&gt;&lt;p&gt;● 整体排版下面这3张图的对比应该很明显了。&lt;/p&gt;&lt;p&gt;&lt;img class=&quot;origin_image</summary>
         
       
     
     
     
+    
+    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="办公软件" scheme="https://hnest.eu.org/tags/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="微信" scheme="https://hnest.eu.org/tags/%E5%BE%AE%E4%BF%A1/"/>
+    
+    <category term="推文" scheme="https://hnest.eu.org/tags/%E6%8E%A8%E6%96%87/"/>
+    
+    <category term="排版" scheme="https://hnest.eu.org/tags/%E6%8E%92%E7%89%88/"/>
+    
+    <category term="新媒体" scheme="https://hnest.eu.org/tags/%E6%96%B0%E5%AA%92%E4%BD%93/"/>
     
   </entry>
   
   <entry>
-    <title>test</title>
-    <link href="https://hnest.eu.org/posts/test/"/>
-    <id>https://hnest.eu.org/posts/test/</id>
-    <published>2023-05-15T04:59:28.000Z</published>
-    <updated>2023-05-24T21:42:10.282Z</updated>
+    <title>PC虚拟机快速体验macOS Catalina(10.15)</title>
+    <link href="https://hnest.eu.org/posts/pc-xu-ni-ji-kuai-su-ti-yan-macos-catalina-10-15/"/>
+    <id>https://hnest.eu.org/posts/pc-xu-ni-ji-kuai-su-ti-yan-macos-catalina-10-15/</id>
+    <published>2023-05-29T21:03:31.000Z</published>
+    <updated>2023-06-23T14:05:38.593Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Welcome&quot;&gt;&lt;a href=&quot;#Welcome&quot; class=&quot;headerlink&quot; title=&quot;Welcome!&quot;&gt;&lt;/a&gt;Welcome!&lt;/h1&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+    <summary type="html">&lt;!-- wp:paragraph {&quot;dropCap&quot;:true} --&gt;
+&lt;p class=&quot;has-drop-cap&quot;&gt;PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可以非常方便地体验到macOS系统，app</summary>
         
       
     
     
     
+    
+    <category term="Windows" scheme="https://hnest.eu.org/tags/Windows/"/>
+    
+    <category term="VMWare" scheme="https://hnest.eu.org/tags/VMWare/"/>
+    
+    <category term="macOS" scheme="https://hnest.eu.org/tags/macOS/"/>
+    
+    <category term="Catalina" scheme="https://hnest.eu.org/tags/Catalina/"/>
+    
+    <category term="虚拟机" scheme="https://hnest.eu.org/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+    <category term="黑苹果" scheme="https://hnest.eu.org/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    
+    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="偷渡" scheme="https://hnest.eu.org/tags/%E5%81%B7%E6%B8%A1/"/>
     
   </entry>
   
   <entry>
-    <title>first</title>
-    <link href="https://hnest.eu.org/posts/first/"/>
-    <id>https://hnest.eu.org/posts/first/</id>
-    <published>2023-05-15T03:36:41.000Z</published>
-    <updated>2023-05-24T21:42:10.282Z</updated>
+    <title>Windows 最佳拍档 Fedora Remix for WSL2</title>
+    <link href="https://hnest.eu.org/posts/wsl2/"/>
+    <id>https://hnest.eu.org/posts/wsl2/</id>
+    <published>2023-05-29T20:56:44.000Z</published>
+    <updated>2023-06-23T14:05:38.593Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;This-is-a-test-hexo&quot;&gt;&lt;a href=&quot;#This-is-a-test-hexo&quot; class=&quot;headerlink&quot; title=&quot;This is a test!hexo&quot;&gt;&lt;/a&gt;This is a</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从微软商城安装，是专为 WSL 设计的受欢迎系统 Fedora Linux 的一个 “remix”，带来了 Fedora</summary>
         
       
     
     
     
+    
+    <category term="Windows" scheme="https://hnest.eu.org/tags/Windows/"/>
+    
+    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="WSL2" scheme="https://hnest.eu.org/tags/WSL2/"/>
+    
+    <category term="Fedora" scheme="https://hnest.eu.org/tags/Fedora/"/>
+    
+    <category term="Red Hat" scheme="https://hnest.eu.org/tags/Red-Hat/"/>
+    
+    <category term="白嫖" scheme="https://hnest.eu.org/tags/%E7%99%BD%E5%AB%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>恢复“此电脑”中的个人文件夹显示</title>
+    <link href="https://hnest.eu.org/posts/hui-fu-ci-dian-nao-zhong-de-ge-ren-wen-jian-jia-xian-shi/"/>
+    <id>https://hnest.eu.org/posts/hui-fu-ci-dian-nao-zhong-de-ge-ren-wen-jian-jia-xian-shi/</id>
+    <published>2023-05-29T20:48:05.000Z</published>
+    <updated>2023-06-23T14:05:38.593Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;“&lt;strong&gt;此电脑&lt;/strong&gt;”里居然只剩下了驱动器？&lt;br&gt;&lt;code&gt;图片&lt;/code&gt;、&lt;code&gt;视频&lt;/code&gt;、&lt;code&gt;文档&lt;/code&gt;、&lt;code&gt;下载&lt;/code&gt;、&lt;code&gt;音乐&lt;/code&gt;和&lt;code&gt;桌</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Windows" scheme="https://hnest.eu.org/tags/Windows/"/>
+    
+    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="此电脑" scheme="https://hnest.eu.org/tags/%E6%AD%A4%E7%94%B5%E8%84%91/"/>
+    
+    <category term="注册表" scheme="https://hnest.eu.org/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/"/>
+    
+    <category term="批处理" scheme="https://hnest.eu.org/tags/%E6%89%B9%E5%A4%84%E7%90%86/"/>
     
   </entry>
   

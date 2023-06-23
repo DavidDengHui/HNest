@@ -25,9 +25,6 @@
 .weibo-container .order {
     color: #fe962e;
 }
-.weibo-container .name a{
-    color: black;
-}
 .weibo-container .name a:hover {
     text-decoration: underline;
     color: red;

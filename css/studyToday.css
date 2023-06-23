@@ -1,33 +1,45 @@
 .study-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    font-size: 13px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
 }
 .study-container .left {
-    display: flex;
+  display: flex;
 }
 .study-container .name {
-    margin-left: 5px;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    margin-bottom: 1em;
-    border-bottom-width: 1px;
-    overflow: hidden;
+  margin-left: 5px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  margin-bottom: 1em;
+  border-bottom-width: 1px;
+  overflow: hidden;
 }
 #studyToday .warp {
-    height: 200px;
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
+  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 .study-container .order {
-    color: red;
+  color: red;
 }
-.study-container .name a{
-    color: #2d2d2d;
+.study-container .name a {
+  color: #2d2d2d;
 }
 .study-container .name a:hover {
-    text-decoration: underline;
-    color: red;
+  text-decoration: underline;
+  color: red;
+}
+.study-today {
+  width: 100%;
+  margin-bottom: 16px;
+  background: #fff;
+  box-shadow: 0 1px 20px -6px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  position: relative;
+  background: url("https://img10.360buyimg.com/ddimg/jfs/t1/166587/8/21344/72069/6088c24fEda5fdeb6/f9730ab637b7ca47.png");
 }
