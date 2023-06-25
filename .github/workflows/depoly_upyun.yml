@@ -15,10 +15,7 @@ jobs:
           node-version: '18.16.0' 
       - name: 编译静态页面
         run: |
-          npm install -g hexo-cli
-          npm install
-          hexo clean
-          hexo generate -config yml/my.covear.top.yml 
+          npm install -g hexo-cli && hexo clean && hexo generate --config yml/my.covear.top.yml
       - name: 部署到又拍云
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
@@ -30,5 +27,5 @@ jobs:
           dangerous-clean-slate: true
       - name: 触发评论 API
         run: |
-          curl "https://api.hnest.eu.org/doit?token=Z2hwX05VejBmZzBFSjFuVXBmSUtLU1lDZjJpN3RpdVlnZzB5VjdtRA==&hook_name=deployment_status&repopath=DavidDengHui&reponame=HNest&username=DavidDengHui&state=success&url=https://my.covear.top"
+          curl "https://api2.hnest.eu.org/doit?hook_name=deployment_status&repopath=DavidDengHui&reponame=HNest&username=DavidDengHui&state=success&url=https://my.covear.top"
           
