@@ -12,7 +12,7 @@
 
 
   <meta name="referrer" content="no-referrer" />
-  <title>PC虚拟机快速体验macOS Catalina(10.15) | 啊晖de老窝</title>
+  <title>Windows 最佳拍档 Fedora Remix for WSL2 | 啊晖de老窝</title>
 
   <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -558,14 +558,14 @@
 
 
 <div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp')">
+  background-position: center center;position: relative;background-image:url('https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp')">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
   <div class="post-detail-header_info-box">
     <div class="title-box">
       <span class="title">
-        PC虚拟机快速体验macOS Catalina(10.15)
+        Windows 最佳拍档 Fedora Remix for WSL2
       </span>
     </div>
     
@@ -581,11 +581,11 @@
       
         <div class="post-detail-header_wordcount">
           <span class="totalcount">
-            <i class="fas fa-file-text-o"></i> 字数统计: 750 |
+            <i class="fas fa-file-text-o"></i> 字数统计: 1.5k |
           </span>
   
           <span class="min2read">
-            <i class="fas fa-clock"></i> 阅读时长: 2分钟 |
+            <i class="fas fa-clock"></i> 阅读时长: 6分钟 |
           </span>
   
           
@@ -612,65 +612,61 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <!-- wp:paragraph {"dropCap":true} -->
-<p class="has-drop-cap">PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可以非常方便地体验到macOS系统，app store里面的软件也能正常安装，还是很不错的。在这里就是为大家介绍使用<em><strong>VMware Workstation</strong></em>安装<strong><em>macOS</em></strong> , 有现成的磁盘映像因此部署非常简单。</p>
-<!-- /wp:paragraph -->
-
-<p><img src="https://img2.covear.top/2023-05-29-20230529211752.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529211752.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529211752" title="2023-05-29-20230529211752"></p>
-<!-- wp:separator -->
-<hr class="wp-block-separator"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading -->
-<h2>1、<strong>准备工作和下载磁盘映像：</strong></h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<ul><li>在下载相关软件前建议您点击地址栏右侧的星标或使用快捷键Ctrl+D将本页面加入书签防止喝杯咖啡回来找不到。</li><li>下载列表内所有软件，个别软件较大，请耐心等待下载完成：</li></ul>
-<!-- /wp:list -->
-
-<!-- wp:table {"align":"center","className":"is-style-stripes"} -->
-<figure class="wp-block-table aligncenter is-style-stripes"><table><tbody><tr><td class="has-text-align-center" data-align="center">序号</td><td class="has-text-align-center" data-align="center">名称</td><td>下载</td><td>备注</td></tr><tr><td class="has-text-align-center" data-align="center">1</td><td class="has-text-align-center" data-align="center">VMware-workstation-full-15.5.2-15785246.exe</td><td><a href="https://download3.vmware.com/software/wkst/file/VMware-workstation-full-15.5.2-15785246.exe" target="_blank" rel="noreferrer noopener"><strong>链接</strong></a></td><td>虚拟机</td></tr><tr><td class="has-text-align-center" data-align="center">2</td><td class="has-text-align-center" data-align="center">Catalina Virtual Disk Image by Techsviewer.rar</td><td><strong><a rel="noreferrer noopener" href="https://pan.baidu.com/s/10jAAkTnUPhbjO1d-QjvQtA" target="_blank">链接</a> </strong>2ruz</td><td>磁盘映像</td></tr><tr><td class="has-text-align-center" data-align="center">3</td><td class="has-text-align-center" data-align="center">KeyGen_vm15.zip</td><td><strong><a href="https://img2.covear.top/2023-05-29-KeyGen_vm15.zip" target="_blank" rel="noreferrer noopener">链接</a></strong></td><td>注册机</td></tr><tr><td class="has-text-align-center" data-align="center">4</td><td class="has-text-align-center" data-align="center">unlocker_vm15.zip</td><td><strong><a href="https://img2.covear.top/2023-05-29-unlocker_vm15.zip" target="_blank" rel="noreferrer noopener">链接</a></strong></td><td>系统支持</td></tr></tbody></table></figure>
-<!-- /wp:table -->
-
-<!-- wp:list -->
-<ul><li>虚拟机软这里采用的是15.5.2版本，如果有了其它相近版本可以跳过这个软件不予下载安装这个。</li><li>磁盘映像说明：此文件是国外网站<a rel="noreferrer noopener" href="https://techsviewer.com/" target="_blank">TechsViewer</a>打包的.VMDK映像 , 版本为10.15 Beta你可以安装完成再升级。</li><li>添加系统支持：开源软件unlocker可以为VM虚拟机添加 Apple macOS 系统的支持。</li><li>硬件性能说明：如果想要流畅的在虚拟机里体验macOS的话 ,&nbsp; 物理机内存建议8GB最好16GB、至少四核心处理器。</li></ul>
-<!-- /wp:list -->
-
-<!-- wp:heading -->
-<h2>2、<strong>安装VMWare Workstation虚拟机</strong></h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>（此处下载的安装包版本为VMWare Workstation Pro 15.5.2-15785246，如已安装过相近版本的软件可跳过此步骤）</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>启动下载的安装包按照提示正常完成软件安装，结束后直接点击注册，打开KeyGen注册机，点击Generate生成注册码，复制到注册框中即可完成软件激活。</p>
-
-<p><img src="https://img2.covear.top/2023-05-29-20230529211828.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529211828.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529211828" title="2023-05-29-20230529211828"></p>
-<blockquote class="wp-block-quote"><p>此处提供几组注册码可直接使用（注册机可无限生成）：</p>
+        <blockquote>
+<p><strong>Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从微软商城安装，是专为 WSL 设计的受欢迎系统 Fedora Linux 的一个 “remix”，带来了 Fedora Linux 发行版特定的工具、DNF 包管理器、对 WSL 的 Fedora Linux 发行包仓库的访问、对 COPR，EPEL 和 RPM Fusion 仓库上可用其他软件包的轻松访问。</strong></p>
 </blockquote>
-
-<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">ZZ58U-FHW56-4885Q-8QWGE-MK0CD</span><br><span class="line">YA140-4VZ13-M80TQ-97N5C-PG0F8</span><br><span class="line">FF7X2-2DEDQ-H85TQ-6YM79-N32FA</span><br><span class="line">AY15H-62F01-08D4Q-HWXG9-NGRU4</span><br><span class="line">VG582-2RY9N-H849Q-EWZEZ-WYHA4</span><br><span class="line">CC1JK-AGEDK-M84CQ-X4P5Z-YU8GD</span><br><span class="line">VG1JK-FRY87-H840Q-1ZMQV-W7RY0</span><br><span class="line">UG14K-47F04-M8EWY-JDP7X-Q7HE0</span><br><span class="line">AF590-0GD5K-M89DY-FNW7X-PU0W4</span><br><span class="line">UG5NU-AKF00-H81PQ-WPZEV-WUAAA</span><br><span class="line">YV7W0-65G43-489RQ-NWMEE-NGHR8</span><br><span class="line">AV712-FUXEQ-484JY-1EZ7V-NZ8V0</span><br><span class="line">YV19H-FWX87-M890P-VMXEZ-YFAG4</span><br><span class="line">FZ35K-6CGEL-M8EFP-YZY7V-X72FF</span><br><span class="line">AA5M2-FMG0N-M89WP-M4Y5G-ZQUE2</span><br><span class="line">ZG70H-89X0N-H80HQ-M4YGZ-QVUU6</span><br><span class="line">FG70K-6UF83-08EUQ-EFMET-X7RW0</span><br><span class="line">VC7H8-4NFD1-H89AY-WZPNV-MVAZA</span><br><span class="line">GA35R-80F1H-H856P-YGXNT-YPAXA</span><br><span class="line">FU51K-8DF86-48E8P-XYWGC-WZHW6</span><br></pre></td></tr></table></figure>
-<!-- wp:heading -->
-<h2>3、<strong>为VM添加macOS支持</strong></h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>下载Unlocker压缩包后将其完全解压到,&nbsp; 然后找到win-install.cmd文件右键点击使用管理员权限运行，待脚本提示按任意键退出的时候代表安装完成。</p>
-
-<p><img src="https://img2.covear.top/2023-05-29-20230529211903.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529211903.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529211903" title="2023-05-29-20230529211903"></p>
-<p>此时再打开VMware Workstation新建虚拟机时就可以发现有 Apple Mac OS 以及macOS 10.15版的支持信息。</p>
-
-<p><img src="https://img2.covear.top/2023-05-29-20230529211916.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529211916.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529211916" title="2023-05-29-20230529211916"></p>
-<h2>4、<strong>开始通过磁盘映像安装系统</strong></h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>接下来处理下载的磁盘映像文件，可比对压缩包MD5码为<em>480CF4090399D3836053A4535CFAB8A8</em>，使用压缩工具将压缩包打开即可看到里面VMDK格式的磁盘映像，将其解压出来放到等会儿我们新建虚拟机再使用。</p>
-
-<p><img src="https://img2.covear.top/2023-05-29-20230529211927.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529211927.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529211927" title="2023-05-29-20230529211927"></p>
+<p><img src="https://img2.covear.top/2023-05-29-20230529205922.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529205922.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529205922" title="2023-05-29-20230529205922"></p>
+<h4 id="甚至在介绍页面还有开启图形环境的教程-YYDS"><a href="#甚至在介绍页面还有开启图形环境的教程-YYDS" class="headerlink" title="甚至在介绍页面还有开启图形环境的教程 YYDS"></a>甚至在介绍页面还有开启图形环境的教程 YYDS</h4><p><img src="https://img2.covear.top/2023-05-29-20230529205940.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529205940.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529205940" title="2023-05-29-20230529205940"></p>
+<h2 id="01-在Windows-10以上系统开启Hyper-V环境支持"><a href="#01-在Windows-10以上系统开启Hyper-V环境支持" class="headerlink" title="01. 在Windows 10以上系统开启Hyper-V环境支持"></a>01. 在Windows 10以上系统开启Hyper-V环境支持</h2><ul>
+<li>以管理员身份运行 CMD 或者 PowerShell<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">:: 使用 CMD 和 DISM 启用 Hyper-V</span><br><span class="line">DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V</span><br><span class="line">:: 使用 PowerShell 启用 Hyper-V （两种方法二选一即可）</span><br><span class="line">:: Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All</span><br><span class="line">bcdedit /set hypervisorlaunchtype auto</span><br><span class="line">netsh int ip reset</span><br><span class="line">netsh winsock reset</span><br></pre></td></tr></table></figure></li>
+<li>可参考微软官方文档《<a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v" title="在 Windows 10 上安装 Hyper-V">在 Windows 10 上安装 Hyper-V</a>》</li>
+</ul>
+<h2 id="02-安装-Fedora-Remix-For-WSL"><a href="#02-安装-Fedora-Remix-For-WSL" class="headerlink" title="02. 安装 Fedora Remix For WSL"></a>02. 安装 Fedora Remix For WSL</h2><ul>
+<li>Fedora Remix for WSL 可以在<a target="_blank" rel="noopener" href="https://apps.microsoft.com/store/detail/fedora-remix-for-wsl/9N6GDM4K2HNC" title="微软商城">微软商城</a>购买，也可在该项目的 <a target="_blank" rel="noopener" href="https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL" title="GitHub">GitHub</a> 页面找到相应的下载地址免费下载编译好的包，双击安装即可免费试用。<br><a target="_blank" rel="noopener" href="https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL/releases">https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL/releases</a></li>
+<li>小编提供转存的 Fedora 37 版本的云盘链接<br><a target="_blank" rel="noopener" href="https://cowtransfer.com/s/30cd8a4dfa4a4c" title="Fedora-Remix-for-WSL-SL_37.0.4.0_x64_arm64.msixbundle">Fedora-Remix-for-WSL-SL_37.0.4.0_x64_arm64.msixbundle</a></li>
+</ul>
+<h2 id="03-启用-Systemd-For-WSL"><a href="#03-启用-Systemd-For-WSL" class="headerlink" title="03. 启用 Systemd For WSL"></a>03. 启用 Systemd For WSL</h2><ul>
+<li>安装好 Fedora Remix For WSL 后，在WSL内编辑启动配置文件<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/wsl.conf</span><br></pre></td></tr></table></figure></li>
+<li><code>wsl.conf</code>文件末尾添加两行启用Systemd<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[boot]</span><br><span class="line">systemd=true</span><br></pre></td></tr></table></figure></li>
+<li>进入Windows控制台（Powershell或者CMD都行）重启WSL<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wsl -l -v</span><br><span class="line">wsl -t fedoraremix</span><br><span class="line">wsl -d fedoraremix</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="04-更换国内软件源"><a href="#04-更换国内软件源" class="headerlink" title="04. 更换国内软件源"></a>04. 更换国内软件源</h2><ul>
+<li>添加 <a target="_blank" rel="noopener" href="https://mirrors.ustc.edu.cn/help/fedora.html" title="USTC">USTC</a> 源<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -e &#x27;s|^metalink=|#metalink=|g&#x27; \</span><br><span class="line">         -e &#x27;s|^#baseurl=http://download.example/pub/fedora/linux|baseurl=https://mirrors.ustc.edu.cn/fedora|g&#x27; \</span><br><span class="line">         -i.bak \</span><br><span class="line">         /etc/yum.repos.d/fedora.repo \</span><br><span class="line">         /etc/yum.repos.d/fedora-modular.repo \</span><br><span class="line">         /etc/yum.repos.d/fedora-updates.repo \</span><br><span class="line">         /etc/yum.repos.d/fedora-updates-modular.repo \</span><br><span class="line">         /etc/yum.repos.d/fedora-updates-testing.repo \</span><br><span class="line">         /etc/yum.repos.d/fedora-updates-testing-modular.repo</span><br></pre></td></tr></table></figure></li>
+<li>添加 RPM Fusion 源<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="05-启用中文界面"><a href="#05-启用中文界面" class="headerlink" title="05. 启用中文界面"></a>05. 启用中文界面</h2><ul>
+<li>进入fedoraremix，安装中文语言包<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y install langpacks-zh_CN</span><br><span class="line">sudo dnf -y install ibus-libpinyin # 可选安装拼音输入法</span><br><span class="line">locale -a # 查看系统已安装语言包列表</span><br></pre></td></tr></table></figure></li>
+<li>修改自启动文件<code>/etc/bashrc</code>，启用系统中文显示<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/bashrc</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">文件最结尾添加以下内容</span></span><br><span class="line">LANG=&quot;zh_CN.UTF-8&quot;</span><br><span class="line">LANGUAGE=&quot;zh_CN:zh&quot;</span><br><span class="line">SYSFONT=&quot;latarcyrheb-sun16&quot;</span><br><span class="line">LC_ALL=&quot;zh_CN.UTF-8&quot;</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">:wq 保存并退出</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">载入初始命令</span></span><br><span class="line">source /etc/bashrc</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">重启 WSL</span></span><br><span class="line">reboot</span><br></pre></td></tr></table></figure></li>
+<li>安装思源黑体（个人比较喜欢）<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y install adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts</span><br></pre></td></tr></table></figure></li>
+<li>可选安装文泉驿字体<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y install wqy-bitmap-fonts wqy-unibit-fonts wqy-zenhei-fonts</span><br></pre></td></tr></table></figure></li>
+<li>甚至可选安装全部字体<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y groupinstall &quot;fonts&quot;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="06-启用完整的图形界面"><a href="#06-启用完整的图形界面" class="headerlink" title="06. 启用完整的图形界面"></a>06. 启用完整的图形界面</h2><ul>
+<li><h4 id="其实不用任何设置就直接支持图形界面输出！与-Windows-完美融合。"><a href="#其实不用任何设置就直接支持图形界面输出！与-Windows-完美融合。" class="headerlink" title="其实不用任何设置就直接支持图形界面输出！与 Windows 完美融合。"></a>其实不用任何设置就直接支持图形界面输出！与 Windows 完美融合。</h4></li>
+<li>修改<code>/etc/wsl.conf</code>，指定主机名<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/wsl.conf</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">文件 [network] 部分添加一行</span></span><br><span class="line">hostname = fedoraremix</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">:wq 保存并退出编辑</span></span><br></pre></td></tr></table></figure></li>
+<li>安装 GNOME 桌面环境<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y groupinstall &#x27;Basic Desktop&#x27; GNOME</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">可选设置语言为中文，详细参考步骤3</span></span><br><span class="line">localectl set-locale LANG=&quot;zh_CN.UTF-8&quot;</span><br></pre></td></tr></table></figure></li>
+<li>安装中文输入法以及输入法管理器<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y install fcitx-table fcitx-gtk3 fcitx-table-chinese fcitx fcitx-data fcitx-configtool fcitx-pinyin im-chooser</span><br></pre></td></tr></table></figure></li>
+<li>安装XRDP图形显示接口<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf -y install xrdp</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">设置自动启动 XRDP 服务</span></span><br><span class="line">sudo systemctl enable xrdp</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">重新启动 Fedora Remix For WSL</span></span><br><span class="line">wsl.exe -t fedoraremix</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">结束进程后重新连接终端</span></span><br></pre></td></tr></table></figure></li>
+<li>使用 Windows 远程桌面连接 Fedora Remix For WSL 图形输出 GNOME 桌面环境，如下设置：<br>  <strong>计算机：fedoraremix</strong>（前面 hostname 设置的名称）<br>  <strong>用户名：david</strong>（WSL中登录的用户名）</li>
+</ul>
+<p><img src="https://img2.covear.top/2023-05-29-20230529210027.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529210027.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529210027" title="2023-05-29-20230529210027"></p>
+<h2 id="07-设置端口映射"><a href="#07-设置端口映射" class="headerlink" title="07. 设置端口映射"></a>07. 设置端口映射</h2><ul>
+<li>将 Fedora Remix For WSL 的端口映射到实体机，在 Windows 上使用 CMD 或者 PowerShell 操作<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">:: netsh interface portproxy add v4tov4 listenport=[win10端口] listenaddress=0.0.0.0 connectport=[虚拟机的端口] connectaddress=[虚拟机的ip]</span><br><span class="line">netsh interface portproxy add v4tov4 listenport=80 listenaddress=0.0.0.0 connectport=80 connectaddress=fedoraremix</span><br></pre></td></tr></table></figure></li>
+<li>检查是否成功<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netsh interface portproxy show all</span><br></pre></td></tr></table></figure>
+<img src="https://img2.covear.top/2023-05-29-20230529210108.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529210108.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529210108" title="2023-05-29-20230529210108"></li>
+</ul>
+<h2 id="08-保持最新的-Fedora-发行版"><a href="#08-保持最新的-Fedora-发行版" class="headerlink" title="08. 保持最新的 Fedora 发行版"></a>08. 保持最新的 Fedora 发行版</h2><ul>
+<li>最简单的办法是直接到<a target="_blank" rel="noopener" href="https://apps.microsoft.com/store/detail/fedora-remix-for-wsl/9N6GDM4K2HNC" title="微软商城">微软商城</a>更新，或者在该项目的 <a target="_blank" rel="noopener" href="https://github.com/WhitewaterFoundry/Fedora-Remix-for-WSL/releases" title="GitHub">GitHub</a> 页面找到最新的版本，免费下载编译好的包，双击安装升级即可。</li>
+<li>想要从 WSL 内升级的话按如下操作，其它的Fedora发行版也可参考。</li>
+<li>先备份 WSL，以防万一<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">首先，清理 Fedora 中下载的包等</span></span><br><span class="line">sudo dnf clean all</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">然后，退出 WSL 并将整个安装导出到一个位置</span></span><br><span class="line">wsl --export fedoraremix $HOME\Downloads\fedora-wsl.tar</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">以后想要还原可以在 CMD 中这么操作</span></span><br><span class="line">mkdir $HOME\wsl\freshfedora</span><br><span class="line">wsl --import freshfedora $HOME\wsl\freshfedora $HOME\Downloads\fedora-wsl.tar</span><br></pre></td></tr></table></figure></li>
+<li>更新软件包索引并将所有软件包升级到最新版本<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf upgrade --refresh</span><br></pre></td></tr></table></figure></li>
+<li>安装升级系统<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf install dnf-plugin-system-upgrade</span><br></pre></td></tr></table></figure></li>
+<li>导入升级秘钥<code>RPM-GPG-KEY-fedora-x86_64</code>，不存在描述的秘钥可以<a href="https://rpmfusion.org/keys?action=AttachFile&do=view&target=RPM-GPG-KEY-rpmfusion-free-fedora" title="网络下载">网络下载</a><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">使用系统自带的</span></span><br><span class="line">sudo cp /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-37-x86_64 /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-x86_64</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">或者网络下载</span></span><br><span class="line">wget https://mirrors.ustc.edu.cn/rpmfusion/free/fedora/RPM-GPG-KEY-rpmfusion-free-fedora-2020</span><br><span class="line">sudo cp /home/david/RPM-GPG-KEY-rpmfusion-free-fedora-2020 /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-x86_64</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">导入秘钥</span></span><br><span class="line">sudo rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-x86_64</span><br><span class="line">sudo rpmkeys --import /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-x86_64</span><br></pre></td></tr></table></figure></li>
+<li>下载系统升级包，以 Fedora 37 为例<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo dnf system-upgrade download --releasever=37</span><br></pre></td></tr></table></figure></li>
+<li>可选操作，由于 WSL 特性，可以在更新后不重启<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">设置一个标志来指示不需要重新启动</span></span><br><span class="line">export DNF_SYSTEM_UPGRADE_NO_REBOOT=1</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">现在我们使用 upgrade 和 reboot 命令触发更新</span></span><br><span class="line">sudo -E dnf system-upgrade reboot</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">应该要得到反馈： Reboot turned off, not rebooting.</span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">启动正式升级</span></span><br><span class="line">sudo -E dnf system-upgrade upgrade</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">结束后就应该拥有一个全新的 Fedora 37 系统</span></span><br></pre></td></tr></table></figure></li>
+<li>刷新软件包，保持更新<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo rpmdb --rebuilddb</span><br><span class="line">sudo dnf upgrade --refresh</span><br><span class="line">sudo dnf upgrade</span><br></pre></td></tr></table></figure></li>
+<li>为了尽可能干净（您可能仍在运行实际上比已安装版本更旧的进程），重新启动您的 WSL 发行版。打开一个 CMD 或者 Powershell 窗口，并终止您的 WSL 实例。假设您的实例名为fedoraremix，您可以关闭实例为<code>wsl -t fedoraremix</code>，然后使用<code>wsl -d fedoraremix</code>重新启动。</li>
+</ul>
 
       </div>
       <div class="post-tags-categories">
@@ -681,32 +677,24 @@
               Windows
             </a>
           
-            <a href="/tags/VMWare/" class="">
-              VMWare
-            </a>
-          
-            <a href="/tags/macOS/" class="">
-              macOS
-            </a>
-          
-            <a href="/tags/Catalina/" class="">
-              Catalina
-            </a>
-          
-            <a href="/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/" class="">
-              虚拟机
-            </a>
-          
-            <a href="/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/" class="">
-              黑苹果
-            </a>
-          
             <a href="/tags/%E6%95%99%E7%A8%8B/" class="">
               教程
             </a>
           
-            <a href="/tags/%E5%81%B7%E6%B8%A1/" class="">
-              偷渡
+            <a href="/tags/WSL2/" class="">
+              WSL2
+            </a>
+          
+            <a href="/tags/Fedora/" class="">
+              Fedora
+            </a>
+          
+            <a href="/tags/Red-Hat/" class="">
+              Red Hat
+            </a>
+          
+            <a href="/tags/%E7%99%BD%E5%AB%96/" class="">
+              白嫖
             </a>
           
         </div>
@@ -720,7 +708,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/posts/pc-xu-ni-ji-kuai-su-ti-yan-macos-catalina-10-15/" target="_blank" title="PC虚拟机快速体验macOS Catalina(10.15)">https://hnest.eu.org/posts/pc-xu-ni-ji-kuai-su-ti-yan-macos-catalina-10-15/</a>
+    <a href="/posts/wsl2.do" target="_blank" title="Windows 最佳拍档 Fedora Remix for WSL2">https://hnest.eu.org/posts/wsl2.do</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -742,16 +730,17 @@
   <div class="post-nav-prev post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="/img/loading.min.svg" alt="">
+      <img class="lazyload lazyload placeholder" src="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" srcset="/img/loading.min.svg" alt="">
     </div>
-    <a href="/posts/gao-da-shang-de-wei-xin-wen-zhang/" class="post-nav-link">
+    <a href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do" class="post-nav-link">
       <div class="title">
         <i class="fas fa-angle-left"></i> 上一篇:
-        <div class="title-text">高大上的微信文章</div>
+        <div class="title-text">PC虚拟机快速体验macOS Catalina(10.15)</div>
       </div>
       
       <!-- <div class="content">
-        说实话，简单的 word 文字排版 插入图片模式很多人都不会好吗。套上了花里胡哨的模板、样式，一样阅读体验很差。就先从文
+        
+PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可以非常方便地体验到macOS系统，app store里面的软件
       </div> -->
     </a>
   </div>
@@ -762,16 +751,18 @@
   <div class="post-nav-next post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" srcset="/img/loading.min.svg" src="" alt="">
+      <img class="lazyload lazyload placeholder" src="https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg" srcset="/img/loading.min.svg" src="" alt="">
     </div>
-    <a href="/posts/wsl2/" class="post-nav-link">
+    <a href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.do" class="post-nav-link">
       <div class="title">
         下一篇: <i class="fas fa-angle-right"></i>
-        <div class="title-text">Windows 最佳拍档 Fedora Remix for WSL2</div>
+        <div class="title-text">恢复“此电脑”中的个人文件夹显示</div>
       </div>
       <!-- <div class="content">
         
-Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从微软商城安装
+“此电脑”里居然只剩下了驱动器？图片、视频、文档、下载、音乐和桌面六个常用个人文件夹不见了？
+
+保存以下注册表批处理代
       </div> -->
     </a>
   </div>
@@ -1091,7 +1082,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
   <div class='content'>
     <div class="toc-main">
       <div class="toc-content">
-        <!-- <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">1、准备工作和下载磁盘映像：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">2、安装VMWare Workstation虚拟机</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">3、为VM添加macOS支持</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">4、开始通过磁盘映像安装系统</span></a></li></ol> -->
+        <!-- <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%9A%E8%87%B3%E5%9C%A8%E4%BB%8B%E7%BB%8D%E9%A1%B5%E9%9D%A2%E8%BF%98%E6%9C%89%E5%BC%80%E5%90%AF%E5%9B%BE%E5%BD%A2%E7%8E%AF%E5%A2%83%E7%9A%84%E6%95%99%E7%A8%8B-YYDS"><span class="toc-text">甚至在介绍页面还有开启图形环境的教程 YYDS</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#01-%E5%9C%A8Windows-10%E4%BB%A5%E4%B8%8A%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%90%AFHyper-V%E7%8E%AF%E5%A2%83%E6%94%AF%E6%8C%81"><span class="toc-text">01. 在Windows 10以上系统开启Hyper-V环境支持</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#02-%E5%AE%89%E8%A3%85-Fedora-Remix-For-WSL"><span class="toc-text">02. 安装 Fedora Remix For WSL</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#03-%E5%90%AF%E7%94%A8-Systemd-For-WSL"><span class="toc-text">03. 启用 Systemd For WSL</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#04-%E6%9B%B4%E6%8D%A2%E5%9B%BD%E5%86%85%E8%BD%AF%E4%BB%B6%E6%BA%90"><span class="toc-text">04. 更换国内软件源</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#05-%E5%90%AF%E7%94%A8%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2"><span class="toc-text">05. 启用中文界面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#06-%E5%90%AF%E7%94%A8%E5%AE%8C%E6%95%B4%E7%9A%84%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2"><span class="toc-text">06. 启用完整的图形界面</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%B6%E5%AE%9E%E4%B8%8D%E7%94%A8%E4%BB%BB%E4%BD%95%E8%AE%BE%E7%BD%AE%E5%B0%B1%E7%9B%B4%E6%8E%A5%E6%94%AF%E6%8C%81%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E8%BE%93%E5%87%BA%EF%BC%81%E4%B8%8E-Windows-%E5%AE%8C%E7%BE%8E%E8%9E%8D%E5%90%88%E3%80%82"><span class="toc-text">其实不用任何设置就直接支持图形界面输出！与 Windows 完美融合。</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#07-%E8%AE%BE%E7%BD%AE%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84"><span class="toc-text">07. 设置端口映射</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#08-%E4%BF%9D%E6%8C%81%E6%9C%80%E6%96%B0%E7%9A%84-Fedora-%E5%8F%91%E8%A1%8C%E7%89%88"><span class="toc-text">08. 保持最新的 Fedora 发行版</span></a> -->
         <div class="toc"></div>
       </div>
     </div>
@@ -1124,7 +1115,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/hello-world/" class="post-img " style="background-size: cover; 
+              <a href="/posts/hello_world.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1132,10 +1123,10 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">06-23</span>
+                  <span class="post-date">06-25</span>
                 
               </div>
-              <a class="post-title" href="/posts/hello-world/">Hello World</a>
+              <a class="post-title" href="/posts/hello_world.do">Hello World</a>
             </div>
           </div>
         
@@ -1145,7 +1136,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/gao-da-shang-de-wei-xin-wen-zhang/" class="post-img " style="background-size: cover; 
+              <a href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1156,7 +1147,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/gao-da-shang-de-wei-xin-wen-zhang/">高大上的微信文章</a>
+              <a class="post-title" href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do">高大上的微信文章</a>
             </div>
           </div>
         
@@ -1166,7 +1157,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/pc-xu-ni-ji-kuai-su-ti-yan-macos-catalina-10-15/" class="post-img " style="background-size: cover; 
+              <a href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1177,7 +1168,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/pc-xu-ni-ji-kuai-su-ti-yan-macos-catalina-10-15/">PC虚拟机快速体验macOS Catalina(10.15)</a>
+              <a class="post-title" href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do">PC虚拟机快速体验macOS Catalina(10.15)</a>
             </div>
           </div>
         
@@ -1187,7 +1178,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/wsl2/" class="post-img " style="background-size: cover; 
+              <a href="/posts/wsl2.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1198,7 +1189,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/wsl2/">Windows 最佳拍档 Fedora Remix for WSL2</a>
+              <a class="post-title" href="/posts/wsl2.do">Windows 最佳拍档 Fedora Remix for WSL2</a>
             </div>
           </div>
         
@@ -1208,7 +1199,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/hui-fu-ci-dian-nao-zhong-de-ge-ren-wen-jian-jia-xian-shi/" class="post-img " style="background-size: cover; 
+              <a href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1219,7 +1210,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/hui-fu-ci-dian-nao-zhong-de-ge-ren-wen-jian-jia-xian-shi/">恢复“此电脑”中的个人文件夹显示</a>
+              <a class="post-title" href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.do">恢复“此电脑”中的个人文件夹显示</a>
             </div>
           </div>
         

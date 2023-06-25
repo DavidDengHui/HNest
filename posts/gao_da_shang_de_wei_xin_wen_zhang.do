@@ -653,7 +653,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/posts/gao-da-shang-de-wei-xin-wen-zhang/" target="_blank" title="高大上的微信文章">https://hnest.eu.org/posts/gao-da-shang-de-wei-xin-wen-zhang/</a>
+    <a href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do" target="_blank" title="高大上的微信文章">https://hnest.eu.org/posts/gao_da_shang_de_wei_xin_wen_zhang.do</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -677,7 +677,7 @@
       background-position: center center;">
       <img class="lazyload lazyload placeholder" src="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" srcset="/img/loading.min.svg" alt="">
     </div>
-    <a href="/posts/hello-world/" class="post-nav-link">
+    <a href="/posts/hello_world.do" class="post-nav-link">
       <div class="title">
         <i class="fas fa-angle-left"></i> 上一篇:
         <div class="title-text">Hello World</div>
@@ -697,7 +697,7 @@
       background-position: center center;">
       <img class="lazyload lazyload placeholder" src="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" srcset="/img/loading.min.svg" src="" alt="">
     </div>
-    <a href="/posts/pc-xu-ni-ji-kuai-su-ti-yan-macos-catalina-10-15/" class="post-nav-link">
+    <a href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do" class="post-nav-link">
       <div class="title">
         下一篇: <i class="fas fa-angle-right"></i>
         <div class="title-text">PC虚拟机快速体验macOS Catalina(10.15)</div>
@@ -1057,7 +1057,7 @@ PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可
             
 
             <div class="post-img-box">
-              <a href="/posts/hello-world/" class="post-img " style="background-size: cover; 
+              <a href="/posts/hello_world.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1065,10 +1065,10 @@ PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">06-23</span>
+                  <span class="post-date">06-25</span>
                 
               </div>
-              <a class="post-title" href="/posts/hello-world/">Hello World</a>
+              <a class="post-title" href="/posts/hello_world.do">Hello World</a>
             </div>
           </div>
         
@@ -1078,7 +1078,7 @@ PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可
             
 
             <div class="post-img-box">
-              <a href="/posts/gao-da-shang-de-wei-xin-wen-zhang/" class="post-img " style="background-size: cover; 
+              <a href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1089,7 +1089,7 @@ PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/gao-da-shang-de-wei-xin-wen-zhang/">高大上的微信文章</a>
+              <a class="post-title" href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do">高大上的微信文章</a>
             </div>
           </div>
         
@@ -1099,7 +1099,7 @@ PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可
             
 
             <div class="post-img-box">
-              <a href="/posts/pc-xu-ni-ji-kuai-su-ti-yan-macos-catalina-10-15/" class="post-img " style="background-size: cover; 
+              <a href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1110,7 +1110,7 @@ PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/pc-xu-ni-ji-kuai-su-ti-yan-macos-catalina-10-15/">PC虚拟机快速体验macOS Catalina(10.15)</a>
+              <a class="post-title" href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do">PC虚拟机快速体验macOS Catalina(10.15)</a>
             </div>
           </div>
         
@@ -1120,7 +1120,7 @@ PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可
             
 
             <div class="post-img-box">
-              <a href="/posts/wsl2/" class="post-img " style="background-size: cover; 
+              <a href="/posts/wsl2.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1131,7 +1131,7 @@ PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/wsl2/">Windows 最佳拍档 Fedora Remix for WSL2</a>
+              <a class="post-title" href="/posts/wsl2.do">Windows 最佳拍档 Fedora Remix for WSL2</a>
             </div>
           </div>
         
@@ -1141,7 +1141,7 @@ PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可
             
 
             <div class="post-img-box">
-              <a href="/posts/hui-fu-ci-dian-nao-zhong-de-ge-ren-wen-jian-jia-xian-shi/" class="post-img " style="background-size: cover; 
+              <a href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1152,7 +1152,7 @@ PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/hui-fu-ci-dian-nao-zhong-de-ge-ren-wen-jian-jia-xian-shi/">恢复“此电脑”中的个人文件夹显示</a>
+              <a class="post-title" href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.do">恢复“此电脑”中的个人文件夹显示</a>
             </div>
           </div>
         

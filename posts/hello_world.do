@@ -12,7 +12,7 @@
 
 
   <meta name="referrer" content="no-referrer" />
-  <title>恢复“此电脑”中的个人文件夹显示 | 啊晖de老窝</title>
+  <title>Hello World | 啊晖de老窝</title>
 
   <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -558,21 +558,21 @@
 
 
 <div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg')">
+  background-position: center center;position: relative;background-image:url('https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp')">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
   <div class="post-detail-header_info-box">
     <div class="title-box">
       <span class="title">
-        恢复“此电脑”中的个人文件夹显示
+        Hello World
       </span>
     </div>
     
     
       
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> 发表于：2023-05-29 |
+          <i class="fas fa-calendar"></i> 发表于：2023-06-25 |
         </span>
       
 
@@ -581,7 +581,7 @@
       
         <div class="post-detail-header_wordcount">
           <span class="totalcount">
-            <i class="fas fa-file-text-o"></i> 字数统计: 183 |
+            <i class="fas fa-file-text-o"></i> 字数统计: 75 |
           </span>
   
           <span class="min2read">
@@ -612,40 +612,22 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <blockquote>
-<p>“<strong>此电脑</strong>”里居然只剩下了驱动器？<br><code>图片</code>、<code>视频</code>、<code>文档</code>、<code>下载</code>、<code>音乐</code>和<code>桌面</code>六个常用个人文件夹不见了？</p>
-</blockquote>
-<p>保存以下注册表批处理代码到<code>.reg</code>文件运行：</p>
-<h2 id="批处理代码："><a href="#批处理代码：" class="headerlink" title="批处理代码："></a>批处理代码：</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line">; Desktop</span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;B4BFCC3A-DB2C-424C-B029-7FE99A87C641&#125;]</span><br><span class="line"><span class="string">&quot;HideIfEnabled&quot;</span>=-</span><br><span class="line">; Documents</span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;d3162b92-9365-467a-956b-92703aca08af&#125;]</span><br><span class="line"><span class="string">&quot;HideIfEnabled&quot;</span>=-</span><br><span class="line">; Downloads</span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;088e3905-0323-4b02-9826-5d99428e115f&#125;]</span><br><span class="line"><span class="string">&quot;HideIfEnabled&quot;</span>=-</span><br><span class="line">; Music</span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;3dfdf296-dbec-4fb4-81d1-6a3438bcf4de&#125;]</span><br><span class="line"><span class="string">&quot;HideIfEnabled&quot;</span>=-</span><br><span class="line">; Pictures</span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;24ad3ad4-a569-4530-98e1-ab02f9417aa8&#125;]</span><br><span class="line"><span class="string">&quot;HideIfEnabled&quot;</span>=-</span><br><span class="line">; Videos</span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a&#125;]</span><br><span class="line"><span class="string">&quot;HideIfEnabled&quot;</span>=-</span><br></pre></td></tr></table></figure>
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="效果："><a href="#效果：" class="headerlink" title="效果："></a>效果：</h2><p><img src="https://img2.covear.top/2023-05-29-20230529205207.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529205207.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529205207" title="2023-05-29-20230529205207"></p>
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
       </div>
       <div class="post-tags-categories">
-        
-        <div class="tags">
-          
-            <a href="/tags/Windows/" class="">
-              Windows
-            </a>
-          
-            <a href="/tags/%E6%95%99%E7%A8%8B/" class="">
-              教程
-            </a>
-          
-            <a href="/tags/%E6%AD%A4%E7%94%B5%E8%84%91/" class="">
-              此电脑
-            </a>
-          
-            <a href="/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/" class="">
-              注册表
-            </a>
-          
-            <a href="/tags/%E6%89%B9%E5%A4%84%E7%90%86/" class="">
-              批处理
-            </a>
-          
-        </div>
         
       </div>
       
@@ -656,7 +638,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/posts/hui-fu-ci-dian-nao-zhong-de-ge-ren-wen-jian-jia-xian-shi/" target="_blank" title="恢复“此电脑”中的个人文件夹显示">https://hnest.eu.org/posts/hui-fu-ci-dian-nao-zhong-de-ge-ren-wen-jian-jia-xian-shi/</a>
+    <a href="/posts/hello_world.do" target="_blank" title="Hello World">https://hnest.eu.org/posts/hello_world.do</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -674,26 +656,24 @@
 
 
 
+
+
   
-  <div class="post-nav-prev post-nav-item">
+  <div class="post-nav-next post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" srcset="/img/loading.min.svg" alt="">
+      <img class="lazyload lazyload placeholder" src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="/img/loading.min.svg" src="" alt="">
     </div>
-    <a href="/posts/wsl2/" class="post-nav-link">
+    <a href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do" class="post-nav-link">
       <div class="title">
-        <i class="fas fa-angle-left"></i> 上一篇:
-        <div class="title-text">Windows 最佳拍档 Fedora Remix for WSL2</div>
+        下一篇: <i class="fas fa-angle-right"></i>
+        <div class="title-text">高大上的微信文章</div>
       </div>
-      
       <!-- <div class="content">
-        
-Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从微软商城安装
+        说实话，简单的 word 文字排版 插入图片模式很多人都不会好吗。套上了花里胡哨的模板、样式，一样阅读体验很差。就先从文
       </div> -->
     </a>
   </div>
-
-
 
 </div>
 
@@ -1010,7 +990,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
   <div class='content'>
     <div class="toc-main">
       <div class="toc-content">
-        <!-- <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%89%B9%E5%A4%84%E7%90%86%E4%BB%A3%E7%A0%81%EF%BC%9A"><span class="toc-text">批处理代码：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%88%E6%9E%9C%EF%BC%9A"><span class="toc-text">效果：</span></a></li></ol> -->
+        <!-- <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol> -->
         <div class="toc"></div>
       </div>
     </div>
@@ -1043,7 +1023,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/hello-world/" class="post-img " style="background-size: cover; 
+              <a href="/posts/hello_world.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1051,10 +1031,10 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">06-23</span>
+                  <span class="post-date">06-25</span>
                 
               </div>
-              <a class="post-title" href="/posts/hello-world/">Hello World</a>
+              <a class="post-title" href="/posts/hello_world.do">Hello World</a>
             </div>
           </div>
         
@@ -1064,7 +1044,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/gao-da-shang-de-wei-xin-wen-zhang/" class="post-img " style="background-size: cover; 
+              <a href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1075,7 +1055,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/gao-da-shang-de-wei-xin-wen-zhang/">高大上的微信文章</a>
+              <a class="post-title" href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do">高大上的微信文章</a>
             </div>
           </div>
         
@@ -1085,7 +1065,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/pc-xu-ni-ji-kuai-su-ti-yan-macos-catalina-10-15/" class="post-img " style="background-size: cover; 
+              <a href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1096,7 +1076,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/pc-xu-ni-ji-kuai-su-ti-yan-macos-catalina-10-15/">PC虚拟机快速体验macOS Catalina(10.15)</a>
+              <a class="post-title" href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do">PC虚拟机快速体验macOS Catalina(10.15)</a>
             </div>
           </div>
         
@@ -1106,7 +1086,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/wsl2/" class="post-img " style="background-size: cover; 
+              <a href="/posts/wsl2.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1117,7 +1097,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/wsl2/">Windows 最佳拍档 Fedora Remix for WSL2</a>
+              <a class="post-title" href="/posts/wsl2.do">Windows 最佳拍档 Fedora Remix for WSL2</a>
             </div>
           </div>
         
@@ -1127,7 +1107,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/hui-fu-ci-dian-nao-zhong-de-ge-ren-wen-jian-jia-xian-shi/" class="post-img " style="background-size: cover; 
+              <a href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1138,7 +1118,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/hui-fu-ci-dian-nao-zhong-de-ge-ren-wen-jian-jia-xian-shi/">恢复“此电脑”中的个人文件夹显示</a>
+              <a class="post-title" href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.do">恢复“此电脑”中的个人文件夹显示</a>
             </div>
           </div>
         
