@@ -62,37 +62,37 @@ home_widget:
       <script defer src="/js/mySwiper.js"></script> 
       <link href="/css/mySwiper.css" rel="stylesheet"> 
     '
-  - class_name: movie_swiper
-    id_name: movie_swiper
-    order: 101
-    name: 近日の热映
-    icon: fa-solid fa-film fa-beat fa-xl
-    icon_color: '#27a'
-    url: https://movie.douban.com/chart
-    background: '#fff'
-    html: '
-      <div id="douban">
-        <vue-seamless-scroll :data="listData" :class-option="classOption" class="warp" >
-          <ul class="ul-item" :style="{width: conWidth}">
-            <li class="li-item" v-for="(item, index) in listData" :key="index"> 
-              <a data-fancybox="gallery" :data-src="item.info.imgurl">
-                <img class="no-lazy" :src="item.info.imgurl"> 
-              </a>
-              <div class="douban-content"> 
-                <span :href="item.info.url" target="_blank" data-fancybox data-type="iframe" data-preload="false"> 
-                  <p class="title">《{{item.title}}》</p> 
-                  <p class="score">评分: <span class="title">{{item.info.pingfen}}</span></p> 
-                  <p class="desc">{{item.info.pingjia}}</p> 
-                </span> 
-              </div> 
-            </li>
-          </ul>
-        </vue-seamless-scroll>
-      </div>
+  # - class_name: movie_swiper
+  #   id_name: movie_swiper
+  #   order: 101
+  #   name: 近日の热映
+  #   icon: fa-solid fa-film fa-beat fa-xl
+  #   icon_color: '#27a'
+  #   url: https://movie.douban.com/chart
+  #   background: '#fff'
+  #   html: '
+  #     <div id="douban">
+  #       <vue-seamless-scroll :data="listData" :class-option="classOption" class="warp" >
+  #         <ul class="ul-item" :style="{width: conWidth}">
+  #           <li class="li-item" v-for="(item, index) in listData" :key="index"> 
+  #             <a data-fancybox="gallery" :data-src="item.info.imgurl">
+  #               <img class="no-lazy" :src="item.info.imgurl"> 
+  #             </a>
+  #             <div class="douban-content"> 
+  #               <span :href="item.info.url" target="_blank" data-fancybox data-type="iframe" data-preload="false"> 
+  #                 <p class="title">《{{item.title}}》</p> 
+  #                 <p class="score">评分: <span class="title">{{item.info.pingfen}}</span></p> 
+  #                 <p class="desc">{{item.info.pingjia}}</p> 
+  #               </span> 
+  #             </div> 
+  #           </li>
+  #         </ul>
+  #       </vue-seamless-scroll>
+  #     </div>
 
-      <script defer src="/js/douban.js"></script>
-      <link href="/css/douban.css" rel="stylesheet">
-    '
+  #     <script defer src="/js/douban.js"></script>
+  #     <link href="/css/douban.css" rel="stylesheet">
+  #   '
   - class_name: study_today
     id_name: study_today
     order: 102
