@@ -1205,18 +1205,6 @@
       </div>
   </div>
   
-    <div class="widget movie_swiper" id="movie_swiper" style="order: 101;background: #fff">
-      <header>
-        
-          <a style="color: #27a" target="_blank" rel="noopener" href='https://movie.douban.com/chart'><i class="fa-solid fa-film fa-beat fa-xl fa-fw" aria-hidden="true"></i><span class='name'>近日の热映</span></a>
-        
-      </header>
-      <div class="content">
-         <div id="douban"> <vue-seamless-scroll :data="listData" :class-option="classOption" class="warp" > <ul class="ul-item" :style="{width: conWidth}"> <li class="li-item" v-for="(item, index) in listData" :key="index">  <a data-fancybox="gallery" :data-src="item.info.imgurl"> <img class="no-lazy" :src="item.info.imgurl">  </a> <div class="douban-content">  <span :href="item.info.url" target="_blank" data-fancybox data-type="iframe" data-preload="false">  <p class="title">《{{item.title}}》</p>  <p class="score">评分: <span class="title">{{item.info.pingfen}}</span></p>  <p class="desc">{{item.info.pingjia}}</p>  </span>  </div>  </li> </ul> </vue-seamless-scroll> </div>
-<script defer src="/js/douban.js"></script> <link href="/css/douban.css" rel="stylesheet"> 
-      </div>
-  </div>
-  
     <div class="widget study_today" id="study_today" style="order: 102;background: #fff">
       <header>
         
@@ -1268,7 +1256,7 @@
         <div class="post-info">
           <div class="post-time">
             <i class="fas fa-clock" aria-hidden="true"></i>
-            <span class="post-time">2023-06-25</span>
+            <span class="post-time">2023-07-23</span>
           </div>
           <div class="post-title">
             <a class="post-title-link" href="/posts/hello_world.do">Hello World</a>
@@ -1650,7 +1638,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">06-25</span>
+                  <span class="post-date">07-23</span>
                 
               </div>
               <a class="post-title" href="/posts/hello_world.do">Hello World</a>
@@ -1748,7 +1736,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
       
   <section class="widget side_archives">
     
-    <header><a style="color: red" href='/archives/'><i class="fas fa-archive fa-fw" aria-hidden="true"></i><span class='name'>归档</span></a></header><div class="content"><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><span class="card-archive-list-count">4</span></a></li></ul></div>
+    <header><a style="color: red" href='/archives/'><i class="fas fa-archive fa-fw" aria-hidden="true"></i><span class='name'>归档</span></a></header><div class="content"><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">七月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><span class="card-archive-list-count">4</span></a></li></ul></div>
   </section>
 
       <section class="widget side_webinfo">
@@ -1813,8 +1801,8 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Sun Jun 25 2023 06:43:10 GMT+0000 (Coordinated Universal Time)</div>
-            <div id="last-update-show">2023-06-25 日</div>
+            <div id="last-update" style="display: none;">Sun Jul 23 2023 12:01:17 GMT+0000 (Coordinated Universal Time)</div>
+            <div id="last-update-show">2023-07-23 日</div>
           
         </div>
         
@@ -1864,7 +1852,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
           try {
             document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
           } catch (error) {
-            document.getElementById('last-update-show').innerHTML = '2023-06-25 日';
+            document.getElementById('last-update-show').innerHTML = '2023-07-23 日';
           }
         </script>
         
