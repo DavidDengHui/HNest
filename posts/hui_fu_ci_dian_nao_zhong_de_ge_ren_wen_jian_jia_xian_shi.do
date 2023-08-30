@@ -1051,7 +1051,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">07-23</span>
+                  <span class="post-date">08-30</span>
                 
               </div>
               <a class="post-title" href="/posts/hello_world.do">Hello World</a>

@@ -572,7 +572,7 @@
     
       
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> 发表于：2023-07-23 |
+          <i class="fas fa-calendar"></i> 发表于：2023-08-30 |
         </span>
       
 
@@ -1031,7 +1031,7 @@
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">07-23</span>
+                  <span class="post-date">08-30</span>
                 
               </div>
               <a class="post-title" href="/posts/hello_world.do">Hello World</a>
