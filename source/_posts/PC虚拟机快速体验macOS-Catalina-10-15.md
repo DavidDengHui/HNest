@@ -1,7 +1,17 @@
 ---
 title: PC虚拟机快速体验macOS Catalina(10.15)
+tags:
+  - Windows
+  - VMWare
+  - macOS
+  - Catalina
+  - 虚拟机
+  - 黑苹果
+  - 教程
+  - 偷渡
+abbrlink: 19242
 date: 2023-05-29 21:03:31
-tags: ['Windows', 'VMWare', 'macOS', 'Catalina', '虚拟机', '黑苹果', '教程', '偷渡']
+img: 'https://img2.covear.top/2023-05-29-20230529211752.png'
 ---
 <!-- wp:paragraph {"dropCap":true} -->
 <p class="has-drop-cap">PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可以非常方便地体验到macOS系统，app store里面的软件也能正常安装，还是很不错的。在这里就是为大家介绍使用<em><strong>VMware Workstation</strong></em>安装<strong><em>macOS</em></strong> , 有现成的磁盘映像因此部署非常简单。</p>

@@ -14,7 +14,10 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://hnest.gitee.io
-permalink: posts/:title.do
+permalink: posts/:abbrlink.do
+abbrlink:
+  alg: crc16 #support crc16(default) and crc32
+  rep: dec   #support dec(default) and hex
 permalink_defaults:
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
