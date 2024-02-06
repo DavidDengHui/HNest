@@ -6,7 +6,7 @@
   <link href="https://hnest.eu.org/atom.xml" rel="self"/>
   
   <link href="https://hnest.eu.org/"/>
-  <updated>2024-02-06T14:31:44.961Z</updated>
+  <updated>2024-02-06T15:35:00.196Z</updated>
   <id>https://hnest.eu.org/</id>
   
   <author>
@@ -17,23 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://hnest.eu.org/posts/hello_world.do"/>
-    <id>https://hnest.eu.org/posts/hello_world.do</id>
-    <published>2024-02-06T14:31:44.961Z</published>
-    <updated>2024-02-06T14:31:44.961Z</updated>
+    <title>在Fedora上安装NVIDIA驱动详细教程及解析</title>
+    <link href="https://hnest.eu.org/posts/install_nvidia_driver_in_fedora.do"/>
+    <id>https://hnest.eu.org/posts/install_nvidia_driver_in_fedora.do</id>
+    <published>2024-02-06T22:45:06.000Z</published>
+    <updated>2024-02-06T15:35:00.196Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;p&gt;在经历了各种尝试和试错之后，发现并总结出了比较合适、安全且合理的NVIDIA闭源驱动安装方案，本教程基于Fedora</summary>
         
       
     
     
     
+    
+    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Linux" scheme="https://hnest.eu.org/tags/Linux/"/>
+    
+    <category term="RedHat" scheme="https://hnest.eu.org/tags/RedHat/"/>
+    
+    <category term="Fedora" scheme="https://hnest.eu.org/tags/Fedora/"/>
+    
+    <category term="NVIDIA" scheme="https://hnest.eu.org/tags/NVIDIA/"/>
+    
+    <category term="英伟达" scheme="https://hnest.eu.org/tags/%E8%8B%B1%E4%BC%9F%E8%BE%BE/"/>
+    
+    <category term="驱动" scheme="https://hnest.eu.org/tags/%E9%A9%B1%E5%8A%A8/"/>
     
   </entry>
   
@@ -42,7 +56,7 @@
     <link href="https://hnest.eu.org/posts/gao_da_shang_de_wei_xin_wen_zhang.do"/>
     <id>https://hnest.eu.org/posts/gao_da_shang_de_wei_xin_wen_zhang.do</id>
     <published>2023-05-29T21:24:40.000Z</published>
-    <updated>2024-02-06T14:31:44.961Z</updated>
+    <updated>2024-02-06T15:35:00.196Z</updated>
     
     
       
@@ -75,7 +89,7 @@
     <link href="https://hnest.eu.org/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do"/>
     <id>https://hnest.eu.org/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do</id>
     <published>2023-05-29T21:03:31.000Z</published>
-    <updated>2024-02-06T14:31:44.961Z</updated>
+    <updated>2024-02-06T15:35:00.196Z</updated>
     
     
       
@@ -90,6 +104,8 @@
     
     
     
+    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
     <category term="Windows" scheme="https://hnest.eu.org/tags/Windows/"/>
     
     <category term="VMWare" scheme="https://hnest.eu.org/tags/VMWare/"/>
@@ -102,8 +118,6 @@
     
     <category term="黑苹果" scheme="https://hnest.eu.org/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
     
-    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="偷渡" scheme="https://hnest.eu.org/tags/%E5%81%B7%E6%B8%A1/"/>
     
   </entry>
@@ -113,7 +127,7 @@
     <link href="https://hnest.eu.org/posts/wsl2.do"/>
     <id>https://hnest.eu.org/posts/wsl2.do</id>
     <published>2023-05-29T20:56:44.000Z</published>
-    <updated>2024-02-06T14:31:44.961Z</updated>
+    <updated>2024-02-06T15:35:00.196Z</updated>
     
     
       
@@ -128,13 +142,13 @@
     
     
     
-    <category term="Windows" scheme="https://hnest.eu.org/tags/Windows/"/>
-    
     <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="WSL2" scheme="https://hnest.eu.org/tags/WSL2/"/>
-    
     <category term="Fedora" scheme="https://hnest.eu.org/tags/Fedora/"/>
+    
+    <category term="Windows" scheme="https://hnest.eu.org/tags/Windows/"/>
+    
+    <category term="WSL2" scheme="https://hnest.eu.org/tags/WSL2/"/>
     
     <category term="Red Hat" scheme="https://hnest.eu.org/tags/Red-Hat/"/>
     
@@ -147,7 +161,7 @@
     <link href="https://hnest.eu.org/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.do"/>
     <id>https://hnest.eu.org/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.do</id>
     <published>2023-05-29T20:48:05.000Z</published>
-    <updated>2024-02-06T14:31:44.961Z</updated>
+    <updated>2024-02-06T15:35:00.196Z</updated>
     
     
       
@@ -162,15 +176,38 @@
     
     
     
-    <category term="Windows" scheme="https://hnest.eu.org/tags/Windows/"/>
-    
     <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Windows" scheme="https://hnest.eu.org/tags/Windows/"/>
     
     <category term="此电脑" scheme="https://hnest.eu.org/tags/%E6%AD%A4%E7%94%B5%E8%84%91/"/>
     
     <category term="注册表" scheme="https://hnest.eu.org/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/"/>
     
     <category term="批处理" scheme="https://hnest.eu.org/tags/%E6%89%B9%E5%A4%84%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://hnest.eu.org/posts/hello_world.do"/>
+    <id>https://hnest.eu.org/posts/hello_world.do</id>
+    <published>2014-10-01T18:28:38.000Z</published>
+    <updated>2024-02-06T15:35:00.196Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="日常" scheme="https://hnest.eu.org/tags/%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   

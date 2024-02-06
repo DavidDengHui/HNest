@@ -558,7 +558,7 @@
 
 
 <div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp')">
+  background-position: center center;position: relative;background-image:url('https://img2.covear.top/2023-05-29-20230529211752.png')">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
@@ -677,6 +677,10 @@
         
         <div class="tags">
           
+            <a href="/tags/%E6%95%99%E7%A8%8B/" class="">
+              教程
+            </a>
+          
             <a href="/tags/Windows/" class="">
               Windows
             </a>
@@ -699,10 +703,6 @@
           
             <a href="/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/" class="">
               黑苹果
-            </a>
-          
-            <a href="/tags/%E6%95%99%E7%A8%8B/" class="">
-              教程
             </a>
           
             <a href="/tags/%E5%81%B7%E6%B8%A1/" class="">
@@ -742,7 +742,7 @@
   <div class="post-nav-prev post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="/img/loading.min.svg" alt="">
+      <img class="lazyload lazyload placeholder" src="https://covear.top/wp-content/uploads/2018/02/v2-5dd7e4067bf9542f78b324af4d99138b_hd.png" class="lazyload placeholder" data-srcset="https://covear.top/wp-content/uploads/2018/02/v2-5dd7e4067bf9542f78b324af4d99138b_hd.png" srcset="/img/loading.min.svg" alt="">
     </div>
     <a href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do" class="post-nav-link">
       <div class="title">
@@ -762,7 +762,7 @@
   <div class="post-nav-next post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" srcset="/img/loading.min.svg" src="" alt="">
+      <img class="lazyload lazyload placeholder" src="https://img2.covear.top/2023-05-29-20230529205922.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529205922.png" srcset="/img/loading.min.svg" src="" alt="">
     </div>
     <a href="/posts/wsl2.do" class="post-nav-link">
       <div class="title">
@@ -1124,9 +1124,9 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/hello_world.do" class="post-img " style="background-size: cover; 
+              <a href="/posts/install_nvidia_driver_in_fedora.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" srcset="/img/loading.min.svg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://img2.covear.top/%E6%88%AA%E5%B1%8F2024-02-06%2023.25.28.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/%E6%88%AA%E5%B1%8F2024-02-06%2023.25.28.png" srcset="/img/loading.min.svg" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -1135,7 +1135,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
                   <span class="post-date">02-06</span>
                 
               </div>
-              <a class="post-title" href="/posts/hello_world.do">Hello World</a>
+              <a class="post-title" href="/posts/install_nvidia_driver_in_fedora.do">在Fedora上安装NVIDIA驱动详细教程及解析</a>
             </div>
           </div>
         
@@ -1147,7 +1147,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             <div class="post-img-box">
               <a href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="/img/loading.min.svg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://covear.top/wp-content/uploads/2018/02/v2-5dd7e4067bf9542f78b324af4d99138b_hd.png" class="lazyload placeholder" data-srcset="https://covear.top/wp-content/uploads/2018/02/v2-5dd7e4067bf9542f78b324af4d99138b_hd.png" srcset="/img/loading.min.svg" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -1168,7 +1168,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             <div class="post-img-box">
               <a href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" srcset="/img/loading.min.svg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://img2.covear.top/2023-05-29-20230529211752.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529211752.png" srcset="/img/loading.min.svg" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -1189,7 +1189,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             <div class="post-img-box">
               <a href="/posts/wsl2.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" srcset="/img/loading.min.svg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://img2.covear.top/2023-05-29-20230529205922.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529205922.png" srcset="/img/loading.min.svg" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -1210,7 +1210,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             <div class="post-img-box">
               <a href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg" srcset="/img/loading.min.svg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://img2.covear.top/2023-05-29-20230529205207.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529205207.png" srcset="/img/loading.min.svg" alt="">
               </a>
             </div>
             <div class="post-date-title">

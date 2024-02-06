@@ -4,13 +4,31 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/posts/hello_world.do"/>
-      <url>/posts/hello_world.do</url>
+      <title>在Fedora上安装NVIDIA驱动详细教程及解析</title>
+      <link href="/posts/install_nvidia_driver_in_fedora.do"/>
+      <url>/posts/install_nvidia_driver_in_fedora.do</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>在经历了各种尝试和试错之后，发现并总结出了比较合适、安全且合理的NVIDIA闭源驱动安装方案，本教程基于Fedora 39发行版，各类发行版大同小异吧，本教程基于NVIDIA官方run包安装方式，尽可能把每一个过程和选择讲述清楚，请大家看完全篇再上手尝试。</p><p>由于想要在BIOS UEFI Secure Boot开启的情况下安装NVIDIA driver并不是像一般的教程直接运行run包或者使用rpmfusion里的<code>akmod-nvidia</code> or <code>xorg-x11-drv-nvidia-cuda</code>就行。</p><p>未完待续…</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> RedHat </tag>
+            
+            <tag> Fedora </tag>
+            
+            <tag> NVIDIA </tag>
+            
+            <tag> 英伟达 </tag>
+            
+            <tag> 驱动 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -56,6 +74,8 @@
       
         <tags>
             
+            <tag> 教程 </tag>
+            
             <tag> Windows </tag>
             
             <tag> VMWare </tag>
@@ -67,8 +87,6 @@
             <tag> 虚拟机 </tag>
             
             <tag> 黑苹果 </tag>
-            
-            <tag> 教程 </tag>
             
             <tag> 偷渡 </tag>
             
@@ -89,13 +107,13 @@
       
         <tags>
             
-            <tag> Windows </tag>
-            
             <tag> 教程 </tag>
             
-            <tag> WSL2 </tag>
-            
             <tag> Fedora </tag>
+            
+            <tag> Windows </tag>
+            
+            <tag> WSL2 </tag>
             
             <tag> Red Hat </tag>
             
@@ -118,15 +136,34 @@
       
         <tags>
             
-            <tag> Windows </tag>
-            
             <tag> 教程 </tag>
+            
+            <tag> Windows </tag>
             
             <tag> 此电脑 </tag>
             
             <tag> 注册表 </tag>
             
             <tag> 批处理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/posts/hello_world.do"/>
+      <url>/posts/hello_world.do</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 日常 </tag>
             
         </tags>
       

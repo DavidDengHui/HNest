@@ -572,7 +572,7 @@
     
       
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> 发表于：2024-02-06 |
+          <i class="fas fa-calendar"></i> 发表于：2014-10-01 |
         </span>
       
 
@@ -629,6 +629,14 @@
       </div>
       <div class="post-tags-categories">
         
+        <div class="tags">
+          
+            <a href="/tags/%E6%97%A5%E5%B8%B8/" class="">
+              日常
+            </a>
+          
+        </div>
+        
       </div>
       
         <div class="copyright">
@@ -656,24 +664,28 @@
 
 
 
-
-
   
-  <div class="post-nav-next post-nav-item">
+  <div class="post-nav-prev post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="/img/loading.min.svg" src="" alt="">
+      <img class="lazyload lazyload placeholder" src="https://img2.covear.top/2023-05-29-20230529205207.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529205207.png" srcset="/img/loading.min.svg" alt="">
     </div>
-    <a href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do" class="post-nav-link">
+    <a href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.do" class="post-nav-link">
       <div class="title">
-        下一篇: <i class="fas fa-angle-right"></i>
-        <div class="title-text">高大上的微信文章</div>
+        <i class="fas fa-angle-left"></i> 上一篇:
+        <div class="title-text">恢复“此电脑”中的个人文件夹显示</div>
       </div>
+      
       <!-- <div class="content">
-        说实话，简单的 word 文字排版 插入图片模式很多人都不会好吗。套上了花里胡哨的模板、样式，一样阅读体验很差。就先从文
+        
+“此电脑”里居然只剩下了驱动器？图片、视频、文档、下载、音乐和桌面六个常用个人文件夹不见了？
+
+保存以下注册表批处理代
       </div> -->
     </a>
   </div>
+
+
 
 </div>
 
@@ -1023,9 +1035,9 @@
             
 
             <div class="post-img-box">
-              <a href="/posts/hello_world.do" class="post-img " style="background-size: cover; 
+              <a href="/posts/install_nvidia_driver_in_fedora.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" srcset="/img/loading.min.svg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://img2.covear.top/%E6%88%AA%E5%B1%8F2024-02-06%2023.25.28.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/%E6%88%AA%E5%B1%8F2024-02-06%2023.25.28.png" srcset="/img/loading.min.svg" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -1034,7 +1046,7 @@
                   <span class="post-date">02-06</span>
                 
               </div>
-              <a class="post-title" href="/posts/hello_world.do">Hello World</a>
+              <a class="post-title" href="/posts/install_nvidia_driver_in_fedora.do">在Fedora上安装NVIDIA驱动详细教程及解析</a>
             </div>
           </div>
         
@@ -1046,7 +1058,7 @@
             <div class="post-img-box">
               <a href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" class="lazyload placeholder" data-srcset="https://pica.zhimg.com/80/v2-61f99f8dcf899f54cad2a1aa28b21e44_1440w.webp" srcset="/img/loading.min.svg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://covear.top/wp-content/uploads/2018/02/v2-5dd7e4067bf9542f78b324af4d99138b_hd.png" class="lazyload placeholder" data-srcset="https://covear.top/wp-content/uploads/2018/02/v2-5dd7e4067bf9542f78b324af4d99138b_hd.png" srcset="/img/loading.min.svg" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -1067,7 +1079,7 @@
             <div class="post-img-box">
               <a href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" class="lazyload placeholder" data-srcset="https://picx.zhimg.com/80/v2-9c50d3af0bc62a0e8b6e89e24c769317_1440w.webp" srcset="/img/loading.min.svg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://img2.covear.top/2023-05-29-20230529211752.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529211752.png" srcset="/img/loading.min.svg" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -1088,7 +1100,7 @@
             <div class="post-img-box">
               <a href="/posts/wsl2.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" class="lazyload placeholder" data-srcset="https://pic2.zhimg.com/80/v2-e22aaad20d20634f506f57fff0fcbc17_1440w.webp" srcset="/img/loading.min.svg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://img2.covear.top/2023-05-29-20230529205922.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529205922.png" srcset="/img/loading.min.svg" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -1109,7 +1121,7 @@
             <div class="post-img-box">
               <a href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.do" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/v2-a5267dfbf175991d4b3a69b41f3f678a_b.jpg" srcset="/img/loading.min.svg" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://img2.covear.top/2023-05-29-20230529205207.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529205207.png" srcset="/img/loading.min.svg" alt="">
               </a>
             </div>
             <div class="post-date-title">
