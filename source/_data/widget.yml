@@ -111,7 +111,7 @@ home_widget:
           <div class="study-container" v-for="(item, index) in content" :key="index">
             <div class="left">
               <div class="order"># </div>
-              <div class="name"><a :href="`https://nb.ahome.eu.org/search?q=` + item.name" target="_blank" title="让 New Bing 告诉你更多！" data-fancybox data-type="iframe" data-preload="false">{{item.name}}</a></div>
+              <div class="name"><a :href="`https://nb.ahome.eu.org/search?q=` + item.m_title" target="_blank" title="让 New Bing 告诉你更多！" data-fancybox data-type="iframe" data-preload="false">{{item.m_title}}</a></div>
             </div>
           </div>
         </vue-seamless-scroll>
