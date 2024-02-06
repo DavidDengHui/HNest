@@ -14,14 +14,15 @@ new Vue({
     methods: {
       // 请求开源api,
       getWeiboList() {
-        fetch("https://api.emoao.com/api/60s?type=json", {
+        // fetch("https://api.emoao.com/api/60s?type=json", {
+        fetch("https://tenapi.cn/v2/zhihuhot", {
           method: "GET", // *GET, POST, PUT, DELETE, etc.
         })
           .then((res) => {
             return res.json();
           })
           .then((data) => {
-            this.content = data.data.news;
+            this.content = data.data;
           })
           .catch((err) => {
             console.log("err", err);

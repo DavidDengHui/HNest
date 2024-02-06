@@ -42,16 +42,15 @@ home_widget:
     html: '
       <div id="mySwiper" @mouseenter="stopAutoPlay()" @mouseleave="startAutoPlay()"> 
         <swiper class="myswiper" ref="myswiper" style="height:350px;" :options="swiperOption">
-          <swiper-slide v-for="(item, index) in listBili" :key="index"> 
-            <a :href="item.short_link_v2" :title="item.tname + `区 @` + item[`owner`].name + `（` + item.pub_location + `）`" class="toPath" target="_blank"  data-fancybox data-type="iframe" data-preload="false"> 
+          <swiper-slide v-for="(item, index) in listData" :key="index"> 
+            <a :href="`https://player.bilibili.com/player.html?bvid=BV` + item.url.slice(-10)" :title="item.desc" class="toPath" target="_blank" data-fancybox data-type="iframe" data-preload="false"> 
               <span data-fancybox="gallery" :data-src="item.pic"><img class="no-lazy" :src="item.pic" style="width:100%;height:100%;object-fit: cover;"></span>
               <div class="mySwiper-text"> 
                 <h1 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
-                  <strong style="color: #FF0000CC; font-size: 1.5em; font-style: italic; text-shadow: 2px 2px 4px black;">TOP{{index+1}}</strong>&nbsp;<i class="fa-brands fa-hotjar fa-beat fa-lg" style="color: #c82828;"></i>&nbsp;<span style="border-radius: 500px; border-color: #ff000088; border-style: outset; background: #FF000088;"> &nbsp;{{(item["stat"].view / 10000).toFixed(1)}}w&nbsp;</span>
+                  <strong style="color: #FF0000CC; font-size: 1.5em; font-style: italic; text-shadow: 2px 2px 4px black;">TOP{{index+1}}</strong>&nbsp;<i class="fa-brands fa-hotjar fa-beat fa-lg" style="color: #c82828;"></i>&nbsp;<span style="border-radius: 500px; border-color: #ff000088; border-style: outset; background: #FF000088;"> &nbsp;{{item.hotScore}}&nbsp;</span>
                 </h1> 
                 <h2 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" :title="item.title">{{item.title}}</h2> 
                 <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" :title="item.desc">{{item.desc}}</p> 
-                <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" :title="`（ps: ` + item.dynamic + `）`" v-if="item.dynamic">（ps: {{item.dynamic}}）</p> 
               </div> 
             </a> 
           </swiper-slide>
@@ -112,7 +111,7 @@ home_widget:
           <div class="study-container" v-for="(item, index) in content" :key="index">
             <div class="left">
               <div class="order"># </div>
-              <div class="name"><a :href="`https://nb.ahome.eu.org/search?q=` + item" target="_blank" title="让 New Bing 告诉你更多！" data-fancybox data-type="iframe" data-preload="false">{{item}}</a></div>
+              <div class="name"><a :href="`https://nb.ahome.eu.org/search?q=` + item.name" target="_blank" title="让 New Bing 告诉你更多！" data-fancybox data-type="iframe" data-preload="false">{{item.name}}</a></div>
             </div>
           </div>
         </vue-seamless-scroll>
