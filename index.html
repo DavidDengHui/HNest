@@ -1201,7 +1201,7 @@
         
       </header>
       <div class="content">
-         <div id="mySwiper" @mouseenter="stopAutoPlay()" @mouseleave="startAutoPlay()">  <swiper class="myswiper" ref="myswiper" style="height:350px;" :options="swiperOption"> <swiper-slide v-for="(item, index) in listBili" :key="index">  <a :href="item.short_link_v2" :title="item.tname + `区 @` + item[`owner`].name + `（` + item.pub_location + `）`" class="toPath" target="_blank"  data-fancybox data-type="iframe" data-preload="false">  <span data-fancybox="gallery" :data-src="item.pic"><img class="no-lazy" :src="item.pic" style="width:100%;height:100%;object-fit: cover;"></span> <div class="mySwiper-text">  <h1 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"> <strong style="color: #FF0000CC; font-size: 1.5em; font-style: italic; text-shadow: 2px 2px 4px black;">TOP{{index+1}}</strong>&nbsp;<i class="fa-brands fa-hotjar fa-beat fa-lg" style="color: #c82828;"></i>&nbsp;<span style="border-radius: 500px; border-color: #ff000088; border-style: outset; background: #FF000088;"> &nbsp;{{(item["stat"].view / 10000).toFixed(1)}}w&nbsp;</span> </h1>  <h2 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" :title="item.title">{{item.title}}</h2>  <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" :title="item.desc">{{item.desc}}</p>  <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" :title="`（ps: ` + item.dynamic + `）`" v-if="item.dynamic">（ps: {{item.dynamic}}）</p>  </div>  </a>  </swiper-slide> <!-- 如果你想继续增加轮播图，继续在下面写<swiper-slide>我是内容</swiper-slide>就行了 -->  <div class="swiper-pagination" slot="pagination"></div> </swiper>  </div> <script defer src="/js/mySwiper.js"></script>  <link href="/css/mySwiper.css" rel="stylesheet">  
+         <div id="mySwiper" @mouseenter="stopAutoPlay()" @mouseleave="startAutoPlay()">  <swiper class="myswiper" ref="myswiper" style="height:350px;" :options="swiperOption"> <swiper-slide v-for="(item, index) in listData" :key="index">  <a :href="`https://player.bilibili.com/player.html?bvid=BV` + item.url.slice(-10)" :title="item.desc" class="toPath" target="_blank" data-fancybox data-type="iframe" data-preload="false">  <span data-fancybox="gallery" :data-src="item.pic"><img class="no-lazy" :src="item.pic" style="width:100%;height:100%;object-fit: cover;"></span> <div class="mySwiper-text">  <h1 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"> <strong style="color: #FF0000CC; font-size: 1.5em; font-style: italic; text-shadow: 2px 2px 4px black;">TOP{{index+1}}</strong>&nbsp;<i class="fa-brands fa-hotjar fa-beat fa-lg" style="color: #c82828;"></i>&nbsp;<span style="border-radius: 500px; border-color: #ff000088; border-style: outset; background: #FF000088;"> &nbsp;{{item.hotScore}}&nbsp;</span> </h1>  <h2 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" :title="item.title">{{item.title}}</h2>  <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" :title="item.desc">{{item.desc}}</p>  </div>  </a>  </swiper-slide> <!-- 如果你想继续增加轮播图，继续在下面写<swiper-slide>我是内容</swiper-slide>就行了 -->  <div class="swiper-pagination" slot="pagination"></div> </swiper>  </div> <script defer src="/js/mySwiper.js"></script>  <link href="/css/mySwiper.css" rel="stylesheet">  
       </div>
   </div>
   
@@ -1212,7 +1212,7 @@
         
       </header>
       <div class="content">
-         <div id="studyToday" class="study-today"> <!-- 如果不要滚动，则去掉 vue-seamless-scroll标签就行了，这个插件使用cdn向左向右滚动好像有问题 --> <vue-seamless-scroll :data="content" :class-option="classOption" class="warp" > <div class="study-container" v-for="(item, index) in content" :key="index"> <div class="left"> <div class="order"># </div> <div class="name"><a :href="`https://nb.ahome.eu.org/search?q=` + item" target="_blank" title="让 New Bing 告诉你更多！" data-fancybox data-type="iframe" data-preload="false">{{item}}</a></div> </div> </div> </vue-seamless-scroll> </div>
+         <div id="studyToday" class="study-today"> <!-- 如果不要滚动，则去掉 vue-seamless-scroll标签就行了，这个插件使用cdn向左向右滚动好像有问题 --> <vue-seamless-scroll :data="content" :class-option="classOption" class="warp" > <div class="study-container" v-for="(item, index) in content" :key="index"> <div class="left"> <div class="order"># </div> <div class="name"><a :href="`https://nb.ahome.eu.org/search?q=` + item.name" target="_blank" title="让 New Bing 告诉你更多！" data-fancybox data-type="iframe" data-preload="false">{{item.name}}</a></div> </div> </div> </vue-seamless-scroll> </div>
 <script defer src="/js/studyToday.js"></script> <link href="/css/studyToday.css" rel="stylesheet"> 
       </div>
   </div>
@@ -1256,7 +1256,7 @@
         <div class="post-info">
           <div class="post-time">
             <i class="fas fa-clock" aria-hidden="true"></i>
-            <span class="post-time">2023-08-30</span>
+            <span class="post-time">2024-02-06</span>
           </div>
           <div class="post-title">
             <a class="post-title-link" href="/posts/hello_world.do">Hello World</a>
@@ -1638,7 +1638,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">08-30</span>
+                  <span class="post-date">02-06</span>
                 
               </div>
               <a class="post-title" href="/posts/hello_world.do">Hello World</a>
@@ -1736,7 +1736,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
       
   <section class="widget side_archives">
     
-    <header><a style="color: red" href='/archives/'><i class="fas fa-archive fa-fw" aria-hidden="true"></i><span class='name'>归档</span></a></header><div class="content"><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">八月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><span class="card-archive-list-count">4</span></a></li></ul></div>
+    <header><a style="color: red" href='/archives/'><i class="fas fa-archive fa-fw" aria-hidden="true"></i><span class='name'>归档</span></a></header><div class="content"><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><span class="card-archive-list-count">4</span></a></li></ul></div>
   </section>
 
       <section class="widget side_webinfo">
@@ -1801,8 +1801,8 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Wed Aug 30 2023 14:00:27 GMT+0000 (Coordinated Universal Time)</div>
-            <div id="last-update-show">2023-08-30 日</div>
+            <div id="last-update" style="display: none;">Tue Feb 06 2024 13:44:49 GMT+0000 (Coordinated Universal Time)</div>
+            <div id="last-update-show">2024-02-06 日</div>
           
         </div>
         
@@ -1852,7 +1852,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
           try {
             document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
           } catch (error) {
-            document.getElementById('last-update-show').innerHTML = '2023-08-30 日';
+            document.getElementById('last-update-show').innerHTML = '2024-02-06 日';
           }
         </script>
         
@@ -2134,7 +2134,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
               <div><p>提供CDN加速&#x2F;云储存服务<br><br></p>
 </div>
             
-              <div><p> <a target="_blank" rel="noopener" href="https://gitee.com/hnest/hnest/commits/master" title="Gitee Commits"><img src="https://gitee.badge.hnest.eu.org/svg/commits/hnest/hnest" class="lazyload placeholder" data-srcset="https://gitee.badge.hnest.eu.org/svg/commits/hnest/hnest" srcset="/img/loading.min.svg" alt="Gitee Commits"></a><br> <a target="_blank" rel="noopener" href="https://github.ahome.eu.org/DavidDengHui/HNest/commits/master" title="GitHub Commits"><img src="https://github.ahome.eu.org/DavidDengHui/HNest/actions/workflows/deploy_pages.yml/badge.svg" class="lazyload placeholder" data-srcset="https://github.ahome.eu.org/DavidDengHui/HNest/actions/workflows/deploy_pages.yml/badge.svg" srcset="/img/loading.min.svg" alt="GitHub Pages Status"></a><br> <a target="_blank" rel="noopener" href="https://vercel.com/daviddenghui/hnest/deployments" title="Vercel Status"><img src="https://vercel.badge.hnest.eu.org/api/daviddenghui/hnest" class="lazyload placeholder" data-srcset="https://vercel.badge.hnest.eu.org/api/daviddenghui/hnest" srcset="/img/loading.min.svg" alt="Vercel Status"></a><br> <a target="_blank" rel="noopener" href="https://app.netlify.com/sites/hnest/deploys" title="Netlify Status"><img src="https://api.netlify.com/api/v1/badges/13dc7751-4d7d-424e-8d04-e6e5263b093f/deploy-status" class="lazyload placeholder" data-srcset="https://api.netlify.com/api/v1/badges/13dc7751-4d7d-424e-8d04-e6e5263b093f/deploy-status" srcset="/img/loading.min.svg" alt="Netlify Status"></a><br> </p>
+              <div><p> <a target="_blank" rel="noopener" href="https://gitee.com/hnest/hnest/commits/master" title="Gitee Commits"><img src="https://gitee.badge.hnest.eu.org/svg/commits/hnest/hnest" class="lazyload placeholder" data-srcset="https://gitee.badge.hnest.eu.org/svg/commits/hnest/hnest" srcset="/img/loading.min.svg" alt="Gitee Commits"></a><br> <a target="_blank" rel="noopener" href="https://github.com/DavidDengHui/HNest/commits/master" title="GitHub Commits"><img src="https://github.com/DavidDengHui/HNest/actions/workflows/deploy_pages.yml/badge.svg" class="lazyload placeholder" data-srcset="https://github.com/DavidDengHui/HNest/actions/workflows/deploy_pages.yml/badge.svg" srcset="/img/loading.min.svg" alt="GitHub Pages Status"></a><br> <a target="_blank" rel="noopener" href="https://vercel.com/daviddenghui/hnest/deployments" title="Vercel Status"><img src="https://vercel.badge.hnest.eu.org/api/daviddenghui/hnest" class="lazyload placeholder" data-srcset="https://vercel.badge.hnest.eu.org/api/daviddenghui/hnest" srcset="/img/loading.min.svg" alt="Vercel Status"></a><br> <a target="_blank" rel="noopener" href="https://app.netlify.com/sites/hnest/deploys" title="Netlify Status"><img src="https://api.netlify.com/api/v1/badges/13dc7751-4d7d-424e-8d04-e6e5263b093f/deploy-status" class="lazyload placeholder" data-srcset="https://api.netlify.com/api/v1/badges/13dc7751-4d7d-424e-8d04-e6e5263b093f/deploy-status" srcset="/img/loading.min.svg" alt="Netlify Status"></a><br> </p>
 </div>
             
               <div><p><br/><a href="http://beian.miit.gov.cn/" target="_blank" title="啊晖de老窝">湘ICP备17019987号</a><br><br></p>
