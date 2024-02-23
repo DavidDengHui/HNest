@@ -638,7 +638,7 @@ site_footer:
       url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1187523442
   copyright: 'Copyright © 2014 - <script type="text/javascript">document.write((new Date()).getFullYear());</script> <a href="https://hnest.eu.org" target="_blank">啊晖de老窝</a>'
   custom: # 根据需要自行取消注释，label: 'markdown格式'，会在下面继续增加内容
-    # - label: 'Powered by <a href="https://hexo.io/zh-cn/docs/" target="_blank">Hexo</a> | Theme <a href="https://github.com/yuang01/theme" target="_blank">Bamboo</a><br>'
+    - label: '<br/><img style="display: inline; width: 1rem; object-fit: contain; vertical-align: top; opacity: 1; margin: 0 5px;" src="/img/icpba.png"><a href="https://beian.miit.gov.cn/" target="_blank" title="啊晖de老窝">湘ICP备17019987号</a><br/><img style="display: inline; width: 1rem; object-fit: contain; vertical-align: top; opacity: 1; margin: 0 5px;" src="/img/gaba.png" ><a href="https://beian.mps.gov.cn/#/query/webSearch?code=43020002000058" rel="noreferrer" target="_blank">湘公网安备43020002000058</a>'
     - label: "<br>本网站由"
     - label: '
         <!--a href="https://gitee.com/" title="Gitee Pages" target="_blank"><img src="https://img2.covear.top/2023-05-21-gitee_logo.svg" style="height: 2rem;"></a>
@@ -656,7 +656,7 @@ site_footer:
         [![Vercel Status](https://vercel.badge.hnest.eu.org/api/daviddenghui/hnest)](https://vercel.com/daviddenghui/hnest/deployments "Vercel Status")<br>
         [![Netlify Status](https://api.netlify.com/api/v1/badges/13dc7751-4d7d-424e-8d04-e6e5263b093f/deploy-status)](https://app.netlify.com/sites/hnest/deploys "Netlify Status")<br>
       '
-    - label: '<br/><a href="http://beian.miit.gov.cn/" target="_blank" title="啊晖de老窝">湘ICP备17019987号</a><br><br>'
+    # - label: 'Powered by <a href="https://hexo.io/zh-cn/docs/" target="_blank">Hexo</a> | Theme <a href="https://github.com/yuang01/theme" target="_blank">Bamboo</a><br>'
 
 # tag标签 按钮，文本高亮等等..
 tag_plugins:
