@@ -12,7 +12,7 @@
 
 
   <meta name="referrer" content="no-referrer" />
-  <title>PC虚拟机快速体验macOS Catalina(10.15) | 啊晖de老窝</title>
+  <title>恢复“此电脑”中的个人文件夹显示 | 啊晖de老窝</title>
 
   <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -558,14 +558,14 @@
 
 
 <div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('https://img2.covear.top/2023-05-29-20230529211752.png')">
+  background-position: center center;position: relative;background-image:url('https://img2.covear.top/2023-05-29-20230529205207.png')">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
   <div class="post-detail-header_info-box">
     <div class="title-box">
       <span class="title">
-        PC虚拟机快速体验macOS Catalina(10.15)
+        恢复“此电脑”中的个人文件夹显示
       </span>
     </div>
     
@@ -581,11 +581,11 @@
       
         <div class="post-detail-header_wordcount">
           <span class="totalcount">
-            <i class="fas fa-file-text-o"></i> 字数统计: 750 |
+            <i class="fas fa-file-text-o"></i> 字数统计: 183 |
           </span>
   
           <span class="min2read">
-            <i class="fas fa-clock"></i> 阅读时长: 2分钟 |
+            <i class="fas fa-clock"></i> 阅读时长: 1分钟 |
           </span>
   
           
@@ -612,65 +612,13 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <!-- wp:paragraph {"dropCap":true} -->
-<p class="has-drop-cap">PC上偷渡黑苹果向来比较费事儿，说起来还是虚拟机好使，可以非常方便地体验到macOS系统，app store里面的软件也能正常安装，还是很不错的。在这里就是为大家介绍使用<em><strong>VMware Workstation</strong></em>安装<strong><em>macOS</em></strong> , 有现成的磁盘映像因此部署非常简单。</p>
-<!-- /wp:paragraph -->
-
-<p><img src="https://img2.covear.top/2023-05-29-20230529211752.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529211752.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529211752" title="2023-05-29-20230529211752"></p>
-<!-- wp:separator -->
-<hr class="wp-block-separator"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading -->
-<h2>1、<strong>准备工作和下载磁盘映像：</strong></h2>
-<!-- /wp:heading -->
-
-<!-- wp:list -->
-<ul><li>在下载相关软件前建议您点击地址栏右侧的星标或使用快捷键Ctrl+D将本页面加入书签防止喝杯咖啡回来找不到。</li><li>下载列表内所有软件，个别软件较大，请耐心等待下载完成：</li></ul>
-<!-- /wp:list -->
-
-<!-- wp:table {"align":"center","className":"is-style-stripes"} -->
-<figure class="wp-block-table aligncenter is-style-stripes"><table><tbody><tr><td class="has-text-align-center" data-align="center">序号</td><td class="has-text-align-center" data-align="center">名称</td><td>下载</td><td>备注</td></tr><tr><td class="has-text-align-center" data-align="center">1</td><td class="has-text-align-center" data-align="center">VMware-workstation-full-15.5.2-15785246.exe</td><td><a href="https://download3.vmware.com/software/wkst/file/VMware-workstation-full-15.5.2-15785246.exe" target="_blank" rel="noreferrer noopener"><strong>链接</strong></a></td><td>虚拟机</td></tr><tr><td class="has-text-align-center" data-align="center">2</td><td class="has-text-align-center" data-align="center">Catalina Virtual Disk Image by Techsviewer.rar</td><td><strong><a rel="noreferrer noopener" href="https://pan.baidu.com/s/10jAAkTnUPhbjO1d-QjvQtA" target="_blank">链接</a> </strong>2ruz</td><td>磁盘映像</td></tr><tr><td class="has-text-align-center" data-align="center">3</td><td class="has-text-align-center" data-align="center">KeyGen_vm15.zip</td><td><strong><a href="https://img2.covear.top/2023-05-29-KeyGen_vm15.zip" target="_blank" rel="noreferrer noopener">链接</a></strong></td><td>注册机</td></tr><tr><td class="has-text-align-center" data-align="center">4</td><td class="has-text-align-center" data-align="center">unlocker_vm15.zip</td><td><strong><a href="https://img2.covear.top/2023-05-29-unlocker_vm15.zip" target="_blank" rel="noreferrer noopener">链接</a></strong></td><td>系统支持</td></tr></tbody></table></figure>
-<!-- /wp:table -->
-
-<!-- wp:list -->
-<ul><li>虚拟机软这里采用的是15.5.2版本，如果有了其它相近版本可以跳过这个软件不予下载安装这个。</li><li>磁盘映像说明：此文件是国外网站<a rel="noreferrer noopener" href="https://techsviewer.com/" target="_blank">TechsViewer</a>打包的.VMDK映像 , 版本为10.15 Beta你可以安装完成再升级。</li><li>添加系统支持：开源软件unlocker可以为VM虚拟机添加 Apple macOS 系统的支持。</li><li>硬件性能说明：如果想要流畅的在虚拟机里体验macOS的话 ,&nbsp; 物理机内存建议8GB最好16GB、至少四核心处理器。</li></ul>
-<!-- /wp:list -->
-
-<!-- wp:heading -->
-<h2>2、<strong>安装VMWare Workstation虚拟机</strong></h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>（此处下载的安装包版本为VMWare Workstation Pro 15.5.2-15785246，如已安装过相近版本的软件可跳过此步骤）</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>启动下载的安装包按照提示正常完成软件安装，结束后直接点击注册，打开KeyGen注册机，点击Generate生成注册码，复制到注册框中即可完成软件激活。</p>
-
-<p><img src="https://img2.covear.top/2023-05-29-20230529211828.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529211828.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529211828" title="2023-05-29-20230529211828"></p>
-<blockquote class="wp-block-quote"><p>此处提供几组注册码可直接使用（注册机可无限生成）：</p>
+        <blockquote>
+<p>“<strong>此电脑</strong>”里居然只剩下了驱动器？<br><code>图片</code>、<code>视频</code>、<code>文档</code>、<code>下载</code>、<code>音乐</code>和<code>桌面</code>六个常用个人文件夹不见了？</p>
 </blockquote>
+<p>保存以下注册表批处理代码到<code>.reg</code>文件运行：</p>
+<h2 id="批处理代码："><a href="#批处理代码：" class="headerlink" title="批处理代码："></a>批处理代码：</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line">; Desktop</span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;B4BFCC3A-DB2C-424C-B029-7FE99A87C641&#125;]</span><br><span class="line"><span class="string">&quot;HideIfEnabled&quot;</span>=-</span><br><span class="line">; Documents</span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;d3162b92-9365-467a-956b-92703aca08af&#125;]</span><br><span class="line"><span class="string">&quot;HideIfEnabled&quot;</span>=-</span><br><span class="line">; Downloads</span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;088e3905-0323-4b02-9826-5d99428e115f&#125;]</span><br><span class="line"><span class="string">&quot;HideIfEnabled&quot;</span>=-</span><br><span class="line">; Music</span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;3dfdf296-dbec-4fb4-81d1-6a3438bcf4de&#125;]</span><br><span class="line"><span class="string">&quot;HideIfEnabled&quot;</span>=-</span><br><span class="line">; Pictures</span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;24ad3ad4-a569-4530-98e1-ab02f9417aa8&#125;]</span><br><span class="line"><span class="string">&quot;HideIfEnabled&quot;</span>=-</span><br><span class="line">; Videos</span><br><span class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\&#123;f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a&#125;]</span><br><span class="line"><span class="string">&quot;HideIfEnabled&quot;</span>=-</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">ZZ58U-FHW56-4885Q-8QWGE-MK0CD</span><br><span class="line">YA140-4VZ13-M80TQ-97N5C-PG0F8</span><br><span class="line">FF7X2-2DEDQ-H85TQ-6YM79-N32FA</span><br><span class="line">AY15H-62F01-08D4Q-HWXG9-NGRU4</span><br><span class="line">VG582-2RY9N-H849Q-EWZEZ-WYHA4</span><br><span class="line">CC1JK-AGEDK-M84CQ-X4P5Z-YU8GD</span><br><span class="line">VG1JK-FRY87-H840Q-1ZMQV-W7RY0</span><br><span class="line">UG14K-47F04-M8EWY-JDP7X-Q7HE0</span><br><span class="line">AF590-0GD5K-M89DY-FNW7X-PU0W4</span><br><span class="line">UG5NU-AKF00-H81PQ-WPZEV-WUAAA</span><br><span class="line">YV7W0-65G43-489RQ-NWMEE-NGHR8</span><br><span class="line">AV712-FUXEQ-484JY-1EZ7V-NZ8V0</span><br><span class="line">YV19H-FWX87-M890P-VMXEZ-YFAG4</span><br><span class="line">FZ35K-6CGEL-M8EFP-YZY7V-X72FF</span><br><span class="line">AA5M2-FMG0N-M89WP-M4Y5G-ZQUE2</span><br><span class="line">ZG70H-89X0N-H80HQ-M4YGZ-QVUU6</span><br><span class="line">FG70K-6UF83-08EUQ-EFMET-X7RW0</span><br><span class="line">VC7H8-4NFD1-H89AY-WZPNV-MVAZA</span><br><span class="line">GA35R-80F1H-H856P-YGXNT-YPAXA</span><br><span class="line">FU51K-8DF86-48E8P-XYWGC-WZHW6</span><br></pre></td></tr></table></figure>
-<!-- wp:heading -->
-<h2>3、<strong>为VM添加macOS支持</strong></h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>下载Unlocker压缩包后将其完全解压到,&nbsp; 然后找到win-install.cmd文件右键点击使用管理员权限运行，待脚本提示按任意键退出的时候代表安装完成。</p>
-
-<p><img src="https://img2.covear.top/2023-05-29-20230529211903.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529211903.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529211903" title="2023-05-29-20230529211903"></p>
-<p>此时再打开VMware Workstation新建虚拟机时就可以发现有 Apple Mac OS 以及macOS 10.15版的支持信息。</p>
-
-<p><img src="https://img2.covear.top/2023-05-29-20230529211916.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529211916.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529211916" title="2023-05-29-20230529211916"></p>
-<h2>4、<strong>开始通过磁盘映像安装系统</strong></h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>接下来处理下载的磁盘映像文件，可比对压缩包MD5码为<em>480CF4090399D3836053A4535CFAB8A8</em>，使用压缩工具将压缩包打开即可看到里面VMDK格式的磁盘映像，将其解压出来放到等会儿我们新建虚拟机再使用。</p>
-
-<p><img src="https://img2.covear.top/2023-05-29-20230529211927.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529211927.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529211927" title="2023-05-29-20230529211927"></p>
+<h2 id="效果："><a href="#效果：" class="headerlink" title="效果："></a>效果：</h2><p><img src="https://img2.covear.top/2023-05-29-20230529205207.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529205207.png" srcset="/img/loading.min.svg" alt="2023-05-29-20230529205207" title="2023-05-29-20230529205207"></p>
 
       </div>
       <div class="post-tags-categories">
@@ -685,28 +633,16 @@
               Windows
             </a>
           
-            <a href="/tags/VMWare/" class="">
-              VMWare
+            <a href="/tags/%E6%AD%A4%E7%94%B5%E8%84%91/" class="">
+              此电脑
             </a>
           
-            <a href="/tags/macOS/" class="">
-              macOS
+            <a href="/tags/%E6%B3%A8%E5%86%8C%E8%A1%A8/" class="">
+              注册表
             </a>
           
-            <a href="/tags/Catalina/" class="">
-              Catalina
-            </a>
-          
-            <a href="/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/" class="">
-              虚拟机
-            </a>
-          
-            <a href="/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/" class="">
-              黑苹果
-            </a>
-          
-            <a href="/tags/%E5%81%B7%E6%B8%A1/" class="">
-              偷渡
+            <a href="/tags/%E6%89%B9%E5%A4%84%E7%90%86/" class="">
+              批处理
             </a>
           
         </div>
@@ -720,7 +656,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do" target="_blank" title="PC虚拟机快速体验macOS Catalina(10.15)">https://hnest.eu.org/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do</a>
+    <a href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.html" target="_blank" title="恢复“此电脑”中的个人文件夹显示">https://hnest.eu.org/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.html</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -742,16 +678,17 @@
   <div class="post-nav-prev post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://covear.top/wp-content/uploads/2018/02/v2-5dd7e4067bf9542f78b324af4d99138b_hd.png" class="lazyload placeholder" data-srcset="https://covear.top/wp-content/uploads/2018/02/v2-5dd7e4067bf9542f78b324af4d99138b_hd.png" srcset="/img/loading.min.svg" alt="">
+      <img class="lazyload lazyload placeholder" src="https://img2.covear.top/2023-05-29-20230529205922.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529205922.png" srcset="/img/loading.min.svg" alt="">
     </div>
-    <a href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do" class="post-nav-link">
+    <a href="/posts/wsl2" class="post-nav-link">
       <div class="title">
         <i class="fas fa-angle-left"></i> 上一篇:
-        <div class="title-text">高大上的微信文章</div>
+        <div class="title-text">Windows 最佳拍档 Fedora Remix for WSL2</div>
       </div>
       
       <!-- <div class="content">
-        说实话，简单的 word 文字排版 插入图片模式很多人都不会好吗。套上了花里胡哨的模板、样式，一样阅读体验很差。就先从文
+        
+Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从微软商城安装
       </div> -->
     </a>
   </div>
@@ -762,16 +699,15 @@
   <div class="post-nav-next post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="https://img2.covear.top/2023-05-29-20230529205922.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529205922.png" srcset="/img/loading.min.svg" src="" alt="">
+      <img class="lazyload lazyload placeholder" src="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" class="lazyload placeholder" data-srcset="https://pic3.zhimg.com/80/v2-5f7cb7e900b9dcf5354c3d4d2c5cc3c2_1440w.webp" srcset="/img/loading.min.svg" src="" alt="">
     </div>
-    <a href="/posts/wsl2.do" class="post-nav-link">
+    <a href="/posts/hello_world" class="post-nav-link">
       <div class="title">
         下一篇: <i class="fas fa-angle-right"></i>
-        <div class="title-text">Windows 最佳拍档 Fedora Remix for WSL2</div>
+        <div class="title-text">Hello World</div>
       </div>
       <!-- <div class="content">
-        
-Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从微软商城安装
+        Welcome to Hexo! This is your very first post. Check documen
       </div> -->
     </a>
   </div>
@@ -1091,7 +1027,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
   <div class='content'>
     <div class="toc-main">
       <div class="toc-content">
-        <!-- <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">1、准备工作和下载磁盘映像：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">2、安装VMWare Workstation虚拟机</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">3、为VM添加macOS支持</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">4、开始通过磁盘映像安装系统</span></a></li></ol> -->
+        <!-- <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%89%B9%E5%A4%84%E7%90%86%E4%BB%A3%E7%A0%81%EF%BC%9A"><span class="toc-text">批处理代码：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%88%E6%9E%9C%EF%BC%9A"><span class="toc-text">效果：</span></a></li></ol> -->
         <div class="toc"></div>
       </div>
     </div>
@@ -1124,7 +1060,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/install_nvidia_driver_in_fedora.do" class="post-img " style="background-size: cover; 
+              <a href="/posts/install_nvidia_driver_in_fedora" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://img2.covear.top/%E6%88%AA%E5%B1%8F2024-02-06%2023.25.28.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/%E6%88%AA%E5%B1%8F2024-02-06%2023.25.28.png" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1135,7 +1071,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
                   <span class="post-date">02-06</span>
                 
               </div>
-              <a class="post-title" href="/posts/install_nvidia_driver_in_fedora.do">在Fedora上安装NVIDIA驱动详细教程及解析</a>
+              <a class="post-title" href="/posts/install_nvidia_driver_in_fedora">在Fedora上安装NVIDIA驱动详细教程及解析</a>
             </div>
           </div>
         
@@ -1145,7 +1081,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do" class="post-img " style="background-size: cover; 
+              <a href="/posts/gao_da_shang_de_wei_xin_wen_zhang" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://covear.top/wp-content/uploads/2018/02/v2-5dd7e4067bf9542f78b324af4d99138b_hd.png" class="lazyload placeholder" data-srcset="https://covear.top/wp-content/uploads/2018/02/v2-5dd7e4067bf9542f78b324af4d99138b_hd.png" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1156,7 +1092,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/gao_da_shang_de_wei_xin_wen_zhang.do">高大上的微信文章</a>
+              <a class="post-title" href="/posts/gao_da_shang_de_wei_xin_wen_zhang">高大上的微信文章</a>
             </div>
           </div>
         
@@ -1166,7 +1102,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do" class="post-img " style="background-size: cover; 
+              <a href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://img2.covear.top/2023-05-29-20230529211752.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529211752.png" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1177,7 +1113,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15.do">PC虚拟机快速体验macOS Catalina(10.15)</a>
+              <a class="post-title" href="/posts/pc_xu_ni_ji_kuai_su_ti_yan_macos_catalina_10_15">PC虚拟机快速体验macOS Catalina(10.15)</a>
             </div>
           </div>
         
@@ -1187,7 +1123,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/wsl2.do" class="post-img " style="background-size: cover; 
+              <a href="/posts/wsl2" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://img2.covear.top/2023-05-29-20230529205922.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529205922.png" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1198,7 +1134,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/wsl2.do">Windows 最佳拍档 Fedora Remix for WSL2</a>
+              <a class="post-title" href="/posts/wsl2">Windows 最佳拍档 Fedora Remix for WSL2</a>
             </div>
           </div>
         
@@ -1208,7 +1144,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
             
 
             <div class="post-img-box">
-              <a href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.do" class="post-img " style="background-size: cover; 
+              <a href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://img2.covear.top/2023-05-29-20230529205207.png" class="lazyload placeholder" data-srcset="https://img2.covear.top/2023-05-29-20230529205207.png" srcset="/img/loading.min.svg" alt="">
               </a>
@@ -1219,7 +1155,7 @@ Whitewater Foundry 团队推出了 Fedora Remix for WSL，目前可以直接从�
                   <span class="post-date">05-29</span>
                 
               </div>
-              <a class="post-title" href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi.do">恢复“此电脑”中的个人文件夹显示</a>
+              <a class="post-title" href="/posts/hui_fu_ci_dian_nao_zhong_de_ge_ren_wen_jian_jia_xian_shi">恢复“此电脑”中的个人文件夹显示</a>
             </div>
           </div>
         
