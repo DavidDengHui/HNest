@@ -8,6 +8,8 @@ tags:
 img: 'https://img2.covear.top/2024-10-06-QQ_1728223762972.png'
 abbrlink: 21214
 date: 2022-04-10 22:01:03
+top: true
+categories: 办公软件
 ---
 > 微软宣布`Office 365`将于2020年4月21日正式升级为 `Microsoft 365`。
 

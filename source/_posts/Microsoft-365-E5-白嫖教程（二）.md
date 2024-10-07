@@ -10,6 +10,7 @@ tags:
 img: 'https://img2.covear.top/2024-10-06-20241006223603.png'
 abbrlink: 49828
 date: 2022-04-11 22:01:45
+categories: 办公软件
 ---
 > 想要自动续期 Microsoft 365 E5 开发者订阅计划看过来！
 
