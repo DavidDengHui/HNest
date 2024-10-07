@@ -69,8 +69,13 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: chat
 category_map:
+  扯淡: chat
+  涨姿势: tutorial
+  虚拟机: vm
+  系统优化: os
+  办公软件: office
 tag_map:
 
 # Metadata elements
