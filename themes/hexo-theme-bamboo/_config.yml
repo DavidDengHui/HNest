@@ -195,16 +195,16 @@ swiper:
   readMoreBtn: true # 阅读更多按钮是否显示
   readMoreBtnBackgroundColor: "" # 阅读更多按钮背景颜色,空字符串则默认使用主题颜色
   bubble: true # 轮播图是否显示气泡,也可以打开底下的花瓣或者雪花特效 sakura（花瓣）: true snow(雪花): true
-  wave: true # 轮播图底下的波浪特效
+  wave: false # 轮播图底下的波浪特效
   # 当没有文章设置swiper: true时候，轮播图会显示以下default默认内容，可自行切换对应内容
   defaultImg: "https://picx.zhimg.com/v2-4c1e323872ed5c0b6576d4b6134be849.jpg" # 图片，没有则随机选取 https://pic1.zhimg.com/v2-af3ccef61cf58b1a70765747cc1bbeac_b.jpg
   defaultVideo: "" # video，min-width:992px show
   defaultVideoLoadingImg: "/img/loading.min.svg" # 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
   defaultTile: "啊晖de老窝" # 标题
   defaultDesc: ["煮酒洗净尘嚣，论知交", "万般付之一笑，共偕老"] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
-  defaultLeftBtnText: "阅读文档" # 左边按钮文字, 空字符串则不显示
+  defaultLeftBtnText: "" # 左边按钮文字, 空字符串则不显示
   defaultLeftBtnLink: "https://hexo-theme-bamboo.netlify.app/post/hexo-theme-bamboo-new/" # 左边按钮链接
-  defaultRightBtnText: "下载主题" # 右边按钮的文字，空字符串则不显示
+  defaultRightBtnText: "" # 右边按钮的文字，空字符串则不显示
   defaultRightBtnLink: "https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip" # 右边的按钮的链接
   defaultDescTyped: true # defaultDesc文字是否开启打字特效  is typed
   defaultDescTypedSpeed: 100 # defaultDesc 打字速度, typed typeSpeed
@@ -259,11 +259,11 @@ sharejs:
 # 鼠标点击特效
 cursor_effect:
   on: true
-  type: explosion # fireworks: 礼花 | explosion: 爆炸 | love: 浮出爱心 | text: 浮出文字
+  type: fireworks # fireworks: 礼花 | explosion: 爆炸 | love: 浮出爱心 | text: 浮出文字
 
 # 头部导航是否显示天气
 weather:
-  on: true
+  on: false
 
 # 全文搜索功能
 search:
@@ -285,7 +285,7 @@ inputEffects:
 
 # 背影彩带
 ribbon:
-  on: false
+  on: true
 
 # live-2d(左下角动画人物)
 live2d:
@@ -295,12 +295,12 @@ live2d:
 
 # 首页雪花飘落效果--冬天
 snow:
-  on: false
-  onlyPc: false # 设为true，只有pc端显示雪花特效
+  on: true
+  onlyPc: true # 设为true，只有pc端显示雪花特效
 
 # 首页花瓣飘落效果--春天
 sakura:
-  on: true
+  on: false
   onlyPc: true # 设为true，只有pc端显示花瓣特效
 
 # 首页文章图片是否一左一右交错显示
