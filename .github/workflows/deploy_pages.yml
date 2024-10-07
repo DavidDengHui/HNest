@@ -46,7 +46,7 @@ jobs:
         with:
           node-version: "18"
       - name: 安装 Hexo CLI
-        run: npm install -g hexo-cli
+        run: npm install -g hexo-cli && npm install
       - name: 环境构建
         uses: actions/checkout@v3
         with:
@@ -55,7 +55,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
       - name: 编译 Hexo 项目使用 hnest.github.io
-        run: rm -rf node_modules && npm install --force && hexo clean && hexo generate --config yml/hnest.github.io.yml
+        run: hexo clean && hexo generate --config yml/hnest.github.io.yml
       - name: 上传静态文件至 HNest/hnest.github.io
         env:
           path_name: './public'
@@ -80,7 +80,7 @@ jobs:
         with:
           node-version: "18"
       - name: 安装 Hexo CLI
-        run: npm install -g hexo-cli
+        run: npm install -g hexo-cli && npm install
       - name: 环境构建
         uses: actions/checkout@v3
         with:
@@ -116,7 +116,7 @@ jobs:
         with:
           node-version: "18"
       - name: 安装 Hexo CLI
-        run: npm install -g hexo-cli
+        run: npm install -g hexo-cli && npm install
       - name: Actions 环境构建
         uses: actions/checkout@v3
         with:
