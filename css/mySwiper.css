@@ -28,9 +28,16 @@
 }
 .myswiper .swiper-slide h2 {
     z-index: 9999;
-    color: #fff;
+    color: #222222;
     font-size: 24px;
 }
+
+.darkModel .myswiper .swiper-slide h2 {
+    z-index: 9999;
+    color: #c9d1d9;
+    font-size: 24px;
+}
+
 .myswiper .swiper-slide img {
     filter: brightness(0.7); /* 图片变暗 ,字体看得清 */
 }

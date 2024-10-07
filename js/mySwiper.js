@@ -58,7 +58,7 @@ new Vue({
     },
      // 请求开源api
     getList() {
-      fetch("https://api.vvhan.com/api/hotlist?type=bili", {
+      fetch("https://api.vvhan.com/api/hotlist/bili", {
       // fetch("https://tenapi.cn/v2/weekly", {
       // fetch("https://api.bilibili.com/x/web-interface/popular?ps=20&pn=1", {
       // fetch("https://qqlykm.cn/api/hotlist/get?key=XWM0J8FEYVbwggCgV1PuJqLj5s&type=bilibili", {
@@ -69,6 +69,7 @@ new Vue({
       })
       .then((data) => {
         this.listData = data.data;
+        console.log(this.listData);
       })
       .catch((err) => {
         console.log("err", err);
