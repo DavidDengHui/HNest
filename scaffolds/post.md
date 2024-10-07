@@ -2,7 +2,7 @@
 # 标题
 title: {{ title }}
 # 分类
-categories: 涨姿势
+categories: 扯淡
 # 标签
 tags:
   - 日常
