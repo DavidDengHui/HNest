@@ -55,7 +55,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
       - name: 编译 Hexo 项目使用 hnest.github.io
-        run: hexo clean && hexo generate --config yml/hnest.github.io.yml
+        run: rm -rf node_modules && npm install --force && hexo clean && hexo generate --config yml/hnest.github.io.yml
       - name: 上传静态文件至 HNest/hnest.github.io
         env:
           path_name: './public'
@@ -91,7 +91,7 @@ jobs:
       - name: 编译 Hexo 项目使用 hnest.eu.org
         env:
           url: ${{ steps.deployment.outputs.page_url }}
-        run: hexo clean && hexo generate --config yml/hnest.eu.org.yml
+        run: rm -rf node_modules && npm install --force && hexo clean && hexo generate --config yml/hnest.eu.org.yml
       - name: 上传静态页面
         uses: actions/upload-pages-artifact@v1
         with:
@@ -122,7 +122,7 @@ jobs:
         with:
           submodules: recursive
       - name: 编译 Hexo 项目使用域名 hnest.eu.org
-        run: hexo generate --config yml/hnest.eu.org.yml
+        run: rm -rf node_modules && npm install --force && hexo clean && hexo generate --config yml/hnest.eu.org.yml
       - name: 上传静态页面至分支 gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:

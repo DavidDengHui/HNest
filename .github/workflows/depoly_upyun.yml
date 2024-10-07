@@ -15,7 +15,7 @@ jobs:
           node-version: '18.16.0' 
       - name: 编译静态页面
         run: |
-          npm install -g hexo-cli && hexo clean && hexo generate --config yml/my.covear.top.yml
+          npm install -g hexo-cli && rm -rf node_modules && npm install --force && hexo clean && hexo generate --config yml/my.covear.top.yml
       - name: 部署到又拍云
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
