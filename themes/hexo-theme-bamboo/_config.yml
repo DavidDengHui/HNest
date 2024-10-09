@@ -421,8 +421,10 @@ bubble:
 # valine 评论 https://valine.js.org
 valine:
   on: true
-  appid: "RvGF0IH41tlDwRLJKa1TuwGs-gzGzoHsz"
-  appkey: "ezBgrVppWhX9VfNe4dfOyO1v"
+  # appid: "RvGF0IH41tlDwRLJKa1TuwGs-gzGzoHsz"
+  appid: "YB5xLlbIQPI9Ww6S61s5myDA-gzGzoHsz"
+  # appkey: "ezBgrVppWhX9VfNe4dfOyO1v"
+  appkey: "JTZGgcmrFzsuDCr27pXLxZ5h"
   avatar: "retro" # 匿名者头像选项 https://valine.js.org/avatar.html
   placeholder: "客官，说点什么吧~" # 评论内容输入框的 placeholder
   master: "0e175053e9faac02e451b300a4655270" # 博主标签识别，博主邮箱md5 可以去md5加密网站，例如 https://md5jiami.51240.com/ ，将自己的邮箱输入， 得到 32位小写 的字符串
