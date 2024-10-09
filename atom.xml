@@ -6,7 +6,7 @@
   <link href="https://hnest.eu.org/atom.xml" rel="self"/>
   
   <link href="https://hnest.eu.org/"/>
-  <updated>2024-10-07T12:06:07.326Z</updated>
+  <updated>2024-10-09T17:29:15.129Z</updated>
   <id>https://hnest.eu.org/</id>
   
   <author>
@@ -17,11 +17,45 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>WSL2无法运行GUI软件cannot open display: :0</title>
+    <link href="https://hnest.eu.org/posts/36147"/>
+    <id>https://hnest.eu.org/posts/36147</id>
+    <published>2024-10-09T22:53:23.000Z</published>
+    <updated>2024-10-09T17:29:15.129Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;总结&quot;&gt;&lt;a href=&quot;#总结&quot; class=&quot;headerlink&quot; title=&quot;总结&quot;&gt;&lt;/a&gt;总结&lt;/h2&gt;&lt;p&gt;TLDR💡废话不多说，直接上解决办法，&lt;/p&gt;
+&lt;div class=&quot;note</summary>
+        
+      
+    
+    
+    
+    <category term="虚拟机" scheme="https://hnest.eu.org/categories/vm/"/>
+    
+    
+    <category term="Windows" scheme="https://hnest.eu.org/tags/Windows/"/>
+    
+    <category term="WSL2" scheme="https://hnest.eu.org/tags/WSL2/"/>
+    
+    <category term="Fedora" scheme="https://hnest.eu.org/tags/Fedora/"/>
+    
+    <category term="Red Hat" scheme="https://hnest.eu.org/tags/Red-Hat/"/>
+    
+    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>在Fedora上安装NVIDIA驱动详细教程及解析</title>
     <link href="https://hnest.eu.org/posts/25438"/>
     <id>https://hnest.eu.org/posts/25438</id>
     <published>2024-02-06T22:45:06.000Z</published>
-    <updated>2024-10-07T12:06:07.326Z</updated>
+    <updated>2024-10-09T17:29:15.129Z</updated>
     
     
       
@@ -37,13 +71,13 @@
     <category term="系统优化" scheme="https://hnest.eu.org/categories/os/"/>
     
     
+    <category term="Fedora" scheme="https://hnest.eu.org/tags/Fedora/"/>
+    
     <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="Linux" scheme="https://hnest.eu.org/tags/Linux/"/>
     
     <category term="RedHat" scheme="https://hnest.eu.org/tags/RedHat/"/>
-    
-    <category term="Fedora" scheme="https://hnest.eu.org/tags/Fedora/"/>
     
     <category term="NVIDIA" scheme="https://hnest.eu.org/tags/NVIDIA/"/>
     
@@ -58,7 +92,7 @@
     <link href="https://hnest.eu.org/posts/41981"/>
     <id>https://hnest.eu.org/posts/41981</id>
     <published>2023-03-21T20:48:05.000Z</published>
-    <updated>2024-10-07T12:06:07.326Z</updated>
+    <updated>2024-10-09T17:29:15.129Z</updated>
     
     
       
@@ -75,9 +109,9 @@
     <category term="系统优化" scheme="https://hnest.eu.org/categories/os/"/>
     
     
-    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Windows" scheme="https://hnest.eu.org/tags/Windows/"/>
+    
+    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="此电脑" scheme="https://hnest.eu.org/tags/%E6%AD%A4%E7%94%B5%E8%84%91/"/>
     
@@ -92,7 +126,7 @@
     <link href="https://hnest.eu.org/posts/10117"/>
     <id>https://hnest.eu.org/posts/10117</id>
     <published>2023-01-31T20:56:44.000Z</published>
-    <updated>2024-10-07T12:06:07.326Z</updated>
+    <updated>2024-10-09T17:29:15.129Z</updated>
     
     
       
@@ -109,17 +143,17 @@
     <category term="虚拟机" scheme="https://hnest.eu.org/categories/vm/"/>
     
     
-    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="Fedora" scheme="https://hnest.eu.org/tags/Fedora/"/>
-    
-    <category term="白嫖" scheme="https://hnest.eu.org/tags/%E7%99%BD%E5%AB%96/"/>
-    
     <category term="Windows" scheme="https://hnest.eu.org/tags/Windows/"/>
     
     <category term="WSL2" scheme="https://hnest.eu.org/tags/WSL2/"/>
     
+    <category term="Fedora" scheme="https://hnest.eu.org/tags/Fedora/"/>
+    
     <category term="Red Hat" scheme="https://hnest.eu.org/tags/Red-Hat/"/>
+    
+    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="白嫖" scheme="https://hnest.eu.org/tags/%E7%99%BD%E5%AB%96/"/>
     
   </entry>
   
@@ -128,7 +162,7 @@
     <link href="https://hnest.eu.org/posts/49828"/>
     <id>https://hnest.eu.org/posts/49828</id>
     <published>2022-04-11T22:01:45.000Z</published>
-    <updated>2024-10-07T12:06:07.326Z</updated>
+    <updated>2024-10-09T17:29:15.129Z</updated>
     
     
       
@@ -149,11 +183,11 @@
     
     <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
     
+    <category term="白嫖" scheme="https://hnest.eu.org/tags/%E7%99%BD%E5%AB%96/"/>
+    
     <category term="Office" scheme="https://hnest.eu.org/tags/Office/"/>
     
     <category term="Microsoft 365" scheme="https://hnest.eu.org/tags/Microsoft-365/"/>
-    
-    <category term="白嫖" scheme="https://hnest.eu.org/tags/%E7%99%BD%E5%AB%96/"/>
     
     <category term="进阶" scheme="https://hnest.eu.org/tags/%E8%BF%9B%E9%98%B6/"/>
     
@@ -166,7 +200,7 @@
     <link href="https://hnest.eu.org/posts/21214"/>
     <id>https://hnest.eu.org/posts/21214</id>
     <published>2022-04-10T22:01:03.000Z</published>
-    <updated>2024-10-07T12:06:07.326Z</updated>
+    <updated>2024-10-09T17:29:15.129Z</updated>
     
     
       
@@ -187,11 +221,11 @@
     
     <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
     
+    <category term="白嫖" scheme="https://hnest.eu.org/tags/%E7%99%BD%E5%AB%96/"/>
+    
     <category term="Office" scheme="https://hnest.eu.org/tags/Office/"/>
     
     <category term="Microsoft 365" scheme="https://hnest.eu.org/tags/Microsoft-365/"/>
-    
-    <category term="白嫖" scheme="https://hnest.eu.org/tags/%E7%99%BD%E5%AB%96/"/>
     
   </entry>
   
@@ -200,7 +234,7 @@
     <link href="https://hnest.eu.org/posts/19242"/>
     <id>https://hnest.eu.org/posts/19242</id>
     <published>2020-05-27T21:03:31.000Z</published>
-    <updated>2024-10-07T12:06:07.326Z</updated>
+    <updated>2024-10-09T17:29:15.129Z</updated>
     
     
       
@@ -217,9 +251,9 @@
     <category term="虚拟机" scheme="https://hnest.eu.org/categories/vm/"/>
     
     
-    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Windows" scheme="https://hnest.eu.org/tags/Windows/"/>
+    
+    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="VMWare" scheme="https://hnest.eu.org/tags/VMWare/"/>
     
@@ -240,7 +274,7 @@
     <link href="https://hnest.eu.org/posts/19687"/>
     <id>https://hnest.eu.org/posts/19687</id>
     <published>2019-09-30T21:24:40.000Z</published>
-    <updated>2024-10-07T12:06:07.327Z</updated>
+    <updated>2024-10-09T17:29:15.129Z</updated>
     
     
       
@@ -275,7 +309,7 @@
     <link href="https://hnest.eu.org/posts/16107"/>
     <id>https://hnest.eu.org/posts/16107</id>
     <published>2014-10-01T18:28:38.000Z</published>
-    <updated>2024-10-07T12:06:07.326Z</updated>
+    <updated>2024-10-09T17:29:15.129Z</updated>
     
     
       
