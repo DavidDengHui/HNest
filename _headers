@@ -1,2 +1,5 @@
 /* 
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-Forwarded-Proto: https  
+  X-Content-Type-Options: nosniff  
+  Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin

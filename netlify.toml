@@ -5,3 +5,9 @@
     max-age=63072000;
     includeSubDomains;
     preload'''
+
+[[redirects]]
+  from = "http://*"
+  to = "https://:splat"
+  status = 301
+  force = true
