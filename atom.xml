@@ -6,7 +6,7 @@
   <link href="https://hnest.eu.org/atom.xml" rel="self"/>
   
   <link href="https://hnest.eu.org/"/>
-  <updated>2024-10-12T19:38:53.286Z</updated>
+  <updated>2024-10-12T20:33:43.818Z</updated>
   <id>https://hnest.eu.org/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Ubuntu for WSL2 启用图形桌面</title>
+    <link href="https://hnest.eu.org/posts/39668"/>
+    <id>https://hnest.eu.org/posts/39668</id>
+    <published>2024-10-13T04:10:47.000Z</published>
+    <updated>2024-10-12T20:33:43.818Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Windows 系统自带的 WSL 用起虚拟机来真的很舒服，&lt;br&gt;最近尝试了 Ubuntu 24.04.1 LTS for WSL2，&lt;br&gt;配置出来超级完美！&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="虚拟机" scheme="https://hnest.eu.org/categories/vm/"/>
+    
+    
+    <category term="Windows" scheme="https://hnest.eu.org/tags/Windows/"/>
+    
+    <category term="WSL2" scheme="https://hnest.eu.org/tags/WSL2/"/>
+    
+    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Ubuntu" scheme="https://hnest.eu.org/tags/Ubuntu/"/>
+    
+    <category term="Debian" scheme="https://hnest.eu.org/tags/Debian/"/>
+    
+  </entry>
+  
+  <entry>
     <title>WSL2无法运行GUI软件cannot open display: :0</title>
     <link href="https://hnest.eu.org/posts/36147"/>
     <id>https://hnest.eu.org/posts/36147</id>
     <published>2024-10-09T22:53:23.000Z</published>
-    <updated>2024-10-12T19:38:53.286Z</updated>
+    <updated>2024-10-12T20:33:43.818Z</updated>
     
     
       
@@ -55,7 +88,7 @@
     <link href="https://hnest.eu.org/posts/25438"/>
     <id>https://hnest.eu.org/posts/25438</id>
     <published>2024-02-06T22:45:06.000Z</published>
-    <updated>2024-10-12T19:38:53.286Z</updated>
+    <updated>2024-10-12T20:33:43.818Z</updated>
     
     
       
@@ -92,7 +125,7 @@
     <link href="https://hnest.eu.org/posts/41981"/>
     <id>https://hnest.eu.org/posts/41981</id>
     <published>2023-03-21T20:48:05.000Z</published>
-    <updated>2024-10-12T19:38:53.286Z</updated>
+    <updated>2024-10-12T20:33:43.818Z</updated>
     
     
       
@@ -126,7 +159,7 @@
     <link href="https://hnest.eu.org/posts/10117"/>
     <id>https://hnest.eu.org/posts/10117</id>
     <published>2023-01-31T20:56:44.000Z</published>
-    <updated>2024-10-12T19:38:53.286Z</updated>
+    <updated>2024-10-12T20:33:43.818Z</updated>
     
     
       
@@ -162,7 +195,7 @@
     <link href="https://hnest.eu.org/posts/49828"/>
     <id>https://hnest.eu.org/posts/49828</id>
     <published>2022-04-11T22:01:45.000Z</published>
-    <updated>2024-10-12T19:38:53.286Z</updated>
+    <updated>2024-10-12T20:33:43.818Z</updated>
     
     
       
@@ -200,7 +233,7 @@
     <link href="https://hnest.eu.org/posts/21214"/>
     <id>https://hnest.eu.org/posts/21214</id>
     <published>2022-04-10T22:01:03.000Z</published>
-    <updated>2024-10-12T19:38:53.286Z</updated>
+    <updated>2024-10-12T20:33:43.818Z</updated>
     
     
       
@@ -234,7 +267,7 @@
     <link href="https://hnest.eu.org/posts/19242"/>
     <id>https://hnest.eu.org/posts/19242</id>
     <published>2020-05-27T21:03:31.000Z</published>
-    <updated>2024-10-12T19:38:53.286Z</updated>
+    <updated>2024-10-12T20:33:43.818Z</updated>
     
     
       
@@ -274,7 +307,7 @@
     <link href="https://hnest.eu.org/posts/19687"/>
     <id>https://hnest.eu.org/posts/19687</id>
     <published>2019-09-30T21:24:40.000Z</published>
-    <updated>2024-10-12T19:38:53.286Z</updated>
+    <updated>2024-10-12T20:33:43.818Z</updated>
     
     
       
@@ -309,7 +342,7 @@
     <link href="https://hnest.eu.org/posts/16107"/>
     <id>https://hnest.eu.org/posts/16107</id>
     <published>2014-10-01T18:28:38.000Z</published>
-    <updated>2024-10-12T19:38:53.286Z</updated>
+    <updated>2024-10-12T20:33:43.818Z</updated>
     
     
       
