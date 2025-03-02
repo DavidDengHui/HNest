@@ -37,7 +37,7 @@ jobs:
           gitee-password: ${{ secrets.GITEE_PASSWORD }}
           gitee-repo: hnest/hnest
           branch: master
-  # 编译 GitHub Pages
+  # 编译 GitHub Pages 至 HNest/hnest.github.io
   Build-Repo:
     runs-on: ubuntu-latest
     steps:
@@ -93,8 +93,9 @@ jobs:
           url: ${{ steps.deployment.outputs.page_url }}
         run: rm -rf node_modules && npm install --force && hexo clean && hexo generate --config yml/hnest.eu.org.yml
       - name: 上传静态页面
-        uses: actions/upload-artifact@v4 # 更新到最新版本
+        uses: actions/upload-artifact@v4
         with:
+          name: github-pages
           path: ./public
   # 部署 GitHub Pages
   Deploy-Pages:
