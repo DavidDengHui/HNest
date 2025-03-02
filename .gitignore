@@ -8,4 +8,4 @@ git_sync.sh
 *.swp
 *.inf.php
 inf.php
-git_sync
+git_sync*
