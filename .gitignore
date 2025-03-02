@@ -9,3 +9,4 @@ git_sync.sh
 *.inf.php
 inf.php
 git_sync*
+node_modules
