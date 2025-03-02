@@ -93,7 +93,7 @@ jobs:
           url: ${{ steps.deployment.outputs.page_url }}
         run: rm -rf node_modules && npm install --force && hexo clean && hexo generate --config yml/hnest.eu.org.yml
       - name: 上传静态页面
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2 # 更新到最新版本
         with:
           path: ./public
   # 部署 GitHub Pages
