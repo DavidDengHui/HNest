@@ -6,7 +6,7 @@ on:
     branches: ["master"]
 
   # 允许从“操作”选项卡手动运行此工作流
-  workflow_dispatch:
+  workflow_dispatch: true
 
 # 设置 GITHUB_TOKEN 的权限以允许部署到 GitHub Pages
 permissions:
@@ -71,52 +71,41 @@ jobs:
           git remote add origin https://${{ github.actor }}:${{ secrets.TOKEN }}@github.com/HNest/hnest.github.io
           git checkout -b main
           git push origin main -f
-  # 编译 GitHub Pages
-  Build-Pages:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: 安装 Node.js v18.16.0
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18"
-      - name: 安装 Hexo CLI
-        run: npm install -g hexo-cli
-      - name: 环境构建
-        uses: actions/checkout@v3
-        with:
-          submodules: recursive
-      - name: 构建 GitHub Pages
-        id: pages
-        uses: actions/configure-pages@v3
-      - name: 编译 Hexo 项目使用 hnest.eu.org
-        env:
-          url: ${{ steps.deployment.outputs.page_url }}
-        run: rm -rf node_modules && npm install --force && hexo clean && hexo generate --config yml/hnest.eu.org.yml
-      - name: 上传静态页面
-        uses: actions/upload-artifact@v4
-        with:
-          name: github-pages
-          path: ./public
-      - name: 部署 GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          artifact_name: github-pages
   # 部署 GitHub Pages
   # Deploy-Pages:
   #   environment:
   #     name: github-pages
   #     url: ${{ steps.deployment.outputs.page_url }}
   #   runs-on: ubuntu-latest
-  #   needs: Build-Pages
   #   steps:
+  #     - name: 安装 Node.js v18.16.0
+  #       uses: actions/setup-node@v3
+  #       with:
+  #         node-version: "18"
+  #     - name: 安装 Hexo CLI
+  #       run: npm install -g hexo-cli
+  #     - name: 环境构建
+  #       uses: actions/checkout@v3
+  #       with:
+  #         submodules: recursive
+  #     - name: 构建 GitHub Pages
+  #       id: pages
+  #       uses: actions/configure-pages@v3
+  #     - name: 编译 Hexo 项目使用 hnest.eu.org
+  #       env:
+  #         url: ${{ steps.deployment.outputs.page_url }}
+  #       run: rm -rf node_modules && npm install --force && hexo clean && hexo generate --config yml/hnest.eu.org.yml
+  #     - name: 上传静态页面
+  #       uses: actions/upload-artifact@v4
+  #       with:
+  #         name: github-pages
+  #         path: ./public
   #     - name: 部署 GitHub Pages
   #       id: deployment
   #       uses: actions/deploy-pages@v2
+  #       with:
+  #         token: ${{ secrets.GITHUB_TOKEN }}
+  #         artifact_name: github-pages
   # 编译 Pages 至 gh-pages
   Build-Tree:
     runs-on: ubuntu-latest
