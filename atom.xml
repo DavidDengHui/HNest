@@ -6,7 +6,7 @@
   <link href="https://hnest.eu.org/atom.xml" rel="self"/>
   
   <link href="https://hnest.eu.org/"/>
-  <updated>2024-10-12T21:14:36.842Z</updated>
+  <updated>2025-03-02T04:37:55.739Z</updated>
   <id>https://hnest.eu.org/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Mac配置锁？盘它！</title>
+    <link href="https://hnest.eu.org/posts/60050"/>
+    <id>https://hnest.eu.org/posts/60050</id>
+    <published>2025-01-21T01:05:53.000Z</published>
+    <updated>2025-03-02T04:37:55.739Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、什么是配置锁？&quot;&gt;&lt;a href=&quot;#一、什么是配置锁？&quot; class=&quot;headerlink&quot; title=&quot;一、什么是配置锁？&quot;&gt;&lt;/a&gt;一、什么是配置锁？&lt;/h2&gt;&lt;p&gt;配置锁（MDM）是企业&amp;#x2F;机构向苹果定制的监管功能&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="刷机" scheme="https://hnest.eu.org/categories/%E5%88%B7%E6%9C%BA/"/>
+    
+    
+    <category term="教程" scheme="https://hnest.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="玩机技巧" scheme="https://hnest.eu.org/tags/%E7%8E%A9%E6%9C%BA%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="Mac" scheme="https://hnest.eu.org/tags/Mac/"/>
+    
+    <category term="Apple" scheme="https://hnest.eu.org/tags/Apple/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Ubuntu for WSL2 启用图形桌面</title>
     <link href="https://hnest.eu.org/posts/39668"/>
     <id>https://hnest.eu.org/posts/39668</id>
     <published>2024-10-13T04:10:47.000Z</published>
-    <updated>2024-10-12T21:14:36.842Z</updated>
+    <updated>2025-03-02T04:37:55.739Z</updated>
     
     
       
@@ -54,7 +85,7 @@
     <link href="https://hnest.eu.org/posts/36147"/>
     <id>https://hnest.eu.org/posts/36147</id>
     <published>2024-10-09T22:53:23.000Z</published>
-    <updated>2024-10-12T21:14:36.842Z</updated>
+    <updated>2025-03-02T04:37:55.739Z</updated>
     
     
       
@@ -88,7 +119,7 @@
     <link href="https://hnest.eu.org/posts/25438"/>
     <id>https://hnest.eu.org/posts/25438</id>
     <published>2024-02-06T22:45:06.000Z</published>
-    <updated>2024-10-12T21:14:36.842Z</updated>
+    <updated>2025-03-02T04:37:55.739Z</updated>
     
     
       
@@ -125,7 +156,7 @@
     <link href="https://hnest.eu.org/posts/41981"/>
     <id>https://hnest.eu.org/posts/41981</id>
     <published>2023-03-21T20:48:05.000Z</published>
-    <updated>2024-10-12T21:14:36.842Z</updated>
+    <updated>2025-03-02T04:37:55.740Z</updated>
     
     
       
@@ -159,7 +190,7 @@
     <link href="https://hnest.eu.org/posts/10117"/>
     <id>https://hnest.eu.org/posts/10117</id>
     <published>2023-01-31T20:56:44.000Z</published>
-    <updated>2024-10-12T21:14:36.842Z</updated>
+    <updated>2025-03-02T04:37:55.739Z</updated>
     
     
       
@@ -195,7 +226,7 @@
     <link href="https://hnest.eu.org/posts/49828"/>
     <id>https://hnest.eu.org/posts/49828</id>
     <published>2022-04-11T22:01:45.000Z</published>
-    <updated>2024-10-12T21:14:36.842Z</updated>
+    <updated>2025-03-02T04:37:55.739Z</updated>
     
     
       
@@ -233,7 +264,7 @@
     <link href="https://hnest.eu.org/posts/21214"/>
     <id>https://hnest.eu.org/posts/21214</id>
     <published>2022-04-10T22:01:03.000Z</published>
-    <updated>2024-10-12T21:14:36.842Z</updated>
+    <updated>2025-03-02T04:37:55.739Z</updated>
     
     
       
@@ -267,7 +298,7 @@
     <link href="https://hnest.eu.org/posts/19242"/>
     <id>https://hnest.eu.org/posts/19242</id>
     <published>2020-05-27T21:03:31.000Z</published>
-    <updated>2024-10-12T21:14:36.842Z</updated>
+    <updated>2025-03-02T04:37:55.739Z</updated>
     
     
       
@@ -307,7 +338,7 @@
     <link href="https://hnest.eu.org/posts/19687"/>
     <id>https://hnest.eu.org/posts/19687</id>
     <published>2019-09-30T21:24:40.000Z</published>
-    <updated>2024-10-12T21:14:36.842Z</updated>
+    <updated>2025-03-02T04:37:55.740Z</updated>
     
     
       
@@ -342,7 +373,7 @@
     <link href="https://hnest.eu.org/posts/16107"/>
     <id>https://hnest.eu.org/posts/16107</id>
     <published>2014-10-01T18:28:38.000Z</published>
-    <updated>2024-10-12T21:14:36.842Z</updated>
+    <updated>2025-03-02T04:37:55.740Z</updated>
     
     
       
