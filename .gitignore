@@ -4,9 +4,10 @@ hexo-site*
 .vscode*
 git_sync
 git_sync.sh
+node_modules
 # The following file types do not need to be uploaded
 *.swp
 *.inf.php
 inf.php
 git_sync*
-node_module*
+node_modules*
