@@ -1,13 +1,8 @@
+# The following file types do not need to be uploaded
 public
 db.json
 hexo-site*
 .vscode*
-git_sync
-git_sync.sh
-node_modules
-node_modules/
-/node_modules
-# The following file types do not need to be uploaded
 *.swp
 *.inf.php
 inf.php
