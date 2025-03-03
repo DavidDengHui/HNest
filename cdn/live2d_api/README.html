@@ -91,7 +91,7 @@
         
     
 
-<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="啊晖de老窝" type="application/atom+xml">
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="啊晖de老窝" type="application/atom+xml">
 </head>
 
   
@@ -586,10 +586,12 @@
 <li>单模型 多组皮肤 递归穷举<ul>
 <li>多组皮肤 组合模型、穷举组合</li>
 <li>皮肤文件夹按 <code>texture_XX</code> 命名</li>
-<li>添加 <code>textures_order.json</code> 列出组合<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">│  index.json</span><br><span class="line">│  model.moc</span><br><span class="line">│  textures.cache</span><br><span class="line">│  textures_order.json</span><br><span class="line">│</span><br><span class="line">├─motions</span><br><span class="line">│      idle_01.mtn</span><br><span class="line">│      idle_02.mtn</span><br><span class="line">│      idle_03.mtn</span><br><span class="line">│</span><br><span class="line">├─texture_00</span><br><span class="line">│      00.png</span><br><span class="line">│</span><br><span class="line">├─texture_01</span><br><span class="line">│      00.png</span><br><span class="line">│      01.png</span><br><span class="line">│      02.png</span><br><span class="line">│</span><br><span class="line">├─texture_02</span><br><span class="line">│      00.png</span><br><span class="line">│      01.png</span><br><span class="line">│      02.png</span><br><span class="line">│</span><br><span class="line">└─texture_03</span><br><span class="line">       00.png</span><br><span class="line">       01.png</span><br></pre></td></tr></table></figure></li>
+<li>添加 <code>textures_order.json</code> 列出组合</li>
 </ul>
 </li>
 </ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">│  index.json</span><br><span class="line">│  model.moc</span><br><span class="line">│  textures.cache</span><br><span class="line">│  textures_order.json</span><br><span class="line">│</span><br><span class="line">├─motions</span><br><span class="line">│      idle_01.mtn</span><br><span class="line">│      idle_02.mtn</span><br><span class="line">│      idle_03.mtn</span><br><span class="line">│</span><br><span class="line">├─texture_00</span><br><span class="line">│      00.png</span><br><span class="line">│</span><br><span class="line">├─texture_01</span><br><span class="line">│      00.png</span><br><span class="line">│      01.png</span><br><span class="line">│      02.png</span><br><span class="line">│</span><br><span class="line">├─texture_02</span><br><span class="line">│      00.png</span><br><span class="line">│      01.png</span><br><span class="line">│      02.png</span><br><span class="line">│</span><br><span class="line">└─texture_03</span><br><span class="line">       00.png</span><br><span class="line">       01.png</span><br></pre></td></tr></table></figure>
+
 <p>textures_order.json</p>
 <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">[</span></span><br><span class="line">    <span class="punctuation">[</span><span class="string">&quot;texture_00&quot;</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">    <span class="punctuation">[</span><span class="string">&quot;texture_01&quot;</span><span class="punctuation">,</span><span class="string">&quot;texture_02&quot;</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">    <span class="punctuation">[</span><span class="string">&quot;texture_03&quot;</span><span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">]</span></span><br></pre></td></tr></table></figure>
 
@@ -1211,7 +1213,7 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Mon Mar 03 2025 19:15:37 GMT+0000 (Coordinated Universal Time)</div>
+            <div id="last-update" style="display: none;">Mon Mar 03 2025 19:18:56 GMT+0000 (Coordinated Universal Time)</div>
             <div id="last-update-show">2025-03-03 日</div>
           
         </div>
